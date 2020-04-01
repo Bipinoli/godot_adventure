@@ -1,0 +1,166 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/day1_2png.png" type="Texture" id=1]
+[ext_resource path="res://assets/bg.jpg" type="Texture" id=2]
+[ext_resource path="res://scripts/player.gd" type="Script" id=3]
+[ext_resource path="res://assets/day1.png" type="Texture" id=4]
+[ext_resource path="res://assets/btn.png" type="Texture" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 40, 32 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 32, 32 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite8" type="Sprite" parent="."]
+position = Vector2( 251.619, 346.254 )
+scale = Vector2( 0.38832, 0.27076 )
+texture = ExtResource( 2 )
+
+[node name="Sprite7" type="Sprite" parent="."]
+position = Vector2( 963.148, 344.628 )
+scale = Vector2( -0.867029, 0.272029 )
+texture = ExtResource( 2 )
+
+[node name="Sprite10" type="Sprite" parent="."]
+position = Vector2( 1679.93, 349.508 )
+scale = Vector2( 0.38832, 0.27076 )
+texture = ExtResource( 2 )
+
+[node name="Sprite9" type="Sprite" parent="."]
+position = Vector2( 2391.46, 347.881 )
+scale = Vector2( -0.867029, 0.272029 )
+texture = ExtResource( 2 )
+
+[node name="Sprite12" type="Sprite" parent="."]
+position = Vector2( -1179.94, 346.254 )
+scale = Vector2( 0.38832, 0.27076 )
+texture = ExtResource( 2 )
+
+[node name="Sprite11" type="Sprite" parent="."]
+position = Vector2( -468.412, 344.628 )
+scale = Vector2( -0.867029, 0.272029 )
+texture = ExtResource( 2 )
+
+[node name="player" type="RigidBody2D" parent="."]
+position = Vector2( 500, 178.945 )
+script = ExtResource( 3 )
+move_speed = 400
+jump_force = 400
+extra_gravity = 900
+move_acceleration = 20
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+position = Vector2( 1, 1 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="player"]
+position = Vector2( 1.20654, -6.175 )
+scale = Vector2( 0.09068, 0.0972228 )
+texture = ExtResource( 4 )
+
+[node name="RayDown" type="RayCast2D" parent="player"]
+position = Vector2( 0, -1.43201 )
+enabled = true
+cast_to = Vector2( 0, 64 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2( -29.2821, -97.6065 )
+current = true
+smoothing_enabled = true
+smoothing_speed = 3.0
+offset_h = 1.0
+offset_v = 1.0
+
+[node name="ground" type="StaticBody2D" parent="."]
+position = Vector2( 500, 500 )
+scale = Vector2( 20, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="ground"]
+position = Vector2( 12.9431, -33.036 )
+scale = Vector2( 0.0426618, 0.57419 )
+texture = ExtResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="ground"]
+position = Vector2( -7.47711, -35.6844 )
+scale = Vector2( -0.0594874, 0.53422 )
+texture = ExtResource( 1 )
+
+[node name="ground2" type="StaticBody2D" parent="."]
+position = Vector2( 1548.27, 502.936 )
+scale = Vector2( 20, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground2"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="ground2"]
+position = Vector2( 12.9431, -33.036 )
+scale = Vector2( 0.0426618, 0.57419 )
+texture = ExtResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="ground2"]
+position = Vector2( -7.47711, -35.6844 )
+scale = Vector2( -0.0594874, 0.53422 )
+texture = ExtResource( 1 )
+
+[node name="ground3" type="StaticBody2D" parent="."]
+position = Vector2( -751.185, 400.409 )
+scale = Vector2( 20, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground3"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="ground3"]
+position = Vector2( 12.9431, -33.036 )
+scale = Vector2( 0.0426618, 0.57419 )
+texture = ExtResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="ground3"]
+position = Vector2( -7.47711, -35.6844 )
+scale = Vector2( -0.0594874, 0.53422 )
+texture = ExtResource( 1 )
+
+[node name="ground4" type="StaticBody2D" parent="."]
+position = Vector2( 2645.52, 393.902 )
+rotation = -0.012421
+scale = Vector2( 20, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground4"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="ground4"]
+position = Vector2( 12.9431, -33.036 )
+scale = Vector2( 0.0426618, 0.57419 )
+texture = ExtResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="ground4"]
+position = Vector2( -7.47711, -35.6844 )
+scale = Vector2( -0.0594874, 0.53422 )
+texture = ExtResource( 1 )
+
+[node name="btns" type="Node2D" parent="."]
+
+[node name="touch_left" type="TouchScreenButton" parent="btns"]
+position = Vector2( 334.986, 221.785 )
+rotation = -3.14159
+scale = Vector2( 0.129, -0.129 )
+normal = ExtResource( 5 )
+action = "left_action"
+
+[node name="touch_right" type="TouchScreenButton" parent="btns"]
+position = Vector2( 365.133, 217.025 )
+scale = Vector2( 0.144195, 0.144195 )
+normal = ExtResource( 5 )
+action = "right_action"
+
+[node name="touch_up" type="TouchScreenButton" parent="btns"]
+position = Vector2( 315.946, 210.678 )
+rotation = -1.5708
+scale = Vector2( 0.147319, 0.147319 )
+normal = ExtResource( 5 )
+action = "ui_up"
