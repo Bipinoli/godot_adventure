@@ -15,5 +15,5 @@ position = Vector2( 545.244, 558.836 )
 rotation = 1.5708
 
 [node name="snow_fall" parent="." instance=ExtResource( 3 )]
-position = Vector2( 551.391, -6.84955 )
+position = Vector2( 541.824, -9.24121 )
 z_index = -1
