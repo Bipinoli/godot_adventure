@@ -35,6 +35,7 @@ script = ExtResource( 1 )
 
 [node name="particle" type="Particles2D" parent="."]
 amount = 20
+speed_scale = 2.0
 explosiveness = 0.7
 local_coords = false
 process_material = SubResource( 5 )

@@ -15,6 +15,7 @@ func _ready():
 func _process(delta):
 	if inGround():
 		if not wasGrounded:
+			impactSound()
 			emitDust()
 			wasGrounded = true
 		if Input.is_action_just_pressed("ui_up"):
@@ -38,8 +39,11 @@ func inGround():
 	
 func emitDust():
 	var scale = $sprite.get_transform().get_scale().y
-	var sprite_disp_height = scale * $sprite.get_rect().size.y / 2
-	var impactPosition = $sprite.get_position() + Vector2(0,sprite_disp_height/2)
+	var offset = scale * $sprite.get_rect().size.y / 2
+	var impactPosition = $sprite.get_position() + Vector2(0,offset)
 	var dust = $dustProvider.getDust(impactPosition)
 	dust.get_child(0).set_emitting(true)	
 	add_child(dust)
+	
+func impactSound():
+	$sound.play()
