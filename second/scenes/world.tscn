@@ -25,7 +25,6 @@ position = Vector2( 541.824, -9.24121 )
 z_index = -1
 
 [node name="sound" type="AudioStreamPlayer2D" parent="."]
-visible = false
 stream = ExtResource( 4 )
 autoplay = true
 
