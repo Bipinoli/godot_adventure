@@ -16,11 +16,11 @@ func _ready():
 
 
 func _on_camera_shake():
-	$tween.interpolate_property(self, "zoom", get_zoom()-Vector2(0.2,0.2), get_zoom(), 0.1, Tween.TRANS_LINEAR, Tween.EASE_OUT_IN)
+	$tween.interpolate_property(self, "zoom", get_zoom()-Vector2(0.03,0.03), get_zoom(), 0.2, Tween.TRANS_LINEAR, Tween.EASE_OUT)
 	$tween.start()
 	
 func _on_camera_shake_hard():
-	$tween.interpolate_property(self, "zoom", get_zoom()-Vector2(0.3,0.3), get_zoom(), 0.1, Tween.TRANS_LINEAR, Tween.EASE_OUT_IN)
+	$tween.interpolate_property(self, "zoom", get_zoom()-Vector2(0.06,0.06), get_zoom(), 0.3, Tween.TRANS_LINEAR, Tween.EASE_OUT)
 	$tween.start()
-	$tween.interpolate_property(self, "rotation", deg2rad(2), get_rotation(), 0.1, Tween.TRANS_LINEAR, Tween.EASE_OUT_IN)
+	$tween.interpolate_property(self, "rotation", deg2rad(1), get_rotation(), 0.3, Tween.TRANS_LINEAR, Tween.EASE_OUT)
 	$tween.start()

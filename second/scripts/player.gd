@@ -25,8 +25,10 @@ func _process(delta):
 			emitDust()
 			if jumped == 2:
 				emit_signal("camera_shake_hard")
+				Input.vibrate_handheld(150)
 			else:
 				emit_signal("camera_shake")
+				Input.vibrate_handheld(50)
 			wasGrounded = true
 		if Input.is_action_just_pressed("ui_up"):
 			jump()
