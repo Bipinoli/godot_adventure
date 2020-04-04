@@ -5,18 +5,28 @@ extends RigidBody2D
 
 export var jump_velocity := 700
 
-var jumped := 0
+signal camera_shake
+signal camera_shake_hard
+
+var jumped := 2
 var wasGrounded := false
 var raycast
 
 func _ready():
 	raycast = get_node("raycast")
+	self.connect("camera_shake", get_node("../camera"), "_on_camera_shake")
+	self.connect("camera_shake_hard", get_node("../camera"), "_on_camera_shake_hard")
+	
 
 func _process(delta):
 	if inGround():
 		if not wasGrounded:
 			impactSound()
 			emitDust()
+			if jumped == 2:
+				emit_signal("camera_shake_hard")
+			else:
+				emit_signal("camera_shake")
 			wasGrounded = true
 		if Input.is_action_just_pressed("ui_up"):
 			jump()

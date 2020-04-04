@@ -17,6 +17,14 @@ extents = Vector2( 512, 300 )
 position = Vector2( 538.962, -22.7984 )
 gravity_scale = 20.0
 
+[node name="camera" type="Camera2D" parent="."]
+position = Vector2( 512, 300 )
+rotating = true
+current = true
+script = ExtResource( 5 )
+
+[node name="tween" type="Tween" parent="camera"]
+
 [node name="ground" parent="." instance=ExtResource( 2 )]
 position = Vector2( 545.244, 558.836 )
 rotation = 1.5708
@@ -24,11 +32,6 @@ rotation = 1.5708
 [node name="snow_fall" parent="." instance=ExtResource( 3 )]
 position = Vector2( 541.824, -9.24121 )
 z_index = -1
-
-[node name="camera" type="Camera2D" parent="."]
-position = Vector2( 512, 300 )
-current = true
-script = ExtResource( 5 )
 
 [node name="TouchScreenButton" type="TouchScreenButton" parent="."]
 shape = SubResource( 1 )
