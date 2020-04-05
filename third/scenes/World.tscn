@@ -1,10 +1,15 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scripts/World.gd" type="Script" id=1]
 [ext_resource path="res://scenes/CharacterRig.tscn" type="PackedScene" id=2]
 [ext_resource path="res://sprites/ground.png" type="Texture" id=3]
 [ext_resource path="res://audio/laugh.wav" type="AudioStream" id=4]
 [ext_resource path="res://scripts/CameraInit.gd" type="Script" id=5]
+[ext_resource path="res://audio/angry.wav" type="AudioStream" id=6]
+[ext_resource path="res://scripts/TouchScreenBtnInit.gd" type="Script" id=7]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 200, 200 )
 
 [node name="World" type="Node"]
 script = ExtResource( 1 )
@@ -25,6 +30,15 @@ position = Vector2( 510.48, 273.372 )
 current = true
 script = ExtResource( 5 )
 
-[node name="Sound" type="AudioStreamPlayer2D" parent="."]
+[node name="HappySound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 4 )
 area_mask = 132
+
+[node name="AngrySound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 6 )
+area_mask = 132
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+shape = SubResource( 1 )
+action = "touch"
+script = ExtResource( 7 )
