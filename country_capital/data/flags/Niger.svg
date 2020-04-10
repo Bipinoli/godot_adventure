@@ -1,0 +1,11 @@
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/2000/svg'>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 600">
+<g fill-rule="evenodd">
+<path fill="#fff" d="m0,0h700v600h-700z"/>
+<g fill="#e05206">
+<path d="m0,0h700v200h-700z"/>
+<circle cx="350" cy="300" r="85"/>
+</g>
+<path fill="#0db02b" d="m0,400h700v200h-700z"/>
+</g>
+</svg>

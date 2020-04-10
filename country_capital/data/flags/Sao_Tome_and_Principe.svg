@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 1400" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#12ad2b" d="m0,0h2800v1400h-2800z"/>
+<path fill="#ffce00" d="m0,400h2800v600h-2800z"/>
+<path fill="#d21034" d="m0,0 0,1400 700-700z"/>
+<path id="left star" d="M0-1 .5878,.809-.9511-.309 .9511-.309-.5878,.809z" transform="matrix(200 0 0 200 1400 700)"/>
+<use x="700" xlink:href="#left star"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4320 2880" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#ed2939" d="m0,0h4320v1440h-4320z"/>
+<g fill="#fff">
+<path d="m0,1440h4320v1440h-4320z"/>
+<path d="m1481.678,720a541.5,541.5 0 1,1 -1083,0 541.5,541.5 0 1,1 1083,0z"/>
+</g>
+<path fill="#ed2939" d="m1651.835,720a511.735,511.735 0 1,1 -1023.47,0 511.735,511.735 0 1,1 1023.47,0z"/>
+<path fill="#fff" id="star" d="m1007.1951,733.0644l-73.5604-56.4301-73.5419,56.4569 28.3131-90.9943-73.7944-56.0916 91.0589,.1928 27.9345-91.1234 27.9644,91.1133 91.0589-.2255-73.776,56.1183 28.3429,90.9836z"/>
+<use xlink:href="#star" transform="translate(577.18853)"/>
+<use xlink:href="#star" transform="translate(288.88853 -214.21117)"/>
+<use xlink:href="#star" transform="translate(107.99953 342.74883)"/>
+<use xlink:href="#star" transform="translate(469.18853 342.74883)"/>
+</svg>

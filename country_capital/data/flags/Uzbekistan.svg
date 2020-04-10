@@ -1,0 +1,32 @@
+<svg width="500" xmlns="http://www.w3.org/2000/svg" height="250" viewBox="0 0 250 125" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<g fill="#fff" id="star">
+<g id="cone">
+<path id="triangle" d="m0,0 0,1 .5,0z" transform="matrix(.95106 .30902 -.30902 .95106 0 -1)"/>
+<use width="500" height="250" xlink:href="#triangle" transform="scale(-1 1)"/>
+</g>
+<use width="500" height="250" xlink:href="#cone" transform="rotate(72)"/>
+<use width="500" height="250" xlink:href="#cone" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use width="500" height="250" xlink:href="#cone" transform="rotate(144)"/>
+<use width="500" height="250" xlink:href="#cone" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+</defs>
+<path fill="#0099b5" d="m0,0h250v40h-250z"/>
+<path fill="#ce1126" d="m0,40h250v45h-250z"/>
+<path fill="#fff" d="m0,42.5h250v40h-250z"/>
+<path fill="#1eb53a" d="m0,85h250v40h-250z"/>
+<circle fill="#fff" cx="70" cy="40" r="30" transform="scale(.5)"/>
+<circle fill="#0099b5" cx="83.5" cy="40" r="25" transform="matrix(.6 0 0 .6 -10.1 -4)"/>
+<use width="500" height="250" id="use42" xlink:href="#star" transform="matrix(3.15439 0 0 3.31672 44 32.31672)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(12 -0)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(24 -0)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(36 -0)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(48 -0)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(12 -12)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(24 -12)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(36 -12)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(48 -12)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(24 -24)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(36 -24)"/>
+<use width="250" height="125" xlink:href="#use42" transform="translate(48 -24)"/>
+</svg>

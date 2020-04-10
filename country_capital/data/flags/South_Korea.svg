@@ -1,0 +1,16 @@
+<svg width="900" xmlns="http://www.w3.org/2000/svg" height="600" viewBox="-36 -24 72 48" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#fff" d="m-36-24h72v48h-72z"/>
+<g transform="matrix(.5547 -.83205 .83205 .5547 0 0)">
+<g id="b2">
+<path stroke="#000" id="b" stroke-width="2" d="M-6-25H6M-6-22H6M-6-19H6"/>
+<use y="44" xlink:href="#b"/>
+</g>
+<path stroke="#fff" d="m0,17v10"/>
+<circle fill="#c60c30" r="12"/>
+<path fill="#003478" d="M0-12A6,6 0 0 0 0,0A6,6 0 0 1 0,12A12,12 0 0,1 0-12Z"/>
+</g>
+<g transform="matrix(-.5547 -.83205 .83205 -.5547 0 0)">
+<use xlink:href="#b2"/>
+<path stroke="#fff" d="m0-23.5v3m0,37.5v3.5m0,3v3"/>
+</g>
+</svg>

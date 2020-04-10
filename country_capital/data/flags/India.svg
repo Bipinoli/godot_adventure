@@ -1,0 +1,25 @@
+<svg width="1200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" height="800" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#ff9932" d="m0,0h450v100h-450z"/>
+<path fill="#fff" d="m0,100h450v100h-450z"/>
+<path fill="#128807" d="m0,200h450v100h-450z"/>
+<g transform="translate(225 150)">
+<circle fill="#000080" r="46.5"/>
+<circle fill="#fff" r="41"/>
+<g id="8">
+<g id="4">
+<g id="2">
+<g id="1">
+<circle fill="#000080" r="2.5" transform="matrix(.99144 .13053 -.13053 .99144 40.64924 5.35157)"/>
+<path fill="#000080" d="m0,41l1.5-24q-1-3-1.5-17-.5,14-1.5,17z"/>
+</g>
+<use xlink:href="#1" transform="rotate(15)"/>
+</g>
+<use xlink:href="#2" transform="rotate(30)"/>
+</g>
+<use xlink:href="#4" transform="rotate(60)"/>
+</g>
+<use xlink:href="#8" transform="rotate(120)"/>
+<use xlink:href="#8" transform="matrix(-.5 -.86603 .86603 -.5 0 0)"/>
+<circle fill="#000080" r="8"/>
+</g>
+</svg>

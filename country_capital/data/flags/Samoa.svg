@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1440" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#ce1126" d="m0,0h2880v1440h-2880z"/>
+<path fill="#002b7f" d="m0,0h1440v720h-1440z"/>
+<path fill="#fff" d="M0-1 .5878,.809-.9511-.309 .9511-.309-.5878,.809 0-1z" transform="matrix(105.14622 0 0 105.14622 719.99993 604.93494)"/>
+<path fill="#fff" id="polygon1449" d="M0-1 .5878,.809-.9511-.309 .9511-.309-.5878,.809 0-1z" transform="matrix(84.11696 0 0 82.91796 499.99995 292.918)"/>
+<path fill="#fff" d="M0-1 .5878,.809-.9511-.309 .9511-.309-.5878,.809 0-1z" transform="matrix(78.85966 0 0 77.3901 944.99991 257.3901)"/>
+<use width="288" height="144" xlink:href="#polygon1449" transform="translate(220 -180)"/>
+<path fill="#fff" d="M0-1 .5878,.809-.9511-.309 .9511-.309-.5878,.809 0-1z" transform="matrix(52.5731 0 0 52.5731 829.99992 417.46729)"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="1200" xmlns="http://www.w3.org/2000/svg" height="800" viewBox="0 0 360 240" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#e30a17" d="m0,0h360v240h-360z"/>
+<circle fill="#fff" cx="120" cy="120" r="60"/>
+<circle fill="#e30a17" cx="135" cy="120" r="48"/>
+<g fill="#fff" transform="matrix(0 -30 30 0 200.7 120)">
+<g id="g2">
+<path id="g1" d="m0,0 0,1 .5,0z" transform="matrix(.95106 .30902 -.30902 .95106 0 -1)"/>
+<use xlink:href="#g1" transform="scale(-1 1)"/>
+</g>
+<use xlink:href="#g2" transform="rotate(72)"/>
+<use xlink:href="#g2" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#g2" transform="rotate(144)"/>
+<use xlink:href="#g2" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+</svg>

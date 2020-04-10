@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1235 650" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<g id="union">
+<use y="-.216" xlink:href="#x4"/>
+<use xlink:href="#x4"/>
+<use y=".216" xlink:href="#s6"/>
+</g>
+<g id="x4">
+<use xlink:href="#s6"/>
+<use y=".054" xlink:href="#s5"/>
+<use y=".108" xlink:href="#s6"/>
+<use y=".162" xlink:href="#s5"/>
+</g>
+<g id="s5">
+<use x="-.252" xlink:href="#star"/>
+<use x="-.126" xlink:href="#star"/>
+<use xlink:href="#star"/>
+<use x=".126" xlink:href="#star"/>
+<use x=".252" xlink:href="#star"/>
+</g>
+<g id="s6">
+<use x="-.063" xlink:href="#s5"/>
+<use x=".315" xlink:href="#star"/>
+</g>
+<g id="star">
+<use xlink:href="#pt" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+<use xlink:href="#pt" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#pt"/>
+<use xlink:href="#pt" transform="rotate(72)"/>
+<use xlink:href="#pt" transform="rotate(144)"/>
+</g>
+<path fill="#fff" id="pt" d="M-.1625,0 0-.5 .1625,0z" transform="scale(.0616)"/>
+<path fill="#bf0a30" id="stripe" d="m0,0h1235v50h-1235z"/>
+</defs>
+<path fill="#fff" d="m0,0h1235v650h-1235z"/>
+<use xlink:href="#stripe"/>
+<use y="100" xlink:href="#stripe"/>
+<use y="200" xlink:href="#stripe"/>
+<use y="300" xlink:href="#stripe"/>
+<use y="400" xlink:href="#stripe"/>
+<use y="500" xlink:href="#stripe"/>
+<use y="600" xlink:href="#stripe"/>
+<path fill="#002868" d="m0,0h494v350h-494z"/>
+<use xlink:href="#union" transform="matrix(650 0 0 650 247 175)"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="1200" xmlns="http://www.w3.org/2000/svg" height="600" viewBox="-35 -30 200 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="rect">
+<path d="m-35-30h200v100h-200z"/>
+</clipPath>
+</defs>
+<path fill="#215b33" d="m-35-30h200v100h-200z"/>
+<path fill="#0051ba" d="m-35,70v-100h200"/>
+<path stroke="#fcd116" stroke-width="9" d="m165-30-200,100" clip-path="url(#rect)"/>
+<g fill="#fff" id="star" transform="scale(10)">
+<g id="cone">
+<path id="triangle" d="m0,0 0,1 .5,0z" transform="matrix(.95106 .30902 -.30902 .95106 0 -1)"/>
+<use xlink:href="#triangle" transform="scale(-1 1)"/>
+</g>
+<use xlink:href="#cone" transform="rotate(72)"/>
+<use xlink:href="#cone" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#cone" transform="rotate(144)"/>
+<use xlink:href="#cone" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+<use xlink:href="#star" transform="translate(19.74105 -16.92013)"/>
+<use xlink:href="#star" transform="translate(19.74105 16.92013)"/>
+<use xlink:href="#star" transform="translate(-19.74105 16.92013)"/>
+<use xlink:href="#star" transform="translate(-19.74105 -16.92013)"/>
+</svg>

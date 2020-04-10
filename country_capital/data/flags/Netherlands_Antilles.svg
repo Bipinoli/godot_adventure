@@ -1,0 +1,21 @@
+<!DOCTYPE svg>
+<svg width="900" xmlns="http://www.w3.org/2000/svg" height="600" viewBox="-27 -14 54 36" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#fff" d="m-27-14h54v36h-54z"/>
+<path fill="#dc171d" d="m-6-14h12v36h-12z"/>
+<path fill="#00007b" d="m-27-2h54v12h-54z"/>
+<g fill="#fff" id="star" transform="scale(1.5)">
+<g id="cone">
+<path id="triangle" d="m0,0 0,1 .5,0z" transform="matrix(.95106 .30902 -.30902 .95106 0 -1)"/>
+<use xlink:href="#triangle" transform="scale(-1 1)"/>
+</g>
+<use xlink:href="#cone" transform="rotate(72)"/>
+<use xlink:href="#cone" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#cone" transform="rotate(144)"/>
+<use xlink:href="#cone" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+<g id="2stars">
+<use xlink:href="#star" transform="translate(8 3.31371)"/>
+<use xlink:href="#star" transform="translate(3.31371 8)"/>
+</g>
+<use xlink:href="#2stars" transform="scale(-1 1)"/>
+</svg>

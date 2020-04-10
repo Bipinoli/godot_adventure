@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#4189dd" fill-rule="evenodd" d="M 0,-6e-05 H450 V300 H0 z"/>
+<path fill="#f9d616" fill-rule="evenodd" id="rect2035" d="M 0,233.333 H450 V250 H0 z"/>
+<use width="27" height="18" xlink:href="#rect2035" transform="translate(0 -33.33334)"/>
+<g fill-rule="evenodd">
+<path fill="#fff" d="m66.7356,116.6666l-12.7793-37.2545-37.2896-12.6766 37.2546-12.7793 12.6766-37.2896 12.7793,37.2546 37.2896,12.6766-37.2546,12.7793-12.6766,37.2896z"/>
+<path fill="#d21034" d="m66.7241,108.3333l-10.6494-31.0455-31.0747-10.5638 31.0455-10.6494 10.5638-31.0747 10.6494,31.0455 31.0747,10.5638-31.0455,10.6494-10.5638,31.0747z"/>
+</g>
+</svg>

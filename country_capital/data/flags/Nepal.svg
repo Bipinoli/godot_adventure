@@ -1,0 +1,43 @@
+<!DOCTYPE svg>
+<svg width="630" xmlns="http://www.w3.org/2000/svg" height="770" viewBox="-18 -5 72 88" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="helper1">
+<path d="m-20,21h50v30h-50z"/>
+</clipPath>
+<clipPath id="helper2">
+<path d="m-20,20h50v30h-50z"/>
+</clipPath>
+</defs>
+<path stroke="#003893" stroke-width="5.165" d="m-15,0v80h60l-42.4264-42.4264h42.4264z"/>
+<path fill="#ce1126" d="m-15,0v80h60l-42.4264-42.4264h42.4264z"/>
+<g fill="#fff">
+<g>
+<circle cy="23.483" r="11.95" clip-path="url(#helper1)"/>
+<circle fill="#ce1126" cy="18.787" r="12.84" clip-path="url(#helper2)"/>
+</g>
+<g transform="matrix(5.56106 0 0 5.56106 0 29.04456)">
+<circle r="1"/>
+<g id="6jags">
+<g id="3jags">
+<path id="jag" d="m.1951-.9808l-.1951-.408-.1951,.408" transform="rotate(11.25)"/>
+<use xlink:href="#jag" transform="rotate(22.5)"/>
+<use xlink:href="#jag" transform="rotate(45)"/>
+</g>
+<use xlink:href="#3jags" transform="rotate(67.5)"/>
+</g>
+<use xlink:href="#6jags" transform="scale(-1 1)"/>
+</g>
+<g transform="matrix(8.1434 0 0 8.1434 0 58.7868)">
+<circle r="1"/>
+<g id="4rays">
+<g id="2rays">
+<path id="ray" d="m.2588,.9659l-.2588,.6108-.2588-.6108"/>
+<use xlink:href="#ray" transform="rotate(180)"/>
+</g>
+<use xlink:href="#2rays" transform="rotate(90)"/>
+</g>
+<use xlink:href="#4rays" transform="rotate(30)"/>
+<use xlink:href="#4rays" transform="rotate(60)"/>
+</g>
+</g>
+</svg>

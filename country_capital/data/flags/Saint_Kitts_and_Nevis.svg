@@ -1,0 +1,25 @@
+<!DOCTYPE svg>
+<svg width="900" xmlns="http://www.w3.org/2000/svg" height="600" viewBox="-75 -50 150 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="frame">
+<path d="m-75-50h150v100h-150z"/>
+</clipPath>
+</defs>
+<path fill="#009e49" d="m75-50h-150v100"/>
+<path fill="#ce1126" d="m-75,50h150v-100"/>
+<g clip-path="url(#frame)">
+<path stroke="#fcd116" stroke-width="42" d="m-75,50l150-100"/>
+<path stroke="#000" stroke-width="30" d="m-75,50l150-100"/>
+</g>
+<g fill="#fff" id="star" transform="matrix(11.64871 -7.76579 7.76579 11.64871 28.5 -19)">
+<g id="cone">
+<path id="triangle" d="m0,0 0,1 .5,0z" transform="matrix(.95106 .30902 -.30902 .95106 0 -1)"/>
+<use xlink:href="#triangle" transform="scale(-1 1)"/>
+</g>
+<use xlink:href="#cone" transform="rotate(72)"/>
+<use xlink:href="#cone" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#cone" transform="rotate(144)"/>
+<use xlink:href="#cone" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+<use xlink:href="#star" transform="translate(-57 38)"/>
+</svg>

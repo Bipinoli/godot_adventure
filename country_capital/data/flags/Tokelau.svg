@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 900" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath>
+<path d="m0,0 600,0 0,300-600,0z"/>
+</clipPath>
+<clipPath>
+<path d="m0,0 300,150-300,0zm300-150 300,0-300,150zm0,150 300,0 0,150zm0,150-300,0z"/>
+</clipPath>
+<g id="Pentagram">
+<g id="Arm" transform="translate(0 -.32493)">
+<path d="m0,0 0,.5 1-.5z"/>
+<path d="m0,0 0-.5 1,.5z" transform="matrix(.80902 -.58779 .58779 .80902 .19098 .58779)"/>
+</g>
+<use width="1200" height="600" xlink:href="#Arm" transform="scale(-1 1)"/>
+<use width="1200" height="600" xlink:href="#Arm" transform="rotate(72)"/>
+<use width="1200" height="600" xlink:href="#Arm" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use width="1200" height="600" xlink:href="#Arm" transform="matrix(-.30902 .95106 .95106 .30902 0 0)"/>
+</g>
+</defs>
+<path fill="#00247d" d="m0,0h1800v900h-1800z"/>
+<g fill="#fc0">
+<path d="m329.3761,777.2654c-17.9344-.1498 168.6234-99.4314 324.7691-226.5998 204.6437-166.6662 645.3958-433.5093 774.9709-476.8702 13.5433-4.5321-27.7761,23.0731-33.14,32.0154-138.3415,163.7404-27.925,472.7238 144.9726,628.0483 51.99,39.7632 49.3274,41.8508 145.7074,45.7463 0,0 0,9 0,9l-1357.28-11.34z"/>
+<path d="m318.125,795.3246c0,0-13.1634,9.4029-13.125,16.4061 .043,7.7725 14.7656,18.0468 14.7656,18.0468l1338.745,14.7656 24.6093-16.4062-34.453-21.328-1330.542-11.4843z"/>
+</g>
+<use width="1200" fill="#fff" height="600" xlink:href="#Pentagram" transform="matrix(45 0 0 45 342.9565 112.5812)"/>
+<use width="1200" fill="#fff" height="600" xlink:href="#Pentagram" transform="matrix(37.5 0 -0 37.5 521.20459 267.53)"/>
+<use width="1200" fill="#fff" height="600" xlink:href="#Pentagram" transform="matrix(45 0 -0 45 135.00004 321.8075)"/>
+<use width="1200" fill="#fff" height="600" xlink:href="#Pentagram" transform="matrix(52.5 0 0 52.5 342.9565 652.5812)"/>
+</svg>

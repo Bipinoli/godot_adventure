@@ -1,0 +1,23 @@
+<svg width="450" xmlns="http://www.w3.org/2000/svg" height="300" viewBox="0 0 36 24" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<g id="star" transform="scale(3)">
+<g id="c">
+<path id="t" d="m0,0v1h.5z" transform="matrix(.95106 .30902 -.30902 .95106 0 -1)"/>
+<use xlink:href="#t" transform="scale(-1 1)"/>
+</g>
+<use xlink:href="#c" transform="rotate(72)"/>
+<use xlink:href="#c" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#c" transform="rotate(144)"/>
+<use xlink:href="#c" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+</defs>
+<path fill="#fff" d="m0,0h36v24h-36z"/>
+<g fill="#0067c6">
+<use x="9" y="6" xlink:href="#star"/>
+<path d="m0,12h18v12h-18z"/>
+</g>
+<g fill="#d21034">
+<path d="m18,0h18v12h-18z"/>
+<use x="27" y="18" xlink:href="#star"/>
+</g>
+</svg>

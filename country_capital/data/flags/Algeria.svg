@@ -1,0 +1,19 @@
+<svg width="900" xmlns="http://www.w3.org/2000/svg" height="600" viewBox="-30 -20 60 40" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path fill="#fff" d="m-30-20h60v40h-60z"/>
+<path fill="#007a3d" d="m-30-20h30v40h-30z"/>
+<g fill="#ce1126">
+<g>
+<path d="m8.6603,5a10,10 0 1,1 0-10 8,8 0 1,0 0,10"/>
+</g>
+<g transform="matrix(5 0 0 5 4.04509 0)">
+<g id="cone">
+<path id="triangle" d="m0,0-1,0 0,.5z" transform="matrix(.95106 .30902 -.30902 .95106 1 0)"/>
+<use xlink:href="#triangle" transform="scale(1 -1)"/>
+</g>
+<use xlink:href="#cone" transform="rotate(72)"/>
+<use xlink:href="#cone" transform="matrix(.30902 -.95106 .95106 .30902 0 0)"/>
+<use xlink:href="#cone" transform="rotate(144)"/>
+<use xlink:href="#cone" transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)"/>
+</g>
+</g>
+</svg>
