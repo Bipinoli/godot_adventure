@@ -7,8 +7,9 @@ onready var tween = get_node("Tween")
 
 
 func _ready():
+	print("anim menu sel ready")
 	var global_configs = get_node("/root/GlobalConfigurations")
-	
+
 	var belowTexture = get_node("BelowTexture")
 	var scale = (global_configs.MAIN_MENU_SEL_WIDTH / belowTexture.get_rect().size.x)
 	print("scaling menu option by: ", scale)
@@ -17,7 +18,6 @@ func _ready():
 
 	tween.interpolate_property(aboveTexture, "rect_scale", aboveTexture.get_scale(), Vector2(-0.3, 0) + aboveTexture.get_scale(), 1, Tween.TRANS_CUBIC, Tween.EASE_IN_OUT, rand_range(0,1))
 	tween.start()
-
 
 func _on_TextureButton_button_down():
 	tween.interpolate_property(aboveTexture, "rect_scale", aboveTexture.get_scale(), Vector2(+0.3, 0) + aboveTexture.get_scale(), 0.1, Tween.TRANS_CUBIC, Tween.EASE_IN_OUT)
