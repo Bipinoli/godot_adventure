@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/theme_sel1.png-a475f3adb2298124eabfe16aba2dde09.stex"
+path="res://.import/rect_yellow.png-c5a974260159fcdea4b475988f7476ab.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/theme_sel1.png"
-dest_files=[ "res://.import/theme_sel1.png-a475f3adb2298124eabfe16aba2dde09.stex" ]
+source_file="res://assets/sprites/rect_yellow.png"
+dest_files=[ "res://.import/rect_yellow.png-c5a974260159fcdea4b475988f7476ab.stex" ]
 
 [params]
 

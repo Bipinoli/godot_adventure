@@ -1,5 +1,9 @@
 extends Control
 
+signal btn1_pressed
+signal btn2_pressed
+signal btn3_pressed
+
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var texture = get_node("TextureRect")
 
@@ -30,11 +34,14 @@ func _structure_as_type2():
 
 func _on_Button1_button_down():
 	print("button 1")
+	emit_signal("btn1_pressed")
 
 
 func _on_Button2_button_down():
 	print("button 2")
+	emit_signal("btn2_pressed")
 
 
 func _on_Button3_button_down():
 	print("button 3")
+	emit_signal("btn3_pressed")

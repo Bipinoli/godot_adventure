@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/option_bg_grey.png-341ae69337b4578dc228f649aecaabf1.stex"
+path="res://.import/option_bg_main_menu.png-10e975d3c74f07ff6fad3c18b6e18282.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/option_bg_grey.png"
-dest_files=[ "res://.import/option_bg_grey.png-341ae69337b4578dc228f649aecaabf1.stex" ]
+source_file="res://assets/sprites/option_bg_main_menu.png"
+dest_files=[ "res://.import/option_bg_main_menu.png-10e975d3c74f07ff6fad3c18b6e18282.stex" ]
 
 [params]
 

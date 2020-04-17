@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rect_green.png-287492ec527e7113c00d9b216486c971.stex"
+path="res://.import/tick.png-e66deb9ebc7a6fcc76089472900264e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rect_green.png"
-dest_files=[ "res://.import/rect_green.png-287492ec527e7113c00d9b216486c971.stex" ]
+source_file="res://assets/sprites/tick.png"
+dest_files=[ "res://.import/tick.png-e66deb9ebc7a6fcc76089472900264e8.stex" ]
 
 [params]
 

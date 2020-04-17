@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rect_white.svg-e14ab9f0fb0ad189c401dc88b166408e.stex"
+path="res://.import/rect_purple.png-cb2affb9970bff39fbc8747c3ea3da88.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rect_white.svg"
-dest_files=[ "res://.import/rect_white.svg-e14ab9f0fb0ad189c401dc88b166408e.stex" ]
+source_file="res://assets/sprites/rect_purple.png"
+dest_files=[ "res://.import/rect_purple.png-cb2affb9970bff39fbc8747c3ea3da88.stex" ]
 
 [params]
 

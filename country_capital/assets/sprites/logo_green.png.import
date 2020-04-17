@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cross.png-02546c5657ca18f075c4c5271ba2b0d0.stex"
+path="res://.import/logo_green.png-8e0149534089ee79e260edc8765e2a1c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cross.png"
-dest_files=[ "res://.import/cross.png-02546c5657ca18f075c4c5271ba2b0d0.stex" ]
+source_file="res://assets/sprites/logo_green.png"
+dest_files=[ "res://.import/logo_green.png-8e0149534089ee79e260edc8765e2a1c.stex" ]
 
 [params]
 
