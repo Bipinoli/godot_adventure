@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/MainScreen/ThemeSelection/ThemeSelection.gd" type="Script" id=1]
+[ext_resource path="res://assets/sprites/theme_sel1.png" type="Texture" id=2]
+
+[node name="ThemeSelection" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button1" type="TextureButton" parent="TextureRect"]
+margin_right = 78.0
+margin_bottom = 82.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="TextureButton" parent="TextureRect"]
+margin_left = 78.0
+margin_right = 156.0
+margin_bottom = 82.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="TextureButton" parent="TextureRect"]
+margin_left = 156.0
+margin_right = 234.0
+margin_bottom = 82.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_down" from="TextureRect/Button1" to="." method="_on_Button1_button_down"]
+[connection signal="button_down" from="TextureRect/Button2" to="." method="_on_Button2_button_down"]
+[connection signal="button_down" from="TextureRect/Button3" to="." method="_on_Button3_button_down"]

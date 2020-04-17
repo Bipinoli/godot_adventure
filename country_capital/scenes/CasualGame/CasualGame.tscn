@@ -1,0 +1,71 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/sprites/title_green.png" type="Texture" id=1]
+[ext_resource path="res://assets/themes/theme_green.tres" type="Theme" id=2]
+[ext_resource path="res://data/flags/Nepal.png" type="Texture" id=3]
+[ext_resource path="res://assets/sprites/rect_white.svg" type="Texture" id=4]
+[ext_resource path="res://assets/sprites/rect_green.png" type="Texture" id=5]
+
+[node name="CasualGame" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -672.0
+margin_right = 411.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FlagArea" type="MarginContainer" parent="VBoxContainer"]
+margin_right = 411.0
+margin_bottom = 334.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="WhiteBack" type="TextureRect" parent="VBoxContainer/FlagArea"]
+margin_right = 411.0
+margin_bottom = 334.0
+texture = ExtResource( 4 )
+expand = true
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/FlagArea"]
+margin_top = 82.0
+margin_right = 411.0
+margin_bottom = 252.0
+rect_clip_content = true
+size_flags_vertical = 6
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="VBoxContainer/FlagArea"]
+margin_top = 154.0
+margin_right = 411.0
+margin_bottom = 180.0
+text = "Nepal"
+
+[node name="OptionsArea" type="MarginContainer" parent="VBoxContainer"]
+margin_top = 338.0
+margin_right = 411.0
+margin_bottom = 672.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/OptionsArea"]
+margin_right = 411.0
+margin_bottom = 334.0
+texture = ExtResource( 5 )
+expand = true
