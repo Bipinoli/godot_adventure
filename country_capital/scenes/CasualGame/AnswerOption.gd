@@ -29,7 +29,7 @@ func _ready():
 
 
 
-func _correctFeedback():
+func _correctVisual():
 	var tick = TextureRect.new()
 	tick.set_texture(tickTexture)
 	tick.name = "Tick"
@@ -39,11 +39,9 @@ func _correctFeedback():
 			$Tween.interpolate_property(c, "rect_scale", Vector2(0.4, 0.4) + c.get_scale(), c.get_scale(), 0.3, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 			$Tween.start()
 			break
-	rightSound.set_loop(false)
-	$AudioStreamPlayer.set_stream(rightSound)
-	$AudioStreamPlayer.play()
+			
 	
-func _incorrectFeedback():
+func _incorrectVisual():
 	var cross = TextureRect.new()
 	cross.set_texture(crossTexture)
 	cross.name = "Cross"
@@ -52,12 +50,21 @@ func _incorrectFeedback():
 		if c.name == "Cross":
 			$Tween.interpolate_property(c, "rect_scale", Vector2(0.4, 0.4) + c.get_scale(), c.get_scale(), 0.3, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 			$Tween.start()
-			break
+			break		
+
+
+func _correctSound():
+	rightSound.set_loop(false)
+	$AudioStreamPlayer.set_stream(rightSound)
+	$AudioStreamPlayer.play()
+
+
+func _incorrectSound():
 	wrongSound.set_loop(false)
 	$AudioStreamPlayer.set_stream(wrongSound)
 	$AudioStreamPlayer.play()
 	Input.vibrate_handheld(200)
-			
+
 
 func _setText(labelText):
 	label.set_text(labelText)
@@ -67,9 +74,9 @@ func _on_Button_button_down():
 	texture.set_texture(btnPressedTexture)
 	emit_signal("option_selected", labelText)
 	if correct:
-		_correctFeedback()
+		_correctVisual()
 	else:
-		_incorrectFeedback()
+		_incorrectVisual()
 
 func _on_Button_button_up():
 	texture.set_texture(normalTexture)

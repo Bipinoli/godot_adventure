@@ -20,6 +20,7 @@ func _ready():
 	belowTexture.set_scale(Vector2(scale , scale))
 	belowTexture.margin_left = (global_configs.SCREEN_WIDTH - belowTexture.get_rect().size.x * scale) / 2
 
+	randomize()
 	tween.interpolate_property(aboveTexture, "rect_scale", aboveTexture.get_scale(), Vector2(-0.3, 0) + aboveTexture.get_scale(), 1, Tween.TRANS_CUBIC, Tween.EASE_IN_OUT, rand_range(0,1))
 	tween.start()
 	

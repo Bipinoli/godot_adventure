@@ -4,11 +4,11 @@ extends TextureRect
 export var country = "Nepal"
 
 func _ready():
-	var flag = _get_flag(country)
+	var flag = _get_flag_texture(country)
 	_set_flag(flag)
 
-func _get_flag(country):
-	return load("res://data/flags/" + country + ".png")
+func _get_flag_texture(flag_name):
+	return load("res://data/flags/" + flag_name + ".png")
 
 func _set_flag(flag):
 	print(flag)

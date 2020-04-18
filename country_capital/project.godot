@@ -26,10 +26,6 @@ config/icon="res://assets/sprites/icon.png"
 
 GlobalConfigurations="*res://GlobalConfigurations.gd"
 
-[debug]
-
-settings/stdout/verbose_stdout=true
-
 [display]
 
 window/size/width=411
