@@ -1,71 +1,178 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://assets/sprites/title_green.png" type="Texture" id=1]
 [ext_resource path="res://assets/themes/theme_green.tres" type="Theme" id=2]
-[ext_resource path="res://data/flags/Nepal.png" type="Texture" id=3]
+[ext_resource path="res://data/flags/Anguilla.png" type="Texture" id=3]
 [ext_resource path="res://assets/sprites/rect_white.svg" type="Texture" id=4]
 [ext_resource path="res://assets/sprites/rect_green.png" type="Texture" id=5]
+[ext_resource path="res://assets/sprites/flag_border.png" type="Texture" id=6]
+[ext_resource path="res://scenes/CasualGame/Flag.gd" type="Script" id=7]
+[ext_resource path="res://scenes/CasualGame/AnswerOption.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/CasualGame/CasualGame.gd" type="Script" id=9]
 
 [node name="CasualGame" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 theme = ExtResource( 2 )
+script = ExtResource( 9 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-anchor_top = 1.0
-anchor_bottom = 1.0
-margin_top = -672.0
-margin_right = 411.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="FlagArea" type="MarginContainer" parent="VBoxContainer"]
-margin_right = 411.0
-margin_bottom = 334.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-
-[node name="WhiteBack" type="TextureRect" parent="VBoxContainer/FlagArea"]
-margin_right = 411.0
-margin_bottom = 334.0
 texture = ExtResource( 4 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="TextureRect" type="TextureRect" parent="VBoxContainer/FlagArea"]
-margin_top = 82.0
-margin_right = 411.0
-margin_bottom = 252.0
-rect_clip_content = true
-size_flags_vertical = 6
-texture = ExtResource( 3 )
-
-[node name="Label" type="Label" parent="VBoxContainer/FlagArea"]
-margin_top = 154.0
-margin_right = 411.0
-margin_bottom = 180.0
-text = "Nepal"
-
-[node name="OptionsArea" type="MarginContainer" parent="VBoxContainer"]
-margin_top = 338.0
-margin_right = 411.0
-margin_bottom = 672.0
+[node name="TitleArea" type="TextureRect" parent="Background"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -205.5
+margin_right = 205.5
+margin_bottom = 65.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="TextureRect" type="TextureRect" parent="VBoxContainer/OptionsArea"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Background"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FlagArea" type="TextureRect" parent="Background/VBoxContainer"]
 margin_right = 411.0
-margin_bottom = 334.0
+margin_bottom = 363.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FlagBorder" type="TextureRect" parent="Background/VBoxContainer/FlagArea"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -132.5
+margin_top = -96.5
+margin_right = 132.5
+margin_bottom = 83.5
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Flag" type="TextureRect" parent="Background/VBoxContainer/FlagArea/FlagBorder"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 5.0
+margin_bottom = 5.0
+rect_clip_content = true
+size_flags_horizontal = 3
+size_flags_vertical = 6
+texture = ExtResource( 3 )
+expand = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+country = "Barbados"
+
+[node name="Label" type="Label" parent="Background/VBoxContainer/FlagArea"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -205.5
+margin_top = 108.5
+margin_right = 205.5
+margin_bottom = 163.5
+text = "Nepal the greatedst country on eargh"
+align = 1
+valign = 1
+autowrap = true
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionsArea" type="TextureRect" parent="Background/VBoxContainer"]
+margin_top = 367.0
+margin_right = 411.0
+margin_bottom = 731.0
+size_flags_horizontal = 11
+size_flags_vertical = 11
 texture = ExtResource( 5 )
 expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background/VBoxContainer/OptionsArea"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -205.5
+margin_top = -162.0
+margin_right = 205.5
+margin_bottom = 182.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Opt1" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+anchor_left = 0.0
+anchor_right = 0.0
+margin_left = 0.0
+margin_right = 411.0
+margin_bottom = 83.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+labelText = "A lonnA lonng lonA lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu KathmanduA lonng lonA lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug lonA lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandu"
+
+[node name="Opt2" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+anchor_left = 0.0
+anchor_right = 0.0
+margin_left = 0.0
+margin_top = 87.0
+margin_right = 411.0
+margin_bottom = 170.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+labelText = "Bander Seri Begawan, Serijawa kun"
+
+[node name="Opt3" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+anchor_left = 0.0
+anchor_right = 0.0
+margin_left = 0.0
+margin_top = 174.0
+margin_right = 411.0
+margin_bottom = 257.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+labelText = "Kathmandu"
+
+[node name="Opt4" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+anchor_left = 0.0
+anchor_right = 0.0
+margin_left = 0.0
+margin_top = 261.0
+margin_right = 411.0
+margin_bottom = 344.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+labelText = "Tokyo"

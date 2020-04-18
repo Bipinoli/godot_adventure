@@ -1,6 +1,6 @@
 {
     "Afghanistan": {
-        "flag": "Afghanistan.svg",
+        "flag": "Afghanistan",
         "city": "Kabul",
         "continent": "Asia",
         "currency_code": "AFN",
@@ -24,7 +24,7 @@
         "temperature": "12.6"
     },
     "Albania": {
-        "flag": "Albania.svg",
+        "flag": "Albania",
         "city": "Tirana",
         "continent": "Europe",
         "currency_code": "ALL",
@@ -46,7 +46,7 @@
         "temperature": "11.4"
     },
     "Algeria": {
-        "flag": "Algeria.svg",
+        "flag": "Algeria",
         "city": "Alger",
         "continent": "Africa",
         "currency_code": "DZD",
@@ -67,7 +67,7 @@
         "temperature": "22.5"
     },
     "American Samoa": {
-        "flag": "American_Samoa.svg",
+        "flag": "American_Samoa",
         "city": "Fagatogo",
         "continent": "Oceania",
         "currency_code": "USD",
@@ -89,7 +89,7 @@
         "temperature": null
     },
     "Andorra": {
-        "flag": "Andorra.svg",
+        "flag": "Andorra",
         "city": "Andorra la Vella",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -112,7 +112,7 @@
         "temperature": "7.6"
     },
     "Angola": {
-        "flag": "Angola.svg",
+        "flag": "Angola",
         "city": "Luanda",
         "continent": "Africa",
         "currency_code": "AOA",
@@ -140,7 +140,7 @@
         "temperature": "21.55"
     },
     "Anguilla": {
-        "flag": "Anguilla.svg",
+        "flag": "Anguilla",
         "city": "The Valley",
         "continent": "North America",
         "currency_code": "XCD",
@@ -176,7 +176,7 @@
         "temperature": null
     },
     "Antigua and Barbuda": {
-        "flag": "Antigua_and_Barbuda.svg",
+        "flag": "Antigua_and_Barbuda",
         "city": "Saint John's",
         "continent": "North America",
         "currency_code": "XCD",
@@ -197,7 +197,7 @@
         "temperature": "26"
     },
     "Argentina": {
-        "flag": "Argentina.svg",
+        "flag": "Argentina",
         "city": "Buenos Aires",
         "continent": "South America",
         "currency_code": "ARS",
@@ -219,7 +219,7 @@
         "temperature": "14.8"
     },
     "Armenia": {
-        "flag": "Armenia.svg",
+        "flag": "Armenia",
         "city": "Yerevan",
         "continent": "Asia",
         "currency_code": "AMD",
@@ -240,7 +240,7 @@
         "temperature": "7.15"
     },
     "Aruba": {
-        "flag": "Aruba.svg",
+        "flag": "Aruba",
         "city": "Oranjestad",
         "continent": "North America",
         "currency_code": "AWG",
@@ -263,7 +263,7 @@
         "temperature": null
     },
     "Australia": {
-        "flag": "Australia.svg",
+        "flag": "Australia",
         "city": "Canberra",
         "continent": "Oceania",
         "currency_code": "AUD",
@@ -290,7 +290,7 @@
         "temperature": "21.65"
     },
     "Austria": {
-        "flag": "Austria.svg",
+        "flag": "Austria",
         "city": "Wien",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -317,7 +317,7 @@
         "temperature": "6.35"
     },
     "Azerbaijan": {
-        "flag": "Azerbaijan.svg",
+        "flag": "Azerbaijan",
         "city": "Baku",
         "continent": "Asia",
         "currency_code": "AZN",
@@ -340,7 +340,7 @@
         "temperature": "11.95"
     },
     "Bahamas": {
-        "flag": "Bahamas.svg",
+        "flag": "Bahamas",
         "city": "Nassau",
         "continent": "North America",
         "currency_code": "BSD",
@@ -361,7 +361,7 @@
         "temperature": "24.85"
     },
     "Bahrain": {
-        "flag": "Bahrain.svg",
+        "flag": "Bahrain",
         "city": "al-Manama",
         "continent": "Asia",
         "currency_code": "BHD",
@@ -382,7 +382,7 @@
         "temperature": "27.15"
     },
     "Bangladesh": {
-        "flag": "Bangladesh.svg",
+        "flag": "Bangladesh",
         "city": "Dhaka",
         "continent": "Asia",
         "currency_code": "BDT",
@@ -408,7 +408,7 @@
         "temperature": "25"
     },
     "Barbados": {
-        "flag": "Barbados.svg",
+        "flag": "Barbados",
         "city": "Bridgetown",
         "continent": "North America",
         "currency_code": "BBD",
@@ -429,7 +429,7 @@
         "temperature": "26"
     },
     "Belarus": {
-        "flag": "Belarus.svg",
+        "flag": "Belarus",
         "city": "Minsk",
         "continent": "Europe",
         "currency_code": "BYR",
@@ -452,7 +452,7 @@
         "temperature": "6.15"
     },
     "Belgium": {
-        "flag": "Belgium.svg",
+        "flag": "Belgium",
         "city": "Bruxelles [Brussel]",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -477,7 +477,7 @@
         "temperature": "9.55"
     },
     "Belize": {
-        "flag": "Belize.svg",
+        "flag": "Belize",
         "city": "Belmopan",
         "continent": "North America",
         "currency_code": "BZD",
@@ -500,7 +500,7 @@
         "temperature": "25.3"
     },
     "Benin": {
-        "flag": "Benin.svg",
+        "flag": "Benin",
         "city": "Porto-Novo",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -526,7 +526,7 @@
         "temperature": "27.55"
     },
     "Bermuda": {
-        "flag": "Bermuda.svg",
+        "flag": "Bermuda",
         "city": "Hamilton",
         "continent": "North America",
         "currency_code": "BMD",
@@ -546,7 +546,7 @@
         "temperature": null
     },
     "Bhutan": {
-        "flag": "Bhutan.svg",
+        "flag": "Bhutan",
         "city": "Thimphu",
         "continent": "Asia",
         "currency_code": "BTN",
@@ -568,7 +568,7 @@
         "temperature": "7.4"
     },
     "Bolivia": {
-        "flag": "Bolivia.svg",
+        "flag": "Bolivia",
         "city": "La Paz",
         "continent": "South America",
         "currency_code": "BOB",
@@ -591,7 +591,7 @@
         "temperature": "21.55"
     },
     "Bosnia and Herzegovina": {
-        "flag": "Bosnia_and_Herzegovina.svg",
+        "flag": "Bosnia_and_Herzegovina",
         "city": "Sarajevo",
         "continent": "Europe",
         "currency_code": "BAM",
@@ -611,7 +611,7 @@
         "temperature": "9.85"
     },
     "Botswana": {
-        "flag": "Botswana.svg",
+        "flag": "Botswana",
         "city": "Gaborone",
         "continent": "Africa",
         "currency_code": "BWP",
@@ -635,7 +635,7 @@
         "temperature": "21.5"
     },
     "Bouvet Island": {
-        "flag": "Bouvet_Island.svg",
+        "flag": "Bouvet_Island",
         "city": null,
         "continent": "Antarctica",
         "currency_code": "NOK",
@@ -652,7 +652,7 @@
         "temperature": null
     },
     "Brazil": {
-        "flag": "Brazil.svg",
+        "flag": "Brazil",
         "city": "Brasília",
         "continent": "South America",
         "currency_code": "BRL",
@@ -676,7 +676,7 @@
         "temperature": "24.95"
     },
     "British Indian Ocean Territory": {
-        "flag": "British_Indian_Ocean_Territory.svg",
+        "flag": "British_Indian_Ocean_Territory",
         "city": null,
         "continent": "Africa",
         "currency_code": "USD",
@@ -693,7 +693,7 @@
         "temperature": null
     },
     "Brunei": {
-        "flag": "Brunei.svg",
+        "flag": "Brunei",
         "city": "Bandar Seri Begawan",
         "continent": "Asia",
         "currency_code": "BND",
@@ -716,7 +716,7 @@
         "temperature": "26.85"
     },
     "Bulgaria": {
-        "flag": "Bulgaria.svg",
+        "flag": "Bulgaria",
         "city": "Sofia",
         "continent": "Europe",
         "currency_code": "BGN",
@@ -739,7 +739,7 @@
         "temperature": "10.55"
     },
     "Burkina Faso": {
-        "flag": "Burkina_Faso.svg",
+        "flag": "Burkina_Faso",
         "city": "Ouagadougou",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -764,7 +764,7 @@
         "temperature": "28.25"
     },
     "Burundi": {
-        "flag": "Burundi.svg",
+        "flag": "Burundi",
         "city": "Bujumbura",
         "continent": "Africa",
         "currency_code": "BIF",
@@ -786,7 +786,7 @@
         "temperature": "19.8"
     },
     "Cambodia": {
-        "flag": "Cambodia.svg",
+        "flag": "Cambodia",
         "city": "Phnom Penh",
         "continent": "Asia",
         "currency_code": "KHR",
@@ -809,7 +809,7 @@
         "temperature": "26.8"
     },
     "Cameroon": {
-        "flag": "Cameroon.svg",
+        "flag": "Cameroon",
         "city": "Yaound",
         "continent": "Africa",
         "currency_code": "XAF",
@@ -836,7 +836,7 @@
         "temperature": "24.6"
     },
     "Canada": {
-        "flag": "Canada.svg",
+        "flag": "Canada",
         "city": "Ottawa",
         "continent": "North America",
         "currency_code": "CAD",
@@ -867,7 +867,7 @@
         "temperature": "-5.35"
     },
     "Cape Verde": {
-        "flag": "Cape_Verde.svg",
+        "flag": "Cape_Verde",
         "city": "Praia",
         "continent": "Africa",
         "currency_code": "CVE",
@@ -888,7 +888,7 @@
         "temperature": "23.3"
     },
     "Cayman Islands": {
-        "flag": "Cayman_Islands.svg",
+        "flag": "Cayman_Islands",
         "city": "George Town",
         "continent": "North America",
         "currency_code": "KYD",
@@ -908,7 +908,7 @@
         "temperature": null
     },
     "Central African Republic": {
-        "flag": "Central_African_Republic.svg",
+        "flag": "Central_African_Republic",
         "city": "Bangui",
         "continent": "Africa",
         "currency_code": "XAF",
@@ -933,7 +933,7 @@
         "temperature": "24.9"
     },
     "Chad": {
-        "flag": "Chad.svg",
+        "flag": "Chad",
         "city": "N'Djam",
         "continent": "Africa",
         "currency_code": "XAF",
@@ -960,7 +960,7 @@
         "temperature": "26.55"
     },
     "Chile": {
-        "flag": "Chile.svg",
+        "flag": "Chile",
         "city": "Santiago de Chile",
         "continent": "South America",
         "currency_code": "CLP",
@@ -983,7 +983,7 @@
         "temperature": "8.45"
     },
     "China": {
-        "flag": "China.svg",
+        "flag": "China",
         "city": "Peking",
         "continent": "Asia",
         "currency_code": "CNY",
@@ -1014,7 +1014,7 @@
         "temperature": "6.95"
     },
     "Christmas Island": {
-        "flag": "Christmas_Island.svg",
+        "flag": "Christmas_Island",
         "city": "Flying Fish Cove",
         "continent": "Oceania",
         "currency_code": "AUD",
@@ -1055,7 +1055,7 @@
         "temperature": null
     },
     "Colombia": {
-        "flag": "Colombia.svg",
+        "flag": "Colombia",
         "city": "Santaf",
         "continent": "South America",
         "currency_code": "COP",
@@ -1079,7 +1079,7 @@
         "temperature": "24.5"
     },
     "Comoros": {
-        "flag": "Comoros.svg",
+        "flag": "Comoros",
         "city": "Moroni",
         "continent": "Africa",
         "currency_code": "KMF",
@@ -1103,7 +1103,7 @@
         "temperature": "25.55"
     },
     "Congo": {
-        "flag": "Congo.svg",
+        "flag": "Congo",
         "city": "Brazzaville",
         "continent": "Africa",
         "currency_code": "XAF",
@@ -1138,7 +1138,7 @@
         "temperature": null
     },
     "The Democratic Republic of Congo": {
-        "flag": "The_Democratic_Republic_of_Congo.svg",
+        "flag": "The_Democratic_Republic_of_Congo",
         "city": null,
         "continent": "Africa",
         "currency_code": "CDF",
@@ -1166,7 +1166,7 @@
         "temperature": null
     },
     "Cook Islands": {
-        "flag": "Cook_Islands.svg",
+        "flag": "Cook_Islands",
         "city": "Avarua",
         "continent": "Oceania",
         "currency_code": "NZD",
@@ -1187,7 +1187,7 @@
         "temperature": null
     },
     "Costa Rica": {
-        "flag": "Costa_Rica.svg",
+        "flag": "Costa_Rica",
         "city": "San Jos",
         "continent": "North America",
         "currency_code": "CRC",
@@ -1210,7 +1210,7 @@
         "temperature": "24.8"
     },
     "Ivory Coast": {
-        "flag": "Ivory_Coast.svg",
+        "flag": "Ivory_Coast",
         "city": "Yamoussoukro",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -1234,7 +1234,7 @@
         "temperature": "26.35"
     },
     "Croatia": {
-        "flag": "Croatia.svg",
+        "flag": "Croatia",
         "city": "Zagreb",
         "continent": "Europe",
         "currency_code": "HRK",
@@ -1255,7 +1255,7 @@
         "temperature": "10.9"
     },
     "Cuba": {
-        "flag": "Cuba.svg",
+        "flag": "Cuba",
         "city": "La Habana",
         "continent": "North America",
         "currency_code": "CUP",
@@ -1275,7 +1275,7 @@
         "temperature": "25.2"
     },
     "Cyprus": {
-        "flag": "Cyprus.svg",
+        "flag": "Cyprus",
         "city": "Nicosia",
         "continent": "Asia",
         "currency_code": "EUR",
@@ -1296,7 +1296,7 @@
         "temperature": "18.45"
     },
     "Czech Republic": {
-        "flag": "Czech_Republic.svg",
+        "flag": "Czech_Republic",
         "city": "Praha",
         "continent": "Europe",
         "currency_code": "CZK",
@@ -1323,7 +1323,7 @@
         "temperature": "7.55"
     },
     "Denmark": {
-        "flag": "Denmark.svg",
+        "flag": "Denmark",
         "city": "Copenhagen",
         "continent": "Europe",
         "currency_code": "DKK",
@@ -1349,7 +1349,7 @@
         "temperature": "7.5"
     },
     "Djibouti": {
-        "flag": "Djibouti.svg",
+        "flag": "Djibouti",
         "city": "Djibouti",
         "continent": "Africa",
         "currency_code": "DJF",
@@ -1371,7 +1371,7 @@
         "temperature": "28"
     },
     "Dominica": {
-        "flag": "Dominica.svg",
+        "flag": "Dominica",
         "city": "Roseau",
         "continent": "North America",
         "currency_code": "XCD",
@@ -1392,7 +1392,7 @@
         "temperature": "22.35"
     },
     "Dominican Republic": {
-        "flag": "Dominican_Republic.svg",
+        "flag": "Dominican_Republic",
         "city": "Santo Domingo de Guzm",
         "continent": "North America",
         "currency_code": "DOP",
@@ -1413,7 +1413,7 @@
         "temperature": "24.55"
     },
     "East Timor": {
-        "flag": "East_Timor.svg",
+        "flag": "East_Timor",
         "city": "Dili",
         "continent": "Asia",
         "currency_code": "USD",
@@ -1434,7 +1434,7 @@
         "temperature": "25.25"
     },
     "Ecuador": {
-        "flag": "Ecuador.svg",
+        "flag": "Ecuador",
         "city": "Quito",
         "continent": "South America",
         "currency_code": "ECS",
@@ -1455,7 +1455,7 @@
         "temperature": "21.85"
     },
     "Egypt": {
-        "flag": "Egypt.svg",
+        "flag": "Egypt",
         "city": "Cairo",
         "continent": "Africa",
         "currency_code": "EGP",
@@ -1476,7 +1476,7 @@
         "temperature": "22.1"
     },
     "England": {
-        "flag": "England.svg",
+        "flag": "England",
         "city": "London",
         "continent": "Europe",
         "currency_code": "GBP",
@@ -1492,7 +1492,7 @@
         "temperature": null
     },
     "El Salvador": {
-        "flag": "El_Salvador.svg",
+        "flag": "El_Salvador",
         "city": "San Salvador",
         "continent": "North America",
         "currency_code": "SVC",
@@ -1513,7 +1513,7 @@
         "temperature": "24.45"
     },
     "Equatorial Guinea": {
-        "flag": "Equatorial_Guinea.svg",
+        "flag": "Equatorial_Guinea",
         "city": "Malabo",
         "continent": "Africa",
         "currency_code": "XAF",
@@ -1534,7 +1534,7 @@
         "temperature": "24.55"
     },
     "Eritrea": {
-        "flag": "Eritrea.svg",
+        "flag": "Eritrea",
         "city": "Asmara",
         "continent": "Africa",
         "currency_code": "ERN",
@@ -1559,7 +1559,7 @@
         "temperature": "25.5"
     },
     "Estonia": {
-        "flag": "Estonia.svg",
+        "flag": "Estonia",
         "city": "Tallinn",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -1583,7 +1583,7 @@
         "temperature": "5.1"
     },
     "Ethiopia": {
-        "flag": "Ethiopia.svg",
+        "flag": "Ethiopia",
         "city": "Addis Abeba",
         "continent": "Africa",
         "currency_code": "ETB",
@@ -1609,7 +1609,7 @@
         "temperature": "22.2"
     },
     "Falkland Islands": {
-        "flag": "Falkland_Islands.svg",
+        "flag": "Falkland_Islands",
         "city": "Stanley",
         "continent": "South America",
         "currency_code": "FKP",
@@ -1629,7 +1629,7 @@
         "temperature": null
     },
     "Faroe Islands": {
-        "flag": "Faroe_Islands.svg",
+        "flag": "Faroe_Islands",
         "city": "Tórshavn",
         "continent": "Europe",
         "currency_code": "DKK",
@@ -1670,7 +1670,7 @@
         "temperature": null
     },
     "Finland": {
-        "flag": "Finland.svg",
+        "flag": "Finland",
         "city": "Helsinki [Helsingfors]",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -1694,7 +1694,7 @@
         "temperature": "1.7"
     },
     "France": {
-        "flag": "France.svg",
+        "flag": "France",
         "city": "Paris",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -1719,7 +1719,7 @@
         "temperature": "10.7"
     },
     "French Guiana": {
-        "flag": "French_Guiana.svg",
+        "flag": "French_Guiana",
         "city": "Cayenne",
         "continent": "South America",
         "currency_code": "EUR",
@@ -1740,7 +1740,7 @@
         "temperature": null
     },
     "French Polynesia": {
-        "flag": "French_Polynesia.svg",
+        "flag": "French_Polynesia",
         "city": "Papeete",
         "continent": "Oceania",
         "currency_code": "XPF",
@@ -1778,7 +1778,7 @@
         "temperature": null
     },
     "Gabon": {
-        "flag": "Gabon.svg",
+        "flag": "Gabon",
         "city": "Libreville",
         "continent": "Africa",
         "currency_code": "XAF",
@@ -1801,7 +1801,7 @@
         "temperature": "25.05"
     },
     "Gambia": {
-        "flag": "Gambia.svg",
+        "flag": "Gambia",
         "city": "Banjul",
         "continent": "Africa",
         "currency_code": "GMD",
@@ -1825,7 +1825,7 @@
         "temperature": null
     },
     "Georgia": {
-        "flag": "Georgia.svg",
+        "flag": "Georgia",
         "city": "Tbilisi",
         "continent": "Asia",
         "currency_code": "GEL",
@@ -1850,7 +1850,7 @@
         "temperature": "5.8"
     },
     "Germany": {
-        "flag": "Germany.svg",
+        "flag": "Germany",
         "city": "Berlin",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -1875,7 +1875,7 @@
         "temperature": "8.5"
     },
     "Ghana": {
-        "flag": "Ghana.svg",
+        "flag": "Ghana",
         "city": "Accra",
         "continent": "Africa",
         "currency_code": "GHS",
@@ -1900,7 +1900,7 @@
         "temperature": "27.2"
     },
     "Gibraltar": {
-        "flag": "Gibraltar.svg",
+        "flag": "Gibraltar",
         "city": "Gibraltar",
         "continent": "Europe",
         "currency_code": "GIP",
@@ -1921,7 +1921,7 @@
         "temperature": null
     },
     "Greece": {
-        "flag": "Greece.svg",
+        "flag": "Greece",
         "city": "Athenai",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -1942,7 +1942,7 @@
         "temperature": "15.4"
     },
     "Greenland": {
-        "flag": "Greenland.svg",
+        "flag": "Greenland",
         "city": "Nuuk",
         "continent": "North America",
         "currency_code": "DKK",
@@ -1963,7 +1963,7 @@
         "temperature": null
     },
     "Grenada": {
-        "flag": "Grenada.svg",
+        "flag": "Grenada",
         "city": "Saint George's",
         "continent": "North America",
         "currency_code": "XCD",
@@ -1983,7 +1983,7 @@
         "temperature": "26.65"
     },
     "Guadeloupe": {
-        "flag": "Guadeloupe.svg",
+        "flag": "Guadeloupe",
         "city": "Basse-Terre",
         "continent": "North America",
         "currency_code": "EUR",
@@ -2004,7 +2004,7 @@
         "temperature": null
     },
     "Guam": {
-        "flag": "Guam.svg",
+        "flag": "Guam",
         "city": "Aga",
         "continent": "Oceania",
         "currency_code": "USD",
@@ -2028,7 +2028,7 @@
         "temperature": null
     },
     "Guatemala": {
-        "flag": "Guatemala.svg",
+        "flag": "Guatemala",
         "city": "Ciudad de Guatemala",
         "continent": "North America",
         "currency_code": "QTQ",
@@ -2053,7 +2053,7 @@
     },
     "Guernsey": {},
     "Guinea": {
-        "flag": "Guinea.svg",
+        "flag": "Guinea",
         "city": "Conakry",
         "continent": "Africa",
         "currency_code": "GNF",
@@ -2079,7 +2079,7 @@
         "temperature": "25.7"
     },
     "Guinea-Bissau": {
-        "flag": "Guinea-Bissau.svg",
+        "flag": "Guinea-Bissau",
         "city": "Bissau",
         "continent": "Africa",
         "currency_code": "CFA",
@@ -2104,7 +2104,7 @@
         "temperature": "26.75"
     },
     "Guyana": {
-        "flag": "Guyana.svg",
+        "flag": "Guyana",
         "city": "Georgetown",
         "continent": "South America",
         "currency_code": "GYD",
@@ -2126,7 +2126,7 @@
         "temperature": "26"
     },
     "Haiti": {
-        "flag": "Haiti.svg",
+        "flag": "Haiti",
         "city": "Port-au-Prince",
         "continent": "North America",
         "currency_code": "HTG",
@@ -2182,7 +2182,7 @@
         "temperature": null
     },
     "Honduras": {
-        "flag": "Honduras.svg",
+        "flag": "Honduras",
         "city": "Tegucigalpa",
         "continent": "North America",
         "currency_code": "HNL",
@@ -2205,7 +2205,7 @@
         "temperature": "23.5"
     },
     "Hong Kong": {
-        "flag": "Hong_Kong.svg",
+        "flag": "Hong_Kong",
         "city": "Victoria",
         "continent": "Asia",
         "currency_code": "HKD",
@@ -2229,7 +2229,7 @@
         "temperature": null
     },
     "Hungary": {
-        "flag": "Hungary.svg",
+        "flag": "Hungary",
         "city": "Budapest",
         "continent": "Europe",
         "currency_code": "HUF",
@@ -2254,7 +2254,7 @@
         "temperature": "9.75"
     },
     "Iceland": {
-        "flag": "Iceland.svg",
+        "flag": "Iceland",
         "city": "Reykjav",
         "continent": "Europe",
         "currency_code": "ISK",
@@ -2275,7 +2275,7 @@
         "temperature": "1.75"
     },
     "India": {
-        "flag": "India.svg",
+        "flag": "India",
         "city": "New Delhi",
         "continent": "Asia",
         "currency_code": "INR",
@@ -2315,7 +2315,7 @@
         "temperature": "23.65"
     },
     "Indonesia": {
-        "flag": "Indonesia.svg",
+        "flag": "Indonesia",
         "city": "Jakarta",
         "continent": "Asia",
         "currency_code": "IDR",
@@ -2344,7 +2344,7 @@
         "temperature": "25.85"
     },
     "Iran": {
-        "flag": "Iran.svg",
+        "flag": "Iran",
         "city": "Tehran",
         "continent": "Asia",
         "currency_code": "IRR",
@@ -2373,7 +2373,7 @@
         "temperature": "17.25"
     },
     "Iraq": {
-        "flag": "Iraq.svg",
+        "flag": "Iraq",
         "city": "Baghdad",
         "continent": "Asia",
         "currency_code": "IQD",
@@ -2397,7 +2397,7 @@
         "temperature": "21.4"
     },
     "Ireland": {
-        "flag": "Ireland.svg",
+        "flag": "Ireland",
         "city": "Dublin",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -2418,7 +2418,7 @@
         "temperature": null
     },
     "Israel": {
-        "flag": "Israel.svg",
+        "flag": "Israel",
         "city": "Jerusalem",
         "continent": "Asia",
         "currency_code": "ILS",
@@ -2441,7 +2441,7 @@
     },
     "Isle of Man": {},
     "Italy": {
-        "flag": "Italy.svg",
+        "flag": "Italy",
         "city": "Roma",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -2468,7 +2468,7 @@
         "temperature": "13.45"
     },
     "Jamaica": {
-        "flag": "Jamaica.svg",
+        "flag": "Jamaica",
         "city": "Kingston",
         "continent": "North America",
         "currency_code": "JMD",
@@ -2489,7 +2489,7 @@
         "temperature": "24.95"
     },
     "Japan": {
-        "flag": "Japan.svg",
+        "flag": "Japan",
         "city": "Tokyo",
         "continent": "Asia",
         "currency_code": "JPY",
@@ -2515,7 +2515,7 @@
     },
     "Jersey": {},
     "Jordan": {
-        "flag": "Jordan.svg",
+        "flag": "Jordan",
         "city": "Amman",
         "continent": "Asia",
         "currency_code": "JOD",
@@ -2537,7 +2537,7 @@
         "temperature": "18.3"
     },
     "Kazakhstan": {
-        "flag": "Kazakhstan.svg",
+        "flag": "Kazakhstan",
         "city": "Astana",
         "continent": "Asia",
         "currency_code": "KZT",
@@ -2562,7 +2562,7 @@
         "temperature": null
     },
     "Kenya": {
-        "flag": "Kenya.svg",
+        "flag": "Kenya",
         "city": "Nairobi",
         "continent": "Africa",
         "currency_code": "KES",
@@ -2591,7 +2591,7 @@
         "temperature": "24.75"
     },
     "Kiribati": {
-        "flag": "Kiribati.svg",
+        "flag": "Kiribati",
         "city": "Bairiki",
         "continent": "Oceania",
         "currency_code": "AUD",
@@ -2612,7 +2612,7 @@
         "temperature": "28.2"
     },
     "Kuwait": {
-        "flag": "Kuwait.svg",
+        "flag": "Kuwait",
         "city": "Kuwait",
         "continent": "Asia",
         "currency_code": "KWD",
@@ -2633,7 +2633,7 @@
         "temperature": "25.35"
     },
     "Kyrgyzstan": {
-        "flag": "Kyrgyzstan.svg",
+        "flag": "Kyrgyzstan",
         "city": "Bishkek",
         "continent": "Asia",
         "currency_code": "KGS",
@@ -2659,7 +2659,7 @@
         "temperature": "1.55"
     },
     "Laos": {
-        "flag": "Laos.svg",
+        "flag": "Laos",
         "city": "Vientiane",
         "continent": "Asia",
         "currency_code": "LAK",
@@ -2682,7 +2682,7 @@
         "temperature": "22.8"
     },
     "Latvia": {
-        "flag": "Latvia.svg",
+        "flag": "Latvia",
         "city": "Riga",
         "continent": "Europe",
         "currency_code": "LVL",
@@ -2707,7 +2707,7 @@
         "temperature": "5.6"
     },
     "Lebanon": {
-        "flag": "Lebanon.svg",
+        "flag": "Lebanon",
         "city": "Beirut",
         "continent": "Asia",
         "currency_code": "LBP",
@@ -2729,7 +2729,7 @@
         "temperature": "16.4"
     },
     "Lesotho": {
-        "flag": "Lesotho.svg",
+        "flag": "Lesotho",
         "city": "Maseru",
         "continent": "Africa",
         "currency_code": "LSL",
@@ -2751,7 +2751,7 @@
         "temperature": "11.85"
     },
     "Liberia": {
-        "flag": "Liberia.svg",
+        "flag": "Liberia",
         "city": "Monrovia",
         "continent": "Africa",
         "currency_code": "LRD",
@@ -2778,7 +2778,7 @@
         "temperature": "25.3"
     },
     "Libyan Arab Jamahiriya": {
-        "flag": "Libyan_Arab_Jamahiriya.svg",
+        "flag": "Libyan_Arab_Jamahiriya",
         "city": "Tripoli",
         "continent": "Africa",
         "currency_code": "LYD",
@@ -2799,7 +2799,7 @@
         "temperature": null
     },
     "Liechtenstein": {
-        "flag": "Liechtenstein.svg",
+        "flag": "Liechtenstein",
         "city": "Vaduz",
         "continent": "Europe",
         "currency_code": "CHF",
@@ -2821,7 +2821,7 @@
         "temperature": "5.65"
     },
     "Lithuania": {
-        "flag": "Lithuania.svg",
+        "flag": "Lithuania",
         "city": "Vilnius",
         "continent": "Europe",
         "currency_code": "LTL",
@@ -2845,7 +2845,7 @@
         "temperature": "6.2"
     },
     "Luxembourg": {
-        "flag": "Luxembourg.svg",
+        "flag": "Luxembourg",
         "city": "Luxembourg [Luxemburg/L",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -2891,7 +2891,7 @@
         "temperature": null
     },
     "North Macedonia": {
-        "flag": "North_Macedonia.svg",
+        "flag": "North_Macedonia",
         "city": "Skopje",
         "continent": "Europe",
         "currency_code": "MKD",
@@ -2921,7 +2921,7 @@
         "temperature": null
     },
     "Madagascar": {
-        "flag": "Madagascar.svg",
+        "flag": "Madagascar",
         "city": "Antananarivo",
         "continent": "Africa",
         "currency_code": "MGF",
@@ -2942,7 +2942,7 @@
         "temperature": "22.65"
     },
     "Malawi": {
-        "flag": "Malawi.svg",
+        "flag": "Malawi",
         "city": "Lilongwe",
         "continent": "Africa",
         "currency_code": "MWK",
@@ -2965,7 +2965,7 @@
         "temperature": "21.9"
     },
     "Malaysia": {
-        "flag": "Malaysia.svg",
+        "flag": "Malaysia",
         "city": "Kuala Lumpur",
         "continent": "Asia",
         "currency_code": "MYR",
@@ -2990,7 +2990,7 @@
         "temperature": "25.4"
     },
     "Maldives": {
-        "flag": "Maldives.svg",
+        "flag": "Maldives",
         "city": "Male",
         "continent": "Asia",
         "currency_code": "MVR",
@@ -3011,7 +3011,7 @@
         "temperature": "27.65"
     },
     "Mali": {
-        "flag": "Mali.svg",
+        "flag": "Mali",
         "city": "Bamako",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -3036,7 +3036,7 @@
         "temperature": "28.25"
     },
     "Malta": {
-        "flag": "Malta.svg",
+        "flag": "Malta",
         "city": "Valletta",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -3057,7 +3057,7 @@
         "temperature": "19.2"
     },
     "Marshall Islands": {
-        "flag": "Marshall_Islands.svg",
+        "flag": "Marshall_Islands",
         "city": "Dalap-Uliga-Darrit",
         "continent": "Oceania",
         "currency_code": "USD",
@@ -3078,7 +3078,7 @@
         "temperature": "27.4"
     },
     "Martinique": {
-        "flag": "Martinique.svg",
+        "flag": "Martinique",
         "city": "Fort-de-France",
         "continent": "North America",
         "currency_code": "EUR",
@@ -3099,7 +3099,7 @@
         "temperature": null
     },
     "Mauritania": {
-        "flag": "Mauritania.svg",
+        "flag": "Mauritania",
         "city": "Nouakchott",
         "continent": "Africa",
         "currency_code": "MRO",
@@ -3124,7 +3124,7 @@
         "temperature": "27.65"
     },
     "Mauritius": {
-        "flag": "Mauritius.svg",
+        "flag": "Mauritius",
         "city": "Port-Louis",
         "continent": "Africa",
         "currency_code": "MUR",
@@ -3149,7 +3149,7 @@
         "temperature": "22.4"
     },
     "Mayotte": {
-        "flag": "Mayotte.svg",
+        "flag": "Mayotte",
         "city": "Mamoutzou",
         "continent": "Africa",
         "currency_code": "EUR",
@@ -3171,7 +3171,7 @@
         "temperature": null
     },
     "Mexico": {
-        "flag": "Mexico.svg",
+        "flag": "Mexico",
         "city": "Ciudad de M",
         "continent": "North America",
         "currency_code": "MXN",
@@ -3220,7 +3220,7 @@
         "temperature": null
     },
     "Moldova": {
-        "flag": "Moldova.svg",
+        "flag": "Moldova",
         "city": "Chisinau",
         "continent": "Europe",
         "currency_code": "MDL",
@@ -3244,7 +3244,7 @@
         "temperature": "9.45"
     },
     "Monaco": {
-        "flag": "Monaco.svg",
+        "flag": "Monaco",
         "city": "Monaco-Ville",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -3267,7 +3267,7 @@
         "temperature": "13.55"
     },
     "Mongolia": {
-        "flag": "Mongolia.svg",
+        "flag": "Mongolia",
         "city": "Ulan Bator",
         "continent": "Asia",
         "currency_code": "MNT",
@@ -3292,7 +3292,7 @@
         "temperature": "-0.7"
     },
     "Montserrat": {
-        "flag": "Montserrat.svg",
+        "flag": "Montserrat",
         "city": "Plymouth",
         "continent": "North America",
         "currency_code": "XCD",
@@ -3313,7 +3313,7 @@
     },
     "Montenegro": {},
     "Morocco": {
-        "flag": "Morocco.svg",
+        "flag": "Morocco",
         "city": "Rabat",
         "continent": "Africa",
         "currency_code": "MAD",
@@ -3334,7 +3334,7 @@
         "temperature": "17.1"
     },
     "Mozambique": {
-        "flag": "Mozambique.svg",
+        "flag": "Mozambique",
         "city": "Maputo",
         "continent": "Africa",
         "currency_code": "MZN",
@@ -3363,7 +3363,7 @@
         "temperature": "23.8"
     },
     "Myanmar": {
-        "flag": "Myanmar.svg",
+        "flag": "Myanmar",
         "city": "Rangoon (Yangon)",
         "continent": "Asia",
         "currency_code": "MMR",
@@ -3390,7 +3390,7 @@
         "temperature": "13.05"
     },
     "Namibia": {
-        "flag": "Namibia.svg",
+        "flag": "Namibia",
         "city": "Windhoek",
         "continent": "Africa",
         "currency_code": "NAD",
@@ -3417,7 +3417,7 @@
         "temperature": "19.95"
     },
     "Nauru": {
-        "flag": "Nauru.svg",
+        "flag": "Nauru",
         "city": "Yaren",
         "continent": "Oceania",
         "currency_code": "AUD",
@@ -3441,7 +3441,7 @@
         "temperature": null
     },
     "Nepal": {
-        "flag": "Nepal.svg",
+        "flag": "Nepal",
         "city": "Kathmandu",
         "continent": "Asia",
         "currency_code": "NPR",
@@ -3467,7 +3467,7 @@
         "temperature": "8.1"
     },
     "Netherlands": {
-        "flag": "Netherlands.svg",
+        "flag": "Netherlands",
         "city": "Amsterdam",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -3490,7 +3490,7 @@
         "temperature": null
     },
     "Netherlands Antilles": {
-        "flag": "Netherlands_Antilles.svg",
+        "flag": "Netherlands_Antilles",
         "city": "Willemstad",
         "continent": "North America",
         "currency_code": "ANG",
@@ -3512,7 +3512,7 @@
         "temperature": null
     },
     "New Caledonia": {
-        "flag": "New_Caledonia.svg",
+        "flag": "New_Caledonia",
         "city": "Noum",
         "continent": "Oceania",
         "currency_code": "XPF",
@@ -3534,7 +3534,7 @@
         "temperature": null
     },
     "New Zealand": {
-        "flag": "New_Zealand.svg",
+        "flag": "New_Zealand",
         "city": "Wellington",
         "continent": "Oceania",
         "currency_code": "NZD",
@@ -3555,7 +3555,7 @@
         "temperature": "10.55"
     },
     "Nicaragua": {
-        "flag": "Nicaragua.svg",
+        "flag": "Nicaragua",
         "city": "Managua",
         "continent": "North America",
         "currency_code": "NIO",
@@ -3578,7 +3578,7 @@
         "temperature": "24.9"
     },
     "Niger": {
-        "flag": "Niger.svg",
+        "flag": "Niger",
         "city": "Niamey",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -3602,7 +3602,7 @@
         "temperature": "27.15"
     },
     "Nigeria": {
-        "flag": "Nigeria.svg",
+        "flag": "Nigeria",
         "city": "Abuja",
         "continent": "Africa",
         "currency_code": "NGN",
@@ -3631,7 +3631,7 @@
         "temperature": "26.8"
     },
     "Niue": {
-        "flag": "Niue.svg",
+        "flag": "Niue",
         "city": "Alofi",
         "continent": "Oceania",
         "currency_code": "NZD",
@@ -3652,7 +3652,7 @@
         "temperature": null
     },
     "Norfolk Island": {
-        "flag": "Norfolk_Island.svg",
+        "flag": "Norfolk_Island",
         "city": "Kingston",
         "continent": "Oceania",
         "currency_code": "AUD",
@@ -3672,7 +3672,7 @@
         "temperature": null
     },
     "North Korea": {
-        "flag": "North_Korea.svg",
+        "flag": "North_Korea",
         "city": "Pyongyang",
         "continent": "Asia",
         "currency_code": "KPW",
@@ -3708,7 +3708,7 @@
         "temperature": null
     },
     "Northern Mariana Islands": {
-        "flag": "Northern_Mariana_Islands.svg",
+        "flag": "Northern_Mariana_Islands",
         "city": "Garapan",
         "continent": "Oceania",
         "currency_code": "USD",
@@ -3733,7 +3733,7 @@
         "temperature": null
     },
     "Norway": {
-        "flag": "Norway.svg",
+        "flag": "Norway",
         "city": "Oslo",
         "continent": "Europe",
         "currency_code": "NOK",
@@ -3757,7 +3757,7 @@
         "temperature": "1.5"
     },
     "Oman": {
-        "flag": "Oman.svg",
+        "flag": "Oman",
         "city": "Masqat",
         "continent": "Asia",
         "currency_code": "OMR",
@@ -3778,7 +3778,7 @@
         "temperature": "25.6"
     },
     "Pakistan": {
-        "flag": "Pakistan.svg",
+        "flag": "Pakistan",
         "city": "Islamabad",
         "continent": "Asia",
         "currency_code": "PKR",
@@ -3805,7 +3805,7 @@
         "temperature": "20.2"
     },
     "Palau": {
-        "flag": "Palau.svg",
+        "flag": "Palau",
         "city": "Koror",
         "continent": "Oceania",
         "currency_code": "USD",
@@ -3828,7 +3828,7 @@
         "temperature": "27.6"
     },
     "Palestine": {
-        "flag": "Palestine.svg",
+        "flag": "Palestine",
         "city": "Gaza",
         "continent": "Asia",
         "currency_code": null,
@@ -3849,7 +3849,7 @@
         "temperature": null
     },
     "Panama": {
-        "flag": "Panama.svg",
+        "flag": "Panama",
         "city": "Ciudad de Panam",
         "continent": "North America",
         "currency_code": "PAB",
@@ -3874,7 +3874,7 @@
         "temperature": "25.4"
     },
     "Papua New Guinea": {
-        "flag": "Papua_New_Guinea.svg",
+        "flag": "Papua_New_Guinea",
         "city": "Port Moresby",
         "continent": "Oceania",
         "currency_code": "PGK",
@@ -3895,7 +3895,7 @@
         "temperature": "25.25"
     },
     "Paraguay": {
-        "flag": "Paraguay.svg",
+        "flag": "Paraguay",
         "city": "Asunci",
         "continent": "South America",
         "currency_code": "PYG",
@@ -3918,7 +3918,7 @@
         "temperature": "23.55"
     },
     "Peru": {
-        "flag": "Peru.svg",
+        "flag": "Peru",
         "city": "Lima",
         "continent": "South America",
         "currency_code": "PEN",
@@ -3940,7 +3940,7 @@
         "temperature": "19.6"
     },
     "Philippines": {
-        "flag": "Philippines.svg",
+        "flag": "Philippines",
         "city": "Manila",
         "continent": "Asia",
         "currency_code": "PHP",
@@ -3988,7 +3988,7 @@
         "temperature": null
     },
     "Poland": {
-        "flag": "Poland.svg",
+        "flag": "Poland",
         "city": "Warszawa",
         "continent": "Europe",
         "currency_code": "PLN",
@@ -4011,7 +4011,7 @@
         "temperature": "7.85"
     },
     "Portugal": {
-        "flag": "Portugal.svg",
+        "flag": "Portugal",
         "city": "Lisboa",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -4031,7 +4031,7 @@
         "temperature": "15.15"
     },
     "Puerto Rico": {
-        "flag": "Puerto_Rico.svg",
+        "flag": "Puerto_Rico",
         "city": "San Juan",
         "continent": "North America",
         "currency_code": "USD",
@@ -4052,7 +4052,7 @@
         "temperature": null
     },
     "Qatar": {
-        "flag": "Qatar.svg",
+        "flag": "Qatar",
         "city": "Doha",
         "continent": "Asia",
         "currency_code": "QAR",
@@ -4073,7 +4073,7 @@
         "temperature": "27.15"
     },
     "Reunion": {
-        "flag": "Reunion.svg",
+        "flag": "Reunion",
         "city": "Saint-Denis",
         "continent": "Africa",
         "currency_code": "EUR",
@@ -4097,7 +4097,7 @@
         "temperature": null
     },
     "Romania": {
-        "flag": "Romania.svg",
+        "flag": "Romania",
         "city": "Bucuresti",
         "continent": "Europe",
         "currency_code": "RON",
@@ -4122,7 +4122,7 @@
         "temperature": "8.8"
     },
     "Russian Federation": {
-        "flag": "Russian_Federation.svg",
+        "flag": "Russian_Federation",
         "city": "Moscow",
         "continent": "Europe",
         "currency_code": "RUB",
@@ -4153,7 +4153,7 @@
         "temperature": null
     },
     "Rwanda": {
-        "flag": "Rwanda.svg",
+        "flag": "Rwanda",
         "city": "Kigali",
         "continent": "Africa",
         "currency_code": "RWF",
@@ -4174,7 +4174,7 @@
         "temperature": "17.85"
     },
     "Saint Helena": {
-        "flag": "Saint_Helena.svg",
+        "flag": "Saint_Helena",
         "city": "Jamestown",
         "continent": "Africa",
         "currency_code": "SHP",
@@ -4194,7 +4194,7 @@
         "temperature": null
     },
     "Saint Kitts and Nevis": {
-        "flag": "Saint_Kitts_and_Nevis.svg",
+        "flag": "Saint_Kitts_and_Nevis",
         "city": "Basseterre",
         "continent": "North America",
         "currency_code": "XCD",
@@ -4215,7 +4215,7 @@
         "temperature": "24.5"
     },
     "Saint Lucia": {
-        "flag": "Saint_Lucia.svg",
+        "flag": "Saint_Lucia",
         "city": "Castries",
         "continent": "North America",
         "currency_code": "XCD",
@@ -4275,7 +4275,7 @@
         "temperature": "26.8"
     },
     "Samoa": {
-        "flag": "Samoa.svg",
+        "flag": "Samoa",
         "city": "Apia",
         "continent": "Oceania",
         "currency_code": "WST",
@@ -4297,7 +4297,7 @@
         "temperature": "26.7"
     },
     "San Marino": {
-        "flag": "San_Marino.svg",
+        "flag": "San_Marino",
         "city": "San Marino",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -4317,7 +4317,7 @@
         "temperature": "11.85"
     },
     "Sao Tome and Principe": {
-        "flag": "Sao_Tome_and_Principe.svg",
+        "flag": "Sao_Tome_and_Principe",
         "city": "S",
         "continent": "Africa",
         "currency_code": "STD",
@@ -4338,7 +4338,7 @@
         "temperature": "23.75"
     },
     "Saudi Arabia": {
-        "flag": "Saudi_Arabia.svg",
+        "flag": "Saudi_Arabia",
         "city": "Riyadh",
         "continent": "Asia",
         "currency_code": "SAR",
@@ -4358,7 +4358,7 @@
         "temperature": "24.65"
     },
     "Scotland": {
-        "flag": "Scotland.svg",
+        "flag": "Scotland",
         "city": "Edinburgh",
         "continent": "Europe",
         "currency_code": "GBP",
@@ -4374,7 +4374,7 @@
         "temperature": null
     },
     "Senegal": {
-        "flag": "Senegal.svg",
+        "flag": "Senegal",
         "city": "Dakar",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -4400,7 +4400,7 @@
     },
     "Serbia": {},
     "Seychelles": {
-        "flag": "Seychelles.svg",
+        "flag": "Seychelles",
         "city": "Victoria",
         "continent": "Africa",
         "currency_code": "SCR",
@@ -4422,7 +4422,7 @@
         "temperature": "27.15"
     },
     "Sierra Leone": {
-        "flag": "Sierra_Leone.svg",
+        "flag": "Sierra_Leone",
         "city": "Freetown",
         "continent": "Africa",
         "currency_code": "SLL",
@@ -4449,7 +4449,7 @@
         "temperature": "26.05"
     },
     "Singapore": {
-        "flag": "Singapore.svg",
+        "flag": "Singapore",
         "city": "Singapore",
         "continent": "Asia",
         "currency_code": "SGD",
@@ -4471,7 +4471,7 @@
         "temperature": "26.45"
     },
     "Slovakia": {
-        "flag": "Slovakia.svg",
+        "flag": "Slovakia",
         "city": "Bratislava",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -4495,7 +4495,7 @@
         "temperature": "6.8"
     },
     "Slovenia": {
-        "flag": "Slovenia.svg",
+        "flag": "Slovenia",
         "city": "Ljubljana",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -4517,7 +4517,7 @@
         "temperature": "8.9"
     },
     "Solomon Islands": {
-        "flag": "Solomon_Islands.svg",
+        "flag": "Solomon_Islands",
         "city": "Honiara",
         "continent": "Oceania",
         "currency_code": "SBD",
@@ -4539,7 +4539,7 @@
         "temperature": "25.65"
     },
     "Somalia": {
-        "flag": "Somalia.svg",
+        "flag": "Somalia",
         "city": "Mogadishu",
         "continent": "Africa",
         "currency_code": "SOS",
@@ -4560,7 +4560,7 @@
         "temperature": "27.05"
     },
     "South Africa": {
-        "flag": "South_Africa.svg",
+        "flag": "South_Africa",
         "city": "Pretoria",
         "continent": "Africa",
         "currency_code": "ZAR",
@@ -4606,7 +4606,7 @@
         "temperature": null
     },
     "South Korea": {
-        "flag": "South_Korea.svg",
+        "flag": "South_Korea",
         "city": "Seoul",
         "continent": "Asia",
         "currency_code": "KRW",
@@ -4643,7 +4643,7 @@
         "temperature": null
     },
     "Spain": {
-        "flag": "Spain.svg",
+        "flag": "Spain",
         "city": "Madrid",
         "continent": "Europe",
         "currency_code": "EUR",
@@ -4666,7 +4666,7 @@
         "temperature": "13.3"
     },
     "SriLanka": {
-        "flag": "SriLanka.svg",
+        "flag": "SriLanka",
         "city": null,
         "continent": "Asia",
         "currency_code": "LKR",
@@ -4688,7 +4688,7 @@
         "temperature": null
     },
     "Sudan": {
-        "flag": "Sudan.svg",
+        "flag": "Sudan",
         "city": "Khartum",
         "continent": "Africa",
         "currency_code": "SDG",
@@ -4717,7 +4717,7 @@
         "temperature": "26.9"
     },
     "Suriname": {
-        "flag": "Suriname.svg",
+        "flag": "Suriname",
         "city": "Paramaribo",
         "continent": "South America",
         "currency_code": "SRD",
@@ -4738,7 +4738,7 @@
         "temperature": "25.7"
     },
     "Svalbard and Jan Mayen": {
-        "flag": "Svalbard_and_Jan_Mayen.svg",
+        "flag": "Svalbard_and_Jan_Mayen",
         "city": "Longyearbyen",
         "continent": "Europe",
         "currency_code": "NOK",
@@ -4759,7 +4759,7 @@
         "temperature": null
     },
     "Swaziland": {
-        "flag": "Swaziland.svg",
+        "flag": "Swaziland",
         "city": "Mbabane",
         "continent": "Africa",
         "currency_code": "SZL",
@@ -4780,7 +4780,7 @@
         "temperature": "21.4"
     },
     "Sweden": {
-        "flag": "Sweden.svg",
+        "flag": "Sweden",
         "city": "Stockholm",
         "continent": "Europe",
         "currency_code": "SEK",
@@ -4805,7 +4805,7 @@
         "temperature": "2.1"
     },
     "Switzerland": {
-        "flag": "Switzerland.svg",
+        "flag": "Switzerland",
         "city": "Bern",
         "continent": "Europe",
         "currency_code": "CHF",
@@ -4828,7 +4828,7 @@
         "temperature": "5.5"
     },
     "Syria": {
-        "flag": "Syria.svg",
+        "flag": "Syria",
         "city": "Damascus",
         "continent": "Asia",
         "currency_code": "SYP",
@@ -4849,7 +4849,7 @@
         "temperature": "17.75"
     },
     "Tajikistan": {
-        "flag": "Tajikistan.svg",
+        "flag": "Tajikistan",
         "city": "Dushanbe",
         "continent": "Asia",
         "currency_code": "TJS",
@@ -4871,7 +4871,7 @@
         "temperature": "2"
     },
     "Tanzania": {
-        "flag": "Tanzania.svg",
+        "flag": "Tanzania",
         "city": "Dodoma",
         "continent": "Africa",
         "currency_code": "TZS",
@@ -4901,7 +4901,7 @@
         "temperature": "22.35"
     },
     "Thailand": {
-        "flag": "Thailand.svg",
+        "flag": "Thailand",
         "city": "Bangkok",
         "continent": "Asia",
         "currency_code": "THB",
@@ -4927,7 +4927,7 @@
     },
     "Timor-Leste": {},
     "Togo": {
-        "flag": "Togo.svg",
+        "flag": "Togo",
         "city": "Lom",
         "continent": "Africa",
         "currency_code": "XOF",
@@ -4954,7 +4954,7 @@
         "temperature": "27.15"
     },
     "Tokelau": {
-        "flag": "Tokelau.svg",
+        "flag": "Tokelau",
         "city": "Fakaofo",
         "continent": "Oceania",
         "currency_code": "NZD",
@@ -4975,7 +4975,7 @@
         "temperature": null
     },
     "Tonga": {
-        "flag": "Tonga.svg",
+        "flag": "Tonga",
         "city": "Nuku'alofa",
         "continent": "Oceania",
         "currency_code": "TOP",
@@ -4996,7 +4996,7 @@
         "temperature": "25.25"
     },
     "Trinidad and Tobago": {
-        "flag": "Trinidad_and_Tobago.svg",
+        "flag": "Trinidad_and_Tobago",
         "city": "Port-of-Spain",
         "continent": "North America",
         "currency_code": "TTD",
@@ -5018,7 +5018,7 @@
         "temperature": "25.75"
     },
     "Tunisia": {
-        "flag": "Tunisia.svg",
+        "flag": "Tunisia",
         "city": "Tunis",
         "continent": "Africa",
         "currency_code": "TND",
@@ -5040,7 +5040,7 @@
         "temperature": "19.2"
     },
     "Turkey": {
-        "flag": "Turkey.svg",
+        "flag": "Turkey",
         "city": "Ankara",
         "continent": "Asia",
         "currency_code": "TRY",
@@ -5062,7 +5062,7 @@
         "temperature": "11.1"
     },
     "Turkmenistan": {
-        "flag": "Turkmenistan.svg",
+        "flag": "Turkmenistan",
         "city": "Ashgabat",
         "continent": "Asia",
         "currency_code": "TMT",
@@ -5085,7 +5085,7 @@
         "temperature": "15.1"
     },
     "Turks and Caicos Islands": {
-        "flag": "Turks_and_Caicos_Islands.svg",
+        "flag": "Turks_and_Caicos_Islands",
         "city": "Cockburn Town",
         "continent": "North America",
         "currency_code": "USD",
@@ -5105,7 +5105,7 @@
         "temperature": null
     },
     "Tuvalu": {
-        "flag": "Tuvalu.svg",
+        "flag": "Tuvalu",
         "city": "Funafuti",
         "continent": "Oceania",
         "currency_code": "AUD",
@@ -5127,7 +5127,7 @@
         "temperature": "28"
     },
     "Uganda": {
-        "flag": "Uganda.svg",
+        "flag": "Uganda",
         "city": "Kampala",
         "continent": "Africa",
         "currency_code": "UGX",
@@ -5156,7 +5156,7 @@
         "temperature": "22.8"
     },
     "Ukraine": {
-        "flag": "Ukraine.svg",
+        "flag": "Ukraine",
         "city": "Kyiv",
         "continent": "Europe",
         "currency_code": "UAH",
@@ -5182,7 +5182,7 @@
         "temperature": "8.3"
     },
     "United Arab Emirates": {
-        "flag": "United_Arab_Emirates.svg",
+        "flag": "United_Arab_Emirates",
         "city": "Abu Dhabi",
         "continent": "Asia",
         "currency_code": "AED",
@@ -5203,7 +5203,7 @@
         "temperature": "27"
     },
     "United Kingdom": {
-        "flag": "United_Kingdom.svg",
+        "flag": "United_Kingdom",
         "city": "London",
         "continent": "Europe",
         "currency_code": "GBP",
@@ -5225,7 +5225,7 @@
         "temperature": "8.45"
     },
     "United States": {
-        "flag": "United_States.svg",
+        "flag": "United_States",
         "city": "Washington",
         "continent": "North America",
         "currency_code": "USD",
@@ -5256,7 +5256,7 @@
         "temperature": "8.55"
     },
     "United States Minor Outlying Islands": {
-        "flag": "United_States_Minor_Outlying_Islands.svg",
+        "flag": "United_States_Minor_Outlying_Islands",
         "city": null,
         "continent": "Oceania",
         "currency_code": "USD",
@@ -5276,7 +5276,7 @@
         "temperature": null
     },
     "Uruguay": {
-        "flag": "Uruguay.svg",
+        "flag": "Uruguay",
         "city": "Montevideo",
         "continent": "South America",
         "currency_code": "UYU",
@@ -5296,7 +5296,7 @@
         "temperature": "17.55"
     },
     "Uzbekistan": {
-        "flag": "Uzbekistan.svg",
+        "flag": "Uzbekistan",
         "city": "Toskent",
         "continent": "Asia",
         "currency_code": "UZS",
@@ -5321,7 +5321,7 @@
         "temperature": "12.05"
     },
     "Vanuatu": {
-        "flag": "Vanuatu.svg",
+        "flag": "Vanuatu",
         "city": "Port-Vila",
         "continent": "Oceania",
         "currency_code": "VUV",
@@ -5343,7 +5343,7 @@
         "temperature": "23.95"
     },
     "Venezuela": {
-        "flag": "Venezuela.svg",
+        "flag": "Venezuela",
         "city": "Caracas",
         "continent": "South America",
         "currency_code": "VEF",
@@ -5365,7 +5365,7 @@
         "temperature": "25.35"
     },
     "Vietnam": {
-        "flag": "Vietnam.svg",
+        "flag": "Vietnam",
         "city": "Hanoi",
         "continent": "Asia",
         "currency_code": "VND",
@@ -5433,7 +5433,7 @@
         "temperature": null
     },
     "Wales": {
-        "flag": "Wales.svg",
+        "flag": "Wales",
         "city": "Cardiff",
         "continent": "Europe",
         "currency_code": "GBP",
@@ -5449,7 +5449,7 @@
         "temperature": null
     },
     "Wallis and Futuna": {
-        "flag": "Wallis_and_Futuna.svg",
+        "flag": "Wallis_and_Futuna",
         "city": "Mata-Utu",
         "continent": "Oceania",
         "currency_code": "XPF",
@@ -5470,7 +5470,7 @@
         "temperature": null
     },
     "Western Sahara": {
-        "flag": "Western_Sahara.svg",
+        "flag": "Western_Sahara",
         "city": "El-Aai",
         "continent": "Africa",
         "currency_code": "MAD",
@@ -5490,7 +5490,7 @@
         "temperature": null
     },
     "Yemen": {
-        "flag": "Yemen.svg",
+        "flag": "Yemen",
         "city": "Sanaa",
         "continent": "Asia",
         "currency_code": "YER",
@@ -5535,7 +5535,7 @@
         "temperature": null
     },
     "Zambia": {
-        "flag": "Zambia.svg",
+        "flag": "Zambia",
         "city": "Lusaka",
         "continent": "Africa",
         "currency_code": "ZMW",
@@ -5560,7 +5560,7 @@
         "temperature": "21.4"
     },
     "Zimbabwe": {
-        "flag": "Zimbabwe.svg",
+        "flag": "Zimbabwe",
         "city": "Harare",
         "continent": "Africa",
         "currency_code": "ZWD",
