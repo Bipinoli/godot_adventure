@@ -14,6 +14,8 @@ var btnPressedTexture = load("res://assets/sprites/option_bg_grey.png")
 var normalTexture = load("res://assets/sprites/option_bg_white.png")
 var tickTexture = load("res://assets/sprites/tick.png")
 var crossTexture = load("res://assets/sprites/cross.png")
+var rightSound = load("res://assets/audio/right.ogg")
+var wrongSound = load("res://assets/audio/wrong.ogg")
 
 var scale = null
 
@@ -28,7 +30,6 @@ func _ready():
 
 
 func _correctFeedback():
-	print("correct")
 	var tick = TextureRect.new()
 	tick.set_texture(tickTexture)
 	tick.name = "Tick"
@@ -38,10 +39,11 @@ func _correctFeedback():
 			$Tween.interpolate_property(c, "rect_scale", Vector2(0.4, 0.4) + c.get_scale(), c.get_scale(), 0.3, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 			$Tween.start()
 			break
-	
+	rightSound.set_loop(false)
+	$AudioStreamPlayer.set_stream(rightSound)
+	$AudioStreamPlayer.play()
 	
 func _incorrectFeedback():
-	print("incorrect")
 	var cross = TextureRect.new()
 	cross.set_texture(crossTexture)
 	cross.name = "Cross"
@@ -51,6 +53,10 @@ func _incorrectFeedback():
 			$Tween.interpolate_property(c, "rect_scale", Vector2(0.4, 0.4) + c.get_scale(), c.get_scale(), 0.3, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 			$Tween.start()
 			break
+	wrongSound.set_loop(false)
+	$AudioStreamPlayer.set_stream(wrongSound)
+	$AudioStreamPlayer.play()
+	Input.vibrate_handheld(200)
 			
 
 func _setText(labelText):
