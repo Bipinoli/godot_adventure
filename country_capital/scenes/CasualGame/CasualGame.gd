@@ -1,30 +1,38 @@
 extends Control
 
 
-var question = {}
 var gameManager = null
+
+var _waiting_to_show_right_answer = false
+var _correct_option = null
+var option_selected = false
 
 func _ready():
 	_connectSignals()
 	gameManager = load("res://scenes/CasualGame/GameManager.gd").new()
 	gameManager._init()
+	_newQuestion()
 	
+func _newQuestion():
+	var q = gameManager._prepareQuestion()
+	var question = q['question']
+	var score = q['score']
+	_updateView(question, score)
+	option_selected = false
 
-func _process(delta):
-	pass
-#	print(get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt1").label.get_text())
-
-
-func _updateView():
-	# flag, country, options
+func _updateView(question, score):
 	var flag = get_node("Background/VBoxContainer/FlagArea/FlagBorder/Flag")
 	flag._set_flag(flag._get_flag_texture(question['flag']))
 	get_node("Background/VBoxContainer/FlagArea/CountryName").set_text(question['country'])
-	get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt2")._setText(question['option2'])
-	get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt3")._setText(question['option3'])
-	get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt4")._setText(question['option4'])
-	get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt1")._setText(question['option1'])
+	for i in range(1,5):
+		var option = get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt" + str(i))
+		option._removeCorrectIncorrectVisual()
+		option._setText(question['option'+str(i)])
+	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']) + "/" + str(score['total']))
 	
+	
+func _updateScore(score):
+	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']) + "/" + str(score['total']))
 	
 	
 func _connectSignals():
@@ -36,8 +44,35 @@ func _connectSignals():
 		opt_node.connect("option_selected", self, "_optionSelected")
 
 
-func _optionSelected(text):
-	print("user answered: " + text)
-	question = gameManager._prepareQuestion()
-	print(question)
-	_updateView()
+func _optionSelected(node, text):
+	if option_selected: 
+		return 
+	option_selected = true
+	var result = gameManager._on_user_answer(text)
+	print(result)
+	_updateScore(result['score'])
+	if result['correct']:
+		node._correctVisual()
+		node._correctSound()
+		$Timer.start(0.4)
+	else:
+		node._incorrectVisual()
+		node._incorrectSound()
+		_waiting_to_show_right_answer = true
+		_correct_option = str(result['correct_option']+1)
+		$Timer.start(0.4)
+		
+	
+	
+
+
+
+
+func _on_Timer_timeout():
+	if _waiting_to_show_right_answer:
+		var correctNode = get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt" + _correct_option)
+		correctNode._correctVisual()
+		_waiting_to_show_right_answer = false
+		$Timer.start(1.2)
+		return
+	_newQuestion()

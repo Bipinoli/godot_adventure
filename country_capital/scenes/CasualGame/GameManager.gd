@@ -7,6 +7,9 @@ var countries = []
 var question = {}
 
 
+var score = {'total': 0, 'correct': 0}
+
+
 func _init():
 	var file = File.new()
 	file.open("res://data/countries.json", file.READ)
@@ -31,6 +34,12 @@ func _getRandomInteger(lo, hi, exceptions):
 			return retval
 			
 
+func _selectProperCountry():
+	while true:
+		var retval = _getRandomInteger(0, len(countries), [])
+		if 'flag' in data[countries[retval]] and 'city' in data[countries[retval]] and data[countries[retval]]['city'] != null:
+			return retval
+
 func _selectProperOption(lo, hi, exceptions):
 	while true:
 		var retval = _getRandomInteger(lo, hi, exceptions)
@@ -40,9 +49,7 @@ func _selectProperOption(lo, hi, exceptions):
 	
 func _prepareQuestion():
 	randomize()
-	var num1 = _getRandomInteger(0, len(countries), [])
-	while not 'flag' in data[countries[num1]]:
-		num1 = _getRandomInteger(0, len(countries), [])
+	var num1 = _selectProperCountry()
 	var num2 = _selectProperOption(0, len(countries), [num1])
 	var num3 = _selectProperOption(0, len(countries), [num1, num2])
 	var num4 = _selectProperOption(0, len(countries), [num1, num2, num3])
@@ -59,5 +66,21 @@ func _prepareQuestion():
 	question['option2'] = data[countries[nums[options[1]]]]['city']
 	question['option3'] = data[countries[nums[options[2]]]]['city']
 	question['option4'] = data[countries[nums[options[3]]]]['city']
-	return question
+	
+	question['correct_option'] = options.find(0)
+				
+	score['total'] += 1
+	return {'question': question, 'score': score}
+
+
+func _on_user_answer(answer):
+	if _checkAnswer(answer):
+		score['correct'] += 1
+		return {'correct': true, 'score': score}
+	return {'correct': false, 'correct_option': question['correct_option'], 'score': score}
+
+
+func _checkAnswer(answer):
+	return answer == question['answer']
+		
 

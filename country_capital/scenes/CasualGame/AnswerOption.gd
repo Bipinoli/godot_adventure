@@ -3,7 +3,6 @@ extends Control
 signal option_selected
 
 export var labelText = "A lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandu"
-export var correct = true
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var texture = $TextureRect
@@ -47,10 +46,19 @@ func _incorrectVisual():
 	cross.name = "Cross"
 	add_child(cross)
 	for c in get_children():
-		if c.name == "Cross":
+		if c.name == 'Cross':
 			$Tween.interpolate_property(c, "rect_scale", Vector2(0.4, 0.4) + c.get_scale(), c.get_scale(), 0.3, Tween.TRANS_CUBIC, Tween.EASE_OUT)
 			$Tween.start()
 			break		
+
+
+func _removeCorrectIncorrectVisual():
+	print("------- remove incorrect correct ---- " + self.name)
+	for c in get_children():
+		print(c.name)
+		if "Cross" in c.name or "Tick" in c.name:
+			remove_child(c)
+			c.queue_free()
 
 
 func _correctSound():
@@ -67,16 +75,13 @@ func _incorrectSound():
 
 
 func _setText(labelText):
+	self.labelText = labelText
 	label.set_text(labelText)
 
 
 func _on_Button_button_down():
 	texture.set_texture(btnPressedTexture)
-	emit_signal("option_selected", labelText)
-	if correct:
-		_correctVisual()
-	else:
-		_incorrectVisual()
+	emit_signal("option_selected", self, labelText)
 
 func _on_Button_button_up():
 	texture.set_texture(normalTexture)

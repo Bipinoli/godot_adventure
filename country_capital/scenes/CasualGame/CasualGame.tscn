@@ -59,7 +59,7 @@ __meta__ = {
 
 [node name="Correct" type="Label" parent="Background/TitleArea/VBoxContainer"]
 margin_right = 74.0
-margin_bottom = 22.0
+margin_bottom = 33.0
 size_flags_horizontal = 3
 size_flags_vertical = 7
 size_flags_stretch_ratio = 0.6
@@ -72,15 +72,17 @@ __meta__ = {
 }
 
 [node name="Score" type="Label" parent="Background/TitleArea/VBoxContainer"]
-margin_top = 26.0
+margin_top = 37.0
 margin_right = 74.0
-margin_bottom = 65.0
+margin_bottom = 92.0
 size_flags_horizontal = 3
 size_flags_vertical = 7
 custom_fonts/font = ExtResource( 10 )
-text = "12/20"
+text = "12/20
+"
 align = 1
 valign = 1
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -112,6 +114,7 @@ margin_top = -96.5
 margin_right = 132.5
 margin_bottom = 83.5
 texture = ExtResource( 6 )
+expand = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -185,7 +188,7 @@ margin_right = 411.0
 margin_bottom = 83.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-labelText = "A lonnA lonng lonA lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu KathmanduA lonng lonA lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug lonA lonng long long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandug long capital name Kathmandu  Kathmandu Kathmandu name Kathmandu Kathmandu Kathmandu"
+labelText = "Bander Seri Begawan, Serijawa kun"
 
 [node name="Opt2" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
 anchor_left = 0.0
@@ -197,7 +200,6 @@ margin_bottom = 170.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 labelText = "Bander Seri Begawan, Serijawa kun"
-correct = false
 
 [node name="Opt3" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
 anchor_left = 0.0
@@ -220,3 +222,7 @@ margin_bottom = 344.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 labelText = "Tokyo"
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
