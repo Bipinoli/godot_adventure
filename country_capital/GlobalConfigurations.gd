@@ -1,6 +1,8 @@
 extends Node
 
 
+var theme = "green"
+
 const SCREEN_HEIGHT = 731
 const SCREEN_WIDTH = 411
 

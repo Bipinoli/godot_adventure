@@ -2,9 +2,27 @@ extends Control
 
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
+onready var scene_changer = get_node("/root/SceneChanger")
 
 func _ready():
-	pass
+	_connectSignals()
+
+
+func _connectSignals():
+	get_node("TextureRect/MarginContainer/VBoxContainer/CasualMode").connect("menu_selected", self, "_menuSelected")
+	get_node("TextureRect/MarginContainer/VBoxContainer/TimedMode").connect("menu_selected", self, "_menuSelected")
+	get_node("TextureRect/MarginContainer/VBoxContainer/SurvivalMode").connect("menu_selected", self, "_menuSelected")
+	get_node("TextureRect/MarginContainer/VBoxContainer/ThemeSelection").connect("btn_pressed", self, "_themeSelected")
+	get_node("TextureRect/MarginContainer/VBoxContainer/ThemeSelection2").connect("btn_pressed", self, "_themeSelected")
+
+
+func _menuSelected(name):
+	print(name + " menu selected")
+	scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
+
+func _themeSelected(theme):
+	print("theme selected: " + theme)
+	_update_theme(theme)
 
 
 func _update_theme(color):
@@ -29,30 +47,6 @@ func _update_theme(color):
 		"purple":
 			theme = load(global_configs.THEME_PURPLE)
 			texture = load(global_configs.RECT_PURPLE)
-	print(texture)
-	print(theme)
 	set_theme(theme)
 	$TextureRect.set_texture(texture)
-
-func _on_ThemeSelection_btn1_pressed():
-	_update_theme("blue")
-
-
-func _on_ThemeSelection_btn2_pressed():
-	_update_theme("green")
-	
-
-func _on_ThemeSelection_btn3_pressed():
-	_update_theme("yellow")
-
-
-func _on_ThemeSelection2_btn1_pressed():
-	_update_theme("purple")
-
-
-func _on_ThemeSelection2_btn2_pressed():
-	_update_theme("black")
-
-
-func _on_ThemeSelection2_btn3_pressed():
-	_update_theme("red")
+	global_configs.theme = color

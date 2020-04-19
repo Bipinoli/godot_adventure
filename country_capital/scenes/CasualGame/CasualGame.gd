@@ -7,11 +7,47 @@ var _waiting_to_show_right_answer = false
 var _correct_option = null
 var option_selected = false
 
+onready var global_configs = get_node("/root/GlobalConfigurations")
+
 func _ready():
+	_applyTheme()
 	_connectSignals()
 	gameManager = load("res://scenes/CasualGame/GameManager.gd").new()
 	gameManager._init()
 	_newQuestion()
+	
+	
+	
+func _applyTheme():
+	var optionsTexture = get_node("Background/VBoxContainer/OptionsArea")
+	var titleTexture = get_node("Background/TitleArea")
+	match global_configs.theme:
+		"green":
+			optionsTexture.set_texture(load(global_configs.RECT_GREEN))
+			titleTexture.set_texture(load(global_configs.TITLE_GREEN))
+			set_theme(load(global_configs.THEME_GREEN))
+		"yellow":
+			optionsTexture.set_texture(load(global_configs.RECT_YELLOW))
+			titleTexture.set_texture(load(global_configs.TITLE_YELLOW))
+			set_theme(load(global_configs.THEME_YELLOW))
+		"blue":
+			optionsTexture.set_texture(load(global_configs.RECT_BLUE))
+			titleTexture.set_texture(load(global_configs.TITLE_BLUE))
+			set_theme(load(global_configs.THEME_BLUE))
+		"purple":
+			optionsTexture.set_texture(load(global_configs.RECT_PURPLE))
+			titleTexture.set_texture(load(global_configs.TITLE_PURPLE))
+			set_theme(load(global_configs.THEME_PURPLE))
+		"black":
+			optionsTexture.set_texture(load(global_configs.RECT_BLACK))
+			titleTexture.set_texture(load(global_configs.TITLE_BLACK))
+			set_theme(load(global_configs.THEME_BLACK))
+		"red":
+			optionsTexture.set_texture(load(global_configs.RECT_RED))
+			titleTexture.set_texture(load(global_configs.TITLE_RED))
+			set_theme(load(global_configs.THEME_RED))
+			
+			
 	
 func _newQuestion():
 	var q = gameManager._prepareQuestion()
@@ -19,6 +55,7 @@ func _newQuestion():
 	var score = q['score']
 	_updateView(question, score)
 	option_selected = false
+
 
 func _updateView(question, score):
 	var flag = get_node("Background/VBoxContainer/FlagArea/FlagBorder/Flag")
@@ -35,6 +72,7 @@ func _updateScore(score):
 	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']) + "/" + str(score['total']))
 	
 	
+	
 func _connectSignals():
 	var options = []	
 	for i in range(4):
@@ -42,6 +80,7 @@ func _connectSignals():
 		var opt_node = get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/" + opt)
 		print(opt_node)
 		opt_node.connect("option_selected", self, "_optionSelected")
+
 
 
 func _optionSelected(node, text):

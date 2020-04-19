@@ -1,8 +1,10 @@
 extends Control
 
-signal btn1_pressed
-signal btn2_pressed
-signal btn3_pressed
+signal btn_pressed
+
+export var btn1_color = "blue"
+export var btn2_color = "green"
+export var btn3_color = "yellow"
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var texture = get_node("TextureRect")
@@ -34,14 +36,14 @@ func _structure_as_type2():
 
 func _on_Button1_button_down():
 	print("button 1")
-	emit_signal("btn1_pressed")
+	emit_signal("btn_pressed", btn1_color)
 
 
 func _on_Button2_button_down():
 	print("button 2")
-	emit_signal("btn2_pressed")
+	emit_signal("btn_pressed", btn2_color)
 
 
 func _on_Button3_button_down():
 	print("button 3")
-	emit_signal("btn3_pressed")
+	emit_signal("btn_pressed", btn3_color)

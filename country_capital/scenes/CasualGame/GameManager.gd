@@ -16,7 +16,7 @@ func _init():
 	var json = file.get_as_text()
 	file.close()
 	data = JSON.parse(json).get_result()
-	print(data["Afghanistan"])
+#	print(data["Afghanistan"])
 	for d in data:
 		countries.push_back(d)
 
@@ -69,11 +69,11 @@ func _prepareQuestion():
 	
 	question['correct_option'] = options.find(0)
 				
-	score['total'] += 1
 	return {'question': question, 'score': score}
 
 
 func _on_user_answer(answer):
+	score['total'] += 1
 	if _checkAnswer(answer):
 		score['correct'] += 1
 		return {'correct': true, 'score': score}

@@ -1,6 +1,7 @@
 extends Control
 
-var textureRectScaled = false
+
+signal menu_selected
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var aboveTexture = get_node("BelowTexture/AboveTexture")
@@ -32,11 +33,11 @@ func _ready():
 
 
 func _on_TextureButton_button_down():
-	print("down")
-	if tween.is_active():
-		print("active tween")
-		return
-	print("no active tween")
+	emit_signal("menu_selected", self.name)
+#	if tween.is_active():
+#		print("active tween")
+#		return
+#	print("no active tween")
 	tween.interpolate_property(aboveTexture, "rect_scale", aboveTexture.get_scale(), Vector2(+0.3, 0) + aboveTexture.get_scale(), 0.1, Tween.TRANS_CUBIC, Tween.EASE_IN_OUT)
 	tween.start()
 
