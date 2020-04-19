@@ -6,6 +6,13 @@ onready var scene_changer = get_node("/root/SceneChanger")
 
 func _ready():
 	_connectSignals()
+	_update_theme(global_configs.theme)
+	
+
+func _notification(what):
+	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
+		# quit the game
+		get_tree().quit() 
 
 
 func _connectSignals():

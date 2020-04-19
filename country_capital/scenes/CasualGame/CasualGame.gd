@@ -8,6 +8,7 @@ var _correct_option = null
 var option_selected = false
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
+onready var scene_changer = get_node("/root/SceneChanger")
 
 func _ready():
 	_applyTheme()
@@ -15,6 +16,12 @@ func _ready():
 	gameManager = load("res://scenes/CasualGame/GameManager.gd").new()
 	gameManager._init()
 	_newQuestion()
+	
+func _notification(what):
+	match what:
+		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
+			print("go back --------------------------------------------")
+			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
 	
 	
 	
