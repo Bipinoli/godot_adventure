@@ -19,13 +19,21 @@ func _connectSignals():
 	get_node("TextureRect/MarginContainer/VBoxContainer/CasualMode").connect("menu_selected", self, "_menuSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/TimedMode").connect("menu_selected", self, "_menuSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/SurvivalMode").connect("menu_selected", self, "_menuSelected")
+	get_node("TextureRect/MarginContainer/VBoxContainer/LearningMode").connect("menu_selected", self, "_menuSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/ThemeSelection").connect("btn_pressed", self, "_themeSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/ThemeSelection2").connect("btn_pressed", self, "_themeSelected")
 
 
 func _menuSelected(name):
 	print(name + " menu selected")
-	scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
+	match name:
+		"CasualMode":
+			scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
+		"LearningMode":
+			scene_changer.changeScene("res://scenes/LearningGame/LearningGame.tscn")
+		_:
+			scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
+	
 
 func _themeSelected(theme):
 	print("theme selected: " + theme)

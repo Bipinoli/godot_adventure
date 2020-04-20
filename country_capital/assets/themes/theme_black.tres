@@ -1,6 +1,11 @@
-[gd_resource type="Theme" load_steps=3 format=2]
+[gd_resource type="Theme" load_steps=5 format=2]
 
 [ext_resource path="res://assets/Montserrat/Montserrat-Regular.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.160784, 0.184314, 0.211765, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
 
 [sub_resource type="DynamicFont" id=1]
 size = 20
@@ -9,7 +14,7 @@ font_data = ExtResource( 1 )
 
 [resource]
 default_font = SubResource( 1 )
-Label/colors/font_color = Color( 0, 0, 0, 1 )
+Label/colors/font_color = Color( 0.160784, 0.184314, 0.211765, 1 )
 Label/colors/font_color_shadow = Color( 0, 0, 0, 0 )
 Label/colors/font_outline_modulate = Color( 1, 1, 1, 1 )
 Label/constants/line_spacing = 3
@@ -18,3 +23,30 @@ Label/constants/shadow_offset_x = 1
 Label/constants/shadow_offset_y = 1
 Label/fonts/font = null
 Label/styles/normal = null
+PopupMenu/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+PopupMenu/colors/font_color_accel = Color( 0.7, 0.7, 0.7, 0.8 )
+PopupMenu/colors/font_color_disabled = Color( 0.4, 0.4, 0.4, 0.8 )
+PopupMenu/colors/font_color_hover = Color( 0.88, 0.88, 0.88, 1 )
+PopupMenu/constants/hseparation = 4
+PopupMenu/constants/vseparation = 4
+PopupMenu/fonts/font = null
+PopupMenu/icons/checked = null
+PopupMenu/icons/radio_checked = null
+PopupMenu/icons/radio_unchecked = null
+PopupMenu/icons/submenu = null
+PopupMenu/icons/unchecked = null
+PopupMenu/styles/hover = null
+PopupMenu/styles/labeled_separator_left = null
+PopupMenu/styles/labeled_separator_right = null
+PopupMenu/styles/panel = SubResource( 3 )
+PopupMenu/styles/panel_disabled = null
+PopupMenu/styles/separator = null
+VScrollBar/icons/decrement = null
+VScrollBar/icons/decrement_highlight = null
+VScrollBar/icons/increment = null
+VScrollBar/icons/increment_highlight = null
+VScrollBar/styles/grabber = null
+VScrollBar/styles/grabber_highlight = null
+VScrollBar/styles/grabber_pressed = null
+VScrollBar/styles/scroll = SubResource( 2 )
+VScrollBar/styles/scroll_focus = null

@@ -36,3 +36,4 @@ text = "Label Here"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="button_down" from="Texture" to="." method="_on_Texture_button_down"]

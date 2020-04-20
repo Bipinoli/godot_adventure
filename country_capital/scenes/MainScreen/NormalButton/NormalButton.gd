@@ -1,6 +1,8 @@
 extends Control
 
 
+signal menu_selected
+
 export var labelText = "LEARNING Mode"
 
 
@@ -16,3 +18,7 @@ func _ready():
 
 func _setLabel(labelText):
 	get_node("Texture/Label").set_text(labelText)
+
+
+func _on_Texture_button_down():
+	emit_signal("menu_selected", self.name)
