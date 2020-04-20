@@ -53,7 +53,6 @@ func _incorrectVisual():
 
 
 func _removeCorrectIncorrectVisual():
-	print("------- remove incorrect correct ---- " + self.name)
 	for c in get_children():
 		print(c.name)
 		if "Cross" in c.name or "Tick" in c.name:
