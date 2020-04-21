@@ -8,6 +8,9 @@ onready var flag = get_node("ColorRect/Flag")
 onready var country = get_node("ColorRect/Country")
 onready var capital = get_node("ColorRect/Capital")
 
+var touchStartPosition = null
+
+
 func _ready():
 #	_setCountry("united arab emirates and historical")
 	pass
@@ -44,14 +47,15 @@ func _getCountry():
 
 
 func _on_TextureButton_button_down():
-	$Timer.start(0.1)
+	touchStartPosition = get_viewport().get_mouse_position() 
 
 
 func _on_TextureButton_button_up():
-	# it is click if timer hasn't finish else it is a swipe
-	if not $Timer.is_stopped():
-		$Timer.stop()
-		emit_signal("listitem_clicked", _getCountry())
+	# swipe if the distance traveled holding mouse is more than 10 pixels
+	var touchEndPosition = get_viewport().get_mouse_position()
+	var length = (touchEndPosition - touchStartPosition).length()
+	if length <= 10:
 #		print("click")
+		emit_signal("listitem_clicked", _getCountry())
 #	else:
 #		print("swipe")

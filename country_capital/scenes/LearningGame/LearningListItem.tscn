@@ -75,8 +75,5 @@ anchor_bottom = 1.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Timer" type="Timer" parent="."]
-one_shot = true
 [connection signal="button_down" from="ColorRect/TextureButton" to="." method="_on_TextureButton_button_down"]
 [connection signal="button_up" from="ColorRect/TextureButton" to="." method="_on_TextureButton_button_up"]
