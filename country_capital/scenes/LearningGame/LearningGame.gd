@@ -29,6 +29,8 @@ func _updateView(continent=null):
 	
 func _listItemSelected(country):
 	print("-- selected: ", country)
+	global_configs.detail_selected_country = country
+	scene_changer.changeScene("res://scenes/LearningGame/DetailsScreen.tscn")
 	
 
 func _notification(what):

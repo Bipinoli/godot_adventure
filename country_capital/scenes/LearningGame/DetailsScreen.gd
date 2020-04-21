@@ -7,13 +7,23 @@ export var test_country_name = "United Arab Emirates the great nation in the gal
 onready var flag = get_node("ColorRect/FlagArea/Flag")
 onready var country = get_node("ColorRect/DetailsArea/Country")
 onready var detailsContainer = get_node("ColorRect/DetailsArea/ScrollContainer/VBoxContainer")
+onready var global_configs = get_node("/root/GlobalConfigurations")
+onready var scene_changer = get_node("/root/SceneChanger")
 
 var gameManager = load("res://scenes/LearningGame/LearningGameManager.gd").new()
 
 
 func _ready():
 	gameManager._init()
-	_setup("China")
+	_setup(global_configs.detail_selected_country)
+	_applyTheme(global_configs.theme)
+
+
+func _notification(what):
+	match what:
+		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
+			print("go back from details screen --------------------------------------------")
+			scene_changer.changeScene("res://scenes/LearningGame/LearningGame.tscn")
 
 
 func _setup(country_name):
@@ -51,6 +61,38 @@ func _updateView(details):
 					text += description[i]
 				description = text
 			var listItem = load("res://scenes/LearningGame/DetailInfo.tscn").instance()
-			listItem.rect_min_size.y = 60
+			listItem.rect_min_size.y = 40
 			detailsContainer.call_deferred("add_child", listItem)
 			listItem.call_deferred("_setup", title, description)
+
+
+
+func _applyTheme(color):
+	var colorRect = get_node("ColorRect")
+	var titleTexture = get_node("ColorRect/TitleTexture")
+	match color:
+		"green":
+			colorRect.color = Color(global_configs.COLOR_GREEN)
+			titleTexture.set_texture(load(global_configs.LEARN_TITLE_GREEN))
+			set_theme(load(global_configs.THEME_GREEN))
+		"yellow":
+			colorRect.color = Color(global_configs.COLOR_YELLOW)
+			titleTexture.set_texture(load(global_configs.LEARN_TITLE_YELLOW))
+			set_theme(load(global_configs.THEME_YELLOW))
+			get_node("ColorRect/OptionButton/Separator").color = Color(global_configs.COLOR_BLACK)
+		"blue":
+			colorRect.color = Color(global_configs.COLOR_BLUE)
+			titleTexture.set_texture(load(global_configs.LEARN_TITLE_BLUE))
+			set_theme(load(global_configs.THEME_BLUE))
+		"purple":
+			colorRect.color = Color(global_configs.COLOR_PURPLE)
+			titleTexture.set_texture(load(global_configs.LEARN_TITLE_PURPLE))
+			set_theme(load(global_configs.THEME_PURPLE))
+		"black":
+			colorRect.color = Color(global_configs.COLOR_BLACK)
+			titleTexture.set_texture(load(global_configs.LEARN_TITLE_BLACK))
+			set_theme(load(global_configs.THEME_BLACK))
+		"red":
+			colorRect.color = Color(global_configs.COLOR_RED)
+			titleTexture.set_texture(load(global_configs.LEARN_TITLE_RED))
+			set_theme(load(global_configs.THEME_RED))

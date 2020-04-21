@@ -30,8 +30,7 @@ func _setDescription(description):
 
 func _adaptSize():
 	# if there are more than 10 characters it overflows
-	# if there are more than 30 characters it overflows
-	var overflow_rows = titleNode.get_text().length() / 10
+	var overflow_rows = titleNode.get_text().length() / 20
 	overflow_rows = max(overflow_rows, len(descriptionNode.get_text())/30)
 	var extraSpace = overflow_rows * 24
 	var currentSize = colorRect.get_size()

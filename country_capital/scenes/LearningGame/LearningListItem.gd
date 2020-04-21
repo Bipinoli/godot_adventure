@@ -44,7 +44,7 @@ func _getCountry():
 
 
 func _on_TextureButton_button_down():
-	$Timer.start(0.2)
+	$Timer.start(0.1)
 
 
 func _on_TextureButton_button_up():

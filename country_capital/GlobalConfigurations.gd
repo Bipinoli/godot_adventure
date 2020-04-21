@@ -2,6 +2,7 @@ extends Node
 
 
 var theme = "green"
+var detail_selected_country = "null"
 
 const SCREEN_HEIGHT = 731
 const SCREEN_WIDTH = 411
