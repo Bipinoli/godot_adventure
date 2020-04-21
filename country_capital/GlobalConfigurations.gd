@@ -3,6 +3,7 @@ extends Node
 
 var theme = "green"
 var detail_selected_country = "null"
+var detail_screen_routed_from_casual_game = false
 
 const SCREEN_HEIGHT = 731
 const SCREEN_WIDTH = 411

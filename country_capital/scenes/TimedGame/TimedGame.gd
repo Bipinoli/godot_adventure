@@ -6,10 +6,11 @@ var gameManager = null
 var _waiting_to_show_right_answer = false
 var _correct_option = null
 var option_selected = false
-var country = null
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var game_timer = get_node("GameTimer")
+onready var countDown = get_node("Background/TitleArea/TimeArea/CountDown")
 
 func _ready():
 	_applyTheme()
@@ -17,11 +18,24 @@ func _ready():
 	gameManager = load("res://scenes/Common/GameManager.gd").new()
 	gameManager._init()
 	_newQuestion()
+	game_timer.start(30)
+	
+	
+
+func _process(delta):
+	var timeLeft = game_timer.get_time_left()
+	var text = str(int(timeLeft))
+	if text.length() < 2:
+		text = "0" + text
+	text = "0:" + text
+	countDown.set_text(text)
+	
+	
 	
 func _notification(what):
 	match what:
 		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
-			print("go back from Casual Game --------------------------------------------")
+			print("go back from Timed Game --------------------------------------------")
 			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
 	
 	
@@ -63,7 +77,7 @@ func _newQuestion():
 	var score = q['score']
 	_updateView(question, score)
 	option_selected = false
-	country = question['country']
+
 
 func _updateView(question, score):
 	var flag = get_node("Background/VBoxContainer/FlagArea/FlagBorder/Flag")
@@ -113,8 +127,6 @@ func _optionSelected(node, text):
 	
 
 
-
-
 func _on_Timer_timeout():
 	if _waiting_to_show_right_answer:
 		var correctNode = get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt" + _correct_option)
@@ -125,7 +137,6 @@ func _on_Timer_timeout():
 	_newQuestion()
 
 
-func _on_FlagButton_button_down():
-	global_configs.detail_selected_country = country
-	global_configs.detail_screen_routed_from_casual_game = true
-	scene_changer.changeScene("res://scenes/LearningGame/DetailsScreen.tscn")
+
+func _on_GameTimer_timeout():
+	print("----  game over -----")

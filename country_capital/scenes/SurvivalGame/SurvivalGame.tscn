@@ -1,22 +1,22 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://assets/sprites/title_green.png" type="Texture" id=1]
-[ext_resource path="res://assets/themes/theme_green.tres" type="Theme" id=2]
-[ext_resource path="res://data/flags/Anguilla.png" type="Texture" id=3]
-[ext_resource path="res://assets/sprites/rect_white.svg" type="Texture" id=4]
-[ext_resource path="res://assets/sprites/rect_green.png" type="Texture" id=5]
-[ext_resource path="res://assets/sprites/flag_border.png" type="Texture" id=6]
-[ext_resource path="res://scenes/Common/Flag.gd" type="Script" id=7]
-[ext_resource path="res://scenes/Common/AnswerOption/AnswerOption.tscn" type="PackedScene" id=8]
-[ext_resource path="res://scenes/CasualGame/CasualGame.gd" type="Script" id=9]
-[ext_resource path="res://assets/fonts/ScoreNumber.tres" type="DynamicFont" id=10]
-[ext_resource path="res://assets/fonts/ScoreLabel.tres" type="DynamicFont" id=11]
+[ext_resource path="res://assets/sprites/rect_white.svg" type="Texture" id=1]
+[ext_resource path="res://assets/sprites/rect_green.png" type="Texture" id=2]
+[ext_resource path="res://assets/fonts/ScoreNumber.tres" type="DynamicFont" id=3]
+[ext_resource path="res://scenes/SurvivalGame/SurvivalGame.gd" type="Script" id=4]
+[ext_resource path="res://assets/sprites/flag_border.png" type="Texture" id=5]
+[ext_resource path="res://scenes/Common/AnswerOption/AnswerOption.tscn" type="PackedScene" id=6]
+[ext_resource path="res://data/flags/Anguilla.png" type="Texture" id=7]
+[ext_resource path="res://assets/themes/theme_green.tres" type="Theme" id=8]
+[ext_resource path="res://assets/fonts/ScoreLabel.tres" type="DynamicFont" id=9]
+[ext_resource path="res://scenes/Common/Flag.gd" type="Script" id=10]
+[ext_resource path="res://assets/sprites/title_green.png" type="Texture" id=11]
 
-[node name="CasualGame" type="Control"]
+[node name="SurvivalGame" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-theme = ExtResource( 2 )
-script = ExtResource( 9 )
+theme = ExtResource( 8 )
+script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -24,7 +24,7 @@ __meta__ = {
 [node name="Background" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 4 )
+texture = ExtResource( 1 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -38,7 +38,7 @@ margin_right = 205.5
 margin_bottom = 65.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-texture = ExtResource( 1 )
+texture = ExtResource( 11 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -63,7 +63,7 @@ margin_bottom = 23.0
 size_flags_horizontal = 3
 size_flags_vertical = 7
 size_flags_stretch_ratio = 0.6
-custom_fonts/font = ExtResource( 11 )
+custom_fonts/font = ExtResource( 9 )
 text = "Correct"
 align = 1
 valign = 2
@@ -77,7 +77,7 @@ margin_right = 74.0
 margin_bottom = 76.0
 size_flags_horizontal = 3
 size_flags_vertical = 7
-custom_fonts/font = ExtResource( 10 )
+custom_fonts/font = ExtResource( 3 )
 text = "12/20
 "
 align = 1
@@ -112,7 +112,7 @@ margin_left = -132.5
 margin_top = -96.5
 margin_right = 132.5
 margin_bottom = 83.5
-texture = ExtResource( 6 )
+texture = ExtResource( 5 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -128,17 +128,13 @@ margin_bottom = 5.0
 rect_clip_content = true
 size_flags_horizontal = 3
 size_flags_vertical = 6
-texture = ExtResource( 3 )
+texture = ExtResource( 7 )
 expand = true
-script = ExtResource( 7 )
+script = ExtResource( 10 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 country = "Barbados"
-
-[node name="FlagButton" type="TextureButton" parent="Background/VBoxContainer/FlagArea/FlagBorder/Flag"]
-anchor_right = 1.0
-anchor_bottom = 1.0
 
 [node name="CountryName" type="Label" parent="Background/VBoxContainer/FlagArea"]
 anchor_left = 0.5
@@ -164,7 +160,7 @@ margin_right = 411.0
 margin_bottom = 731.0
 size_flags_horizontal = 11
 size_flags_vertical = 11
-texture = ExtResource( 5 )
+texture = ExtResource( 2 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -183,7 +179,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Opt1" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+[node name="Opt1" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 6 )]
 anchor_left = 0.0
 anchor_right = 0.0
 margin_left = 0.0
@@ -193,7 +189,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 labelText = "Bander Seri Begawan, Serijawa kun"
 
-[node name="Opt2" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+[node name="Opt2" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 6 )]
 anchor_left = 0.0
 anchor_right = 0.0
 margin_left = 0.0
@@ -204,7 +200,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 labelText = "Bander Seri Begawan, Serijawa kun"
 
-[node name="Opt3" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+[node name="Opt3" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 6 )]
 anchor_left = 0.0
 anchor_right = 0.0
 margin_left = 0.0
@@ -215,7 +211,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 labelText = "Kathmandu"
 
-[node name="Opt4" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 8 )]
+[node name="Opt4" parent="Background/VBoxContainer/OptionsArea/VBoxContainer" instance=ExtResource( 6 )]
 anchor_left = 0.0
 anchor_right = 0.0
 margin_left = 0.0
@@ -228,5 +224,4 @@ labelText = "Tokyo"
 
 [node name="Timer" type="Timer" parent="."]
 one_shot = true
-[connection signal="button_down" from="Background/VBoxContainer/FlagArea/FlagBorder/Flag/FlagButton" to="." method="_on_FlagButton_button_down"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

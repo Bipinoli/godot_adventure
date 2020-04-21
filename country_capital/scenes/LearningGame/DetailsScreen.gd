@@ -23,7 +23,11 @@ func _notification(what):
 	match what:
 		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 			print("go back from details screen --------------------------------------------")
-			scene_changer.changeScene("res://scenes/LearningGame/LearningGame.tscn")
+			if global_configs.detail_screen_routed_from_casual_game:
+				global_configs.detail_screen_routed_from_casual_game = false
+				scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
+			else:
+				scene_changer.changeScene("res://scenes/LearningGame/LearningGame.tscn")
 
 
 func _setup(country_name):

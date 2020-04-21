@@ -6,7 +6,6 @@ var gameManager = null
 var _waiting_to_show_right_answer = false
 var _correct_option = null
 var option_selected = false
-var country = null
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
@@ -21,7 +20,7 @@ func _ready():
 func _notification(what):
 	match what:
 		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
-			print("go back from Casual Game --------------------------------------------")
+			print("go back from Survival Game --------------------------------------------")
 			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
 	
 	
@@ -63,7 +62,7 @@ func _newQuestion():
 	var score = q['score']
 	_updateView(question, score)
 	option_selected = false
-	country = question['country']
+
 
 func _updateView(question, score):
 	var flag = get_node("Background/VBoxContainer/FlagArea/FlagBorder/Flag")
@@ -73,11 +72,11 @@ func _updateView(question, score):
 		var option = get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt" + str(i))
 		option._removeCorrectIncorrectVisual()
 		option._setText(question['option'+str(i)])
-	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']) + "/" + str(score['total']))
+	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']))
 	
 	
 func _updateScore(score):
-	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']) + "/" + str(score['total']))
+	get_node("Background/TitleArea/VBoxContainer/Score").set_text(str(score['correct']))
 	
 	
 	
@@ -123,9 +122,3 @@ func _on_Timer_timeout():
 		$Timer.start(1.2)
 		return
 	_newQuestion()
-
-
-func _on_FlagButton_button_down():
-	global_configs.detail_selected_country = country
-	global_configs.detail_screen_routed_from_casual_game = true
-	scene_changer.changeScene("res://scenes/LearningGame/DetailsScreen.tscn")

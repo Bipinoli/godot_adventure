@@ -29,6 +29,10 @@ func _menuSelected(name):
 	match name:
 		"CasualMode":
 			scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
+		'TimedMode':
+			scene_changer.changeScene("res://scenes/TimedGame/TimedGame.tscn")
+		'SurvivalMode':
+			scene_changer.changeScene("res://scenes/SurvivalGame/SurvivalGame.tscn")
 		"LearningMode":
 			scene_changer.changeScene("res://scenes/LearningGame/LearningGame.tscn")
 		_:

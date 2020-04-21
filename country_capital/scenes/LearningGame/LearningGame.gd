@@ -36,7 +36,7 @@ func _listItemSelected(country):
 func _notification(what):
 	match what:
 		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
-			print("go back --------------------------------------------")
+			print("go back from Learning Game --------------------------------------------")
 			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
 	
 
