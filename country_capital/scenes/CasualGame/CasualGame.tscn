@@ -6,11 +6,12 @@
 [ext_resource path="res://assets/sprites/rect_white.svg" type="Texture" id=4]
 [ext_resource path="res://assets/sprites/rect_green.png" type="Texture" id=5]
 [ext_resource path="res://assets/sprites/flag_border.png" type="Texture" id=6]
-[ext_resource path="res://scenes/CasualGame/Flag.gd" type="Script" id=7]
+[ext_resource path="res://scenes/Common/Flag.gd" type="Script" id=7]
 [ext_resource path="res://scenes/CasualGame/AnswerOption.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/CasualGame/CasualGame.gd" type="Script" id=9]
 [ext_resource path="res://assets/fonts/ScoreNumber.tres" type="DynamicFont" id=10]
 [ext_resource path="res://assets/fonts/ScoreLabel.tres" type="DynamicFont" id=11]
+
 
 [node name="CasualGame" type="Control"]
 anchor_right = 1.0

@@ -10,7 +10,7 @@ func _init():
 	var json = file.get_as_text()
 	file.close()
 	data = JSON.parse(json).get_result()
-#	print(data["Afghanistan"])
+	print(data["Afghanistan"])
 	for d in data:
 		countries.push_back(d)
 
@@ -25,5 +25,9 @@ func _retrieveCountries(continent=null):
 	
 	
 func _retrieveCountryDetails(country):
-	pass
+	var retval = {'country': country, 'details': {} }
+	for key in data[country].keys():
+		if data[country][key] != null:
+			retval['details'][key] = data[country][key]
+	return retval
 

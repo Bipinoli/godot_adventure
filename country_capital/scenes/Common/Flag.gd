@@ -19,12 +19,12 @@ func _set_flag(flag):
 	var scale = 1
 	
 	if flag.get_width() > get_parent().get_rect().size.x:
-		print(" too wide ------")
+		print(" flag too wide ------")
 		scale = (get_parent().get_rect().size.x - 10)/ flag.get_width() 
 		print("scale border by: ", scale)
 		set_scale(Vector2(scale, scale))
 	elif flag.get_height() < get_parent().get_rect().size.y:
-		print(" too tall -------")
+		print(" flag too tall -------")
 		scale = flag.get_height() / (get_parent().get_rect().size.y - 10)
 		print("scale border by: ", scale)
 		set_scale(Vector2(scale, scale))
