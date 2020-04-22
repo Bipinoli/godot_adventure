@@ -3,8 +3,20 @@ extends Control
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var casualModeNode = get_node("TextureRect/MarginContainer/VBoxContainer/CasualMode")
+onready var timedModeNode = get_node("TextureRect/MarginContainer/VBoxContainer/TimedMode")
+onready var survivalModeNode = get_node("TextureRect/MarginContainer/VBoxContainer/SurvivalMode")
+onready var dataPersistence = get_node("/root/DataPersistence")
 
 func _ready():
+	dataPersistence._setup()
+	global_configs.theme = dataPersistence.getTheme()
+	var casualHighScore = dataPersistence.getCasualHighScore()
+	var timedHighScore = dataPersistence.getTimedHighScore()
+	var survivalHighScore = dataPersistence.getSurvivalHighScore()
+	casualModeNode._setHighScore(str(casualHighScore[0]) + "/" + str(casualHighScore[0] + casualHighScore[1]))
+	timedModeNode._setHighScore(str(timedHighScore[0]) + "/" + str(timedHighScore[0] + timedHighScore[1]))
+	survivalModeNode._setHighScore(str(survivalHighScore))
 	_connectSignals()
 	_update_theme(global_configs.theme)
 	
@@ -16,9 +28,9 @@ func _notification(what):
 
 
 func _connectSignals():
-	get_node("TextureRect/MarginContainer/VBoxContainer/CasualMode").connect("menu_selected", self, "_menuSelected")
-	get_node("TextureRect/MarginContainer/VBoxContainer/TimedMode").connect("menu_selected", self, "_menuSelected")
-	get_node("TextureRect/MarginContainer/VBoxContainer/SurvivalMode").connect("menu_selected", self, "_menuSelected")
+	casualModeNode.connect("menu_selected", self, "_menuSelected")
+	timedModeNode.connect("menu_selected", self, "_menuSelected")
+	survivalModeNode.connect("menu_selected", self, "_menuSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/LearningMode").connect("menu_selected", self, "_menuSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/ThemeSelection").connect("btn_pressed", self, "_themeSelected")
 	get_node("TextureRect/MarginContainer/VBoxContainer/ThemeSelection2").connect("btn_pressed", self, "_themeSelected")
@@ -41,6 +53,7 @@ func _menuSelected(name):
 
 func _themeSelected(theme):
 	print("theme selected: " + theme)
+	dataPersistence.saveTheme(theme)
 	_update_theme(theme)
 
 

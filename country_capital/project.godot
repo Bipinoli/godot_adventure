@@ -27,6 +27,7 @@ config/quit_on_go_back=false
 
 GlobalConfigurations="*res://GlobalConfigurations.gd"
 SceneChanger="*res://scenes/SceneChanger/SceneChanger.tscn"
+DataPersistence="*res://scenes/Common/DataPersistence.gd"
 
 [display]
 

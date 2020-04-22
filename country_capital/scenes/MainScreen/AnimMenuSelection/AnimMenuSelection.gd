@@ -46,7 +46,7 @@ func _setLabel(labelText):
 	get_node("BelowTexture/AboveTexture/Label").set_text(labelText)
 
 func _setHighScore(highScore):
-	get_node("BelowTexture/VBoxContainer/Label2").set_text(str(highScore))
+	get_node("BelowTexture/VBoxContainer/Score").set_text(str(highScore))
 
 func _alternateStructure():
 	aboveTexture.set_pivot_offset(Vector2(aboveTexture.get_rect().size.x, 0))

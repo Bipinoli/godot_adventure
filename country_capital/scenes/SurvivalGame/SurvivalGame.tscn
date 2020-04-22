@@ -8,7 +8,7 @@
 [ext_resource path="res://scenes/Common/AnswerOption/AnswerOption.tscn" type="PackedScene" id=6]
 [ext_resource path="res://data/flags/Anguilla.png" type="Texture" id=7]
 [ext_resource path="res://assets/themes/theme_green.tres" type="Theme" id=8]
-[ext_resource path="res://assets/fonts/ScoreLabel.tres" type="DynamicFont" id=9]
+[ext_resource path="res://assets/fonts/highScoreLabel.tres" type="DynamicFont" id=9]
 [ext_resource path="res://scenes/Common/Flag.gd" type="Script" id=10]
 [ext_resource path="res://assets/sprites/title_green.png" type="Texture" id=11]
 

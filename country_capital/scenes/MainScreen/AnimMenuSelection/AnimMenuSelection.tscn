@@ -40,16 +40,16 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="BelowTexture/VBoxContainer"]
-margin_right = 99.0
+margin_right = 101.0
 margin_bottom = 23.0
 custom_fonts/font = SubResource( 1 )
-text = "High Score"
+text = "Best Game"
 align = 1
 valign = 1
 
-[node name="Label2" type="Label" parent="BelowTexture/VBoxContainer"]
+[node name="Score" type="Label" parent="BelowTexture/VBoxContainer"]
 margin_top = 27.0
-margin_right = 99.0
+margin_right = 101.0
 margin_bottom = 41.0
 text = "20"
 align = 1

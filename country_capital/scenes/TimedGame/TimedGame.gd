@@ -6,9 +6,12 @@ var gameManager = null
 var _waiting_to_show_right_answer = false
 var _correct_option = null
 var option_selected = false
+var correctAns = 0
+var wrongAns = 0
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var dataPersistence = get_node("/root/DataPersistence")
 onready var game_timer = get_node("GameTimer")
 onready var countDown = get_node("Background/TitleArea/TimeArea/CountDown")
 
@@ -115,15 +118,33 @@ func _optionSelected(node, text):
 	if result['correct']:
 		node._correctVisual()
 		node._correctSound()
+		correctAns += 1
 		$Timer.start(0.4)
 	else:
 		node._incorrectVisual()
 		node._incorrectSound()
 		_waiting_to_show_right_answer = true
 		_correct_option = str(result['correct_option']+1)
+		wrongAns += 1
 		$Timer.start(0.4)
 		
 	
+
+
+func _compareScore(r1, w1, r2, w2):
+	if (r2+w2) > (r1+w1):
+		return [r2, w2]
+	elif (r1+w1) > (r2+w2):
+		return [r1, w1]
+	elif r1 >= r2:
+		return [r1, w1]
+	else:
+		return [r2, w2]
+
+func _updateHighScore():
+	var prev = dataPersistence.getTimedHighScore()
+	var highScore = _compareScore(prev[0], prev[1], correctAns, wrongAns)
+	dataPersistence.saveTimedHighScore(highScore[0], highScore[1])
 	
 
 
@@ -140,3 +161,13 @@ func _on_Timer_timeout():
 
 func _on_GameTimer_timeout():
 	print("----  game over -----")
+	var gameOverNode = load("res://scenes/Common/GameOverOverley/GameOverOverley.tscn").instance()	
+	call_deferred("add_child", gameOverNode)
+	gameOverNode.call_deferred("_setLabel", "Time's up")
+	gameOverNode.call_deferred("_setScoreLabel", "Correct: " + str(correctAns) + "/" + str(correctAns + wrongAns))
+	gameOverNode.call_deferred("connect", "overlay_finished", self, "_on_gameOverOverleyFinished")
+	
+	
+func _on_gameOverOverleyFinished():
+	_updateHighScore()
+	scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")

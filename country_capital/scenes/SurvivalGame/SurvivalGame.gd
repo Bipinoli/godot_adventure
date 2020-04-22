@@ -6,9 +6,13 @@ var gameManager = null
 var _waiting_to_show_right_answer = false
 var _correct_option = null
 var option_selected = false
+var game_over = false
+var correctAns = 0
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var dataPersistence = get_node("/root/DataPersistence")
+
 
 func _ready():
 	_applyTheme()
@@ -100,6 +104,7 @@ func _optionSelected(node, text):
 	if result['correct']:
 		node._correctVisual()
 		node._correctSound()
+		correctAns += 1
 		$Timer.start(0.4)
 	else:
 		node._incorrectVisual()
@@ -107,11 +112,15 @@ func _optionSelected(node, text):
 		_waiting_to_show_right_answer = true
 		_correct_option = str(result['correct_option']+1)
 		$Timer.start(0.4)
-		
 	
 	
+func _compareScore(r1, r2):
+	return max(r1, r2)
 
-
+func _updateHighScore():
+	var prev = dataPersistence.getSurvivalHighScore()
+	var highScore = _compareScore(prev, correctAns)
+	dataPersistence.saveSurvivalHighScore(highScore)
 
 
 func _on_Timer_timeout():
@@ -119,6 +128,21 @@ func _on_Timer_timeout():
 		var correctNode = get_node("Background/VBoxContainer/OptionsArea/VBoxContainer/Opt" + _correct_option)
 		correctNode._correctVisual()
 		_waiting_to_show_right_answer = false
-		$Timer.start(1.2)
+		$Timer.start(0.5)
+		game_over = true
 		return
-	_newQuestion()
+	
+	if not game_over:
+		_newQuestion()
+		return
+	var gameOverNode = load("res://scenes/Common/GameOverOverley/GameOverOverley.tscn").instance()	
+	call_deferred("add_child", gameOverNode)
+	gameOverNode.call_deferred("_setLabel", "Oops! wrong")
+	gameOverNode.call_deferred("_setScoreLabel", "Correct: " + str(correctAns))
+	gameOverNode.call_deferred("connect", "overlay_finished", self, "_on_gameOverOverleyFinished")
+	
+	
+	
+func _on_gameOverOverleyFinished():
+	_updateHighScore()
+	scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")

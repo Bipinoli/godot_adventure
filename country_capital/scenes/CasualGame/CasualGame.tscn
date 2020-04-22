@@ -10,7 +10,7 @@
 [ext_resource path="res://scenes/Common/AnswerOption/AnswerOption.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/CasualGame/CasualGame.gd" type="Script" id=9]
 [ext_resource path="res://assets/fonts/ScoreNumber.tres" type="DynamicFont" id=10]
-[ext_resource path="res://assets/fonts/ScoreLabel.tres" type="DynamicFont" id=11]
+[ext_resource path="res://assets/fonts/highScoreLabel.tres" type="DynamicFont" id=11]
 
 [node name="CasualGame" type="Control"]
 anchor_right = 1.0

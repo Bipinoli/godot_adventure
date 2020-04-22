@@ -7,9 +7,14 @@ var _waiting_to_show_right_answer = false
 var _correct_option = null
 var option_selected = false
 var country = null
+var correctAns = 0
+var wrongAns = 0
+
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var dataPersistence = get_node("/root/DataPersistence")
+
 
 func _ready():
 	_applyTheme()
@@ -22,6 +27,7 @@ func _notification(what):
 	match what:
 		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 			print("go back from Casual Game --------------------------------------------")
+			_updateHighScore()
 			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
 	
 	
@@ -101,17 +107,33 @@ func _optionSelected(node, text):
 	if result['correct']:
 		node._correctVisual()
 		node._correctSound()
+		correctAns += 1
 		$Timer.start(0.4)
 	else:
 		node._incorrectVisual()
 		node._incorrectSound()
 		_waiting_to_show_right_answer = true
 		_correct_option = str(result['correct_option']+1)
+		wrongAns += 1
 		$Timer.start(0.4)
 		
 	
-	
 
+func _compareScore(r1, w1, r2, w2):
+	if (r2+w2) > (r1+w1):
+		return [r2, w2]
+	elif (r1+w1) > (r2+w2):
+		return [r1, w1]
+	elif r1 >= r2:
+		return [r1, w1]
+	else:
+		return [r2, w2]
+	
+	
+func _updateHighScore():
+	var prev = dataPersistence.getCasualHighScore()
+	var highScore = _compareScore(prev[0], prev[1], correctAns, wrongAns)
+	dataPersistence.saveCasualHighScore(highScore[0], highScore[1])
 
 
 
@@ -128,4 +150,5 @@ func _on_Timer_timeout():
 func _on_FlagButton_button_down():
 	global_configs.detail_selected_country = country
 	global_configs.detail_screen_routed_from_casual_game = true
+	_updateHighScore()
 	scene_changer.changeScene("res://scenes/LearningGame/DetailsScreen.tscn")
