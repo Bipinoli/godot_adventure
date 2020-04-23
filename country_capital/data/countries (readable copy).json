@@ -47,7 +47,7 @@
     },
     "Algeria": {
         "flag": "Algeria",
-        "city": "Alger",
+        "city": "Algiers",
         "continent": "Africa",
         "currency_code": "DZD",
         "location": "Northern Africa",
@@ -68,7 +68,7 @@
     },
     "American Samoa": {
         "flag": "American_Samoa",
-        "city": "Fagatogo",
+        "city": "Pago Pago",
         "continent": "Oceania",
         "currency_code": "USD",
         "location": "Polynesia",
@@ -291,7 +291,7 @@
     },
     "Austria": {
         "flag": "Austria",
-        "city": "Wien",
+        "city": "Vienna",
         "continent": "Europe",
         "currency_code": "EUR",
         "location": "Western Europe",
@@ -362,7 +362,7 @@
     },
     "Bahrain": {
         "flag": "Bahrain",
-        "city": "al-Manama",
+        "city": "Manama (al-Manama)",
         "continent": "Asia",
         "currency_code": "BHD",
         "location": "Middle East",
@@ -569,7 +569,7 @@
     },
     "Bolivia": {
         "flag": "Bolivia",
-        "city": "La Paz",
+        "city": "La Paz, Sucre",
         "continent": "South America",
         "currency_code": "BOB",
         "location": "South America",
@@ -765,7 +765,7 @@
     },
     "Burundi": {
         "flag": "Burundi",
-        "city": "Bujumbura",
+        "city": "Gitega",
         "continent": "Africa",
         "currency_code": "BIF",
         "location": "Eastern Africa",
@@ -810,7 +810,7 @@
     },
     "Cameroon": {
         "flag": "Cameroon",
-        "city": "Yaound",
+        "city": "Yaounde",
         "continent": "Africa",
         "currency_code": "XAF",
         "location": "Central Africa",
@@ -934,12 +934,12 @@
     },
     "Chad": {
         "flag": "Chad",
-        "city": "N'Djam",
+        "city": "N'Djamena",
         "continent": "Africa",
         "currency_code": "XAF",
         "location": "Central Africa",
         "expectancy": "50.5",
-        "currency_name": null,
+        "currency_name": "Central African CFA franc",
         "calling_code": "235",
         "language": [
             "Arabic",
@@ -951,7 +951,7 @@
             "Sara",
             "Tandjile"
         ],
-        "dish": null,
+        "dish": "Peanut and Squash Stew",
         "elevation": "543m",
         "area": 1284000,
         "government": "Republic",
@@ -961,7 +961,7 @@
     },
     "Chile": {
         "flag": "Chile",
-        "city": "Santiago de Chile",
+        "city": "Santiago",
         "continent": "South America",
         "currency_code": "CLP",
         "location": "South America",
@@ -984,7 +984,7 @@
     },
     "China": {
         "flag": "China",
-        "city": "Peking",
+        "city": "Beijing (Peking)",
         "continent": "Asia",
         "currency_code": "CNY",
         "location": "Eastern Asia",
@@ -1056,7 +1056,7 @@
     },
     "Colombia": {
         "flag": "Colombia",
-        "city": "Santaf",
+        "city": "Bogota",
         "continent": "South America",
         "currency_code": "COP",
         "location": "South America",
@@ -1188,7 +1188,7 @@
     },
     "Costa Rica": {
         "flag": "Costa_Rica",
-        "city": "San Jos",
+        "city": "San José",
         "continent": "North America",
         "currency_code": "CRC",
         "location": "Central America",
@@ -1256,7 +1256,7 @@
     },
     "Cuba": {
         "flag": "Cuba",
-        "city": "La Habana",
+        "city": "Havana",
         "continent": "North America",
         "currency_code": "CUP",
         "location": "Caribbean",
@@ -1297,12 +1297,12 @@
     },
     "Czech Republic": {
         "flag": "Czech_Republic",
-        "city": "Praha",
+        "city": "Prague",
         "continent": "Europe",
         "currency_code": "CZK",
         "location": "Eastern Europe",
         "expectancy": "74.5",
-        "currency_name": null,
+        "currency_name": "Czech koruna",
         "calling_code": "420",
         "language": [
             "Czech",
@@ -1584,7 +1584,7 @@
     },
     "Ethiopia": {
         "flag": "Ethiopia",
-        "city": "Addis Abeba",
+        "city": "Addis Ababa",
         "continent": "Africa",
         "currency_code": "ETB",
         "location": "Eastern Africa",
@@ -1922,7 +1922,7 @@
     },
     "Greece": {
         "flag": "Greece",
-        "city": "Athenai",
+        "city": "Athens",
         "continent": "Europe",
         "currency_code": "EUR",
         "location": "Southern Europe",
@@ -2005,12 +2005,12 @@
     },
     "Guam": {
         "flag": "Guam",
-        "city": "Aga",
+        "city": "Hagåtña",
         "continent": "Oceania",
         "currency_code": "USD",
         "location": "Micronesia",
         "expectancy": "77.8",
-        "currency_name": null,
+        "currency_name": "United States Dollar",
         "calling_code": "1671",
         "language": [
             "Chamorro",
@@ -2029,7 +2029,7 @@
     },
     "Guatemala": {
         "flag": "Guatemala",
-        "city": "Ciudad de Guatemala",
+        "city": "Guatemala City",
         "continent": "North America",
         "currency_code": "QTQ",
         "location": "Central America",
@@ -2162,8 +2162,8 @@
         "landlocked": "",
         "temperature": null
     },
-    "Holy See (Vatican City State)": {
-        "city": "Citt",
+    "Vatican City (Holy See)": {
+        "city": "Vatican City",
         "continent": "Europe",
         "currency_code": "EUR",
         "location": "Southern Europe",
@@ -2178,7 +2178,7 @@
         "area": 0.4,
         "government": "Independent Church State",
         "tld": ".va",
-        "landlocked": null,
+        "landlocked": "1",
         "temperature": null
     },
     "Honduras": {
@@ -2255,12 +2255,12 @@
     },
     "Iceland": {
         "flag": "Iceland",
-        "city": "Reykjav",
+        "city": "Reykjavík",
         "continent": "Europe",
         "currency_code": "ISK",
         "location": "Nordic Countries",
         "expectancy": "79.4",
-        "currency_name": "Iceland Krona",
+        "currency_name": "Icelandic króna",
         "calling_code": "354",
         "language": [
             "English",
@@ -2442,7 +2442,7 @@
     "Isle of Man": {},
     "Italy": {
         "flag": "Italy",
-        "city": "Roma",
+        "city": "Rome",
         "continent": "Europe",
         "currency_code": "EUR",
         "location": "Southern Europe",
@@ -2538,7 +2538,7 @@
     },
     "Kazakhstan": {
         "flag": "Kazakhstan",
-        "city": "Astana",
+        "city": "Nur-Sultan (Astana)",
         "continent": "Asia",
         "currency_code": "KZT",
         "location": "Southern and Central Asia",
@@ -2592,7 +2592,7 @@
     },
     "Kiribati": {
         "flag": "Kiribati",
-        "city": "Bairiki",
+        "city": "Tarawa",
         "continent": "Oceania",
         "currency_code": "AUD",
         "location": "Micronesia",
@@ -2777,20 +2777,20 @@
         "landlocked": "",
         "temperature": "25.3"
     },
-    "Libyan Arab Jamahiriya": {
+    "Libya (Libyan Arab Jamahiriya)": {
         "flag": "Libyan_Arab_Jamahiriya",
         "city": "Tripoli",
         "continent": "Africa",
         "currency_code": "LYD",
         "location": "Northern Africa",
         "expectancy": "75.5",
-        "currency_name": null,
+        "currency_name": "Libyan dinar",
         "calling_code": null,
         "language": [
             "Arabic",
             "Berberi"
         ],
-        "dish": null,
+        "dish": "Asida",
         "elevation": null,
         "area": 1759540,
         "government": "Socialistic State",
@@ -3058,7 +3058,7 @@
     },
     "Marshall Islands": {
         "flag": "Marshall_Islands",
-        "city": "Dalap-Uliga-Darrit",
+        "city": "Majuro",
         "continent": "Oceania",
         "currency_code": "USD",
         "location": "Micronesia",
@@ -3172,7 +3172,7 @@
     },
     "Mexico": {
         "flag": "Mexico",
-        "city": "Ciudad de M",
+        "city": "Mexico City",
         "continent": "North America",
         "currency_code": "MXN",
         "location": "Central America",
@@ -3291,9 +3291,9 @@
         "landlocked": "1",
         "temperature": "-0.7"
     },
-    "Montserrat": {
+    "Montserrat (British Overseas Territory)": {
         "flag": "Montserrat",
-        "city": "Plymouth",
+        "city": "Plymouth, Brades",
         "continent": "North America",
         "currency_code": "XCD",
         "location": "Caribbean",
@@ -3311,7 +3311,8 @@
         "landlocked": "",
         "temperature": null
     },
-    "Montenegro": {},
+    "Montenegro": {
+    },
     "Morocco": {
         "flag": "Morocco",
         "city": "Rabat",
@@ -3364,7 +3365,7 @@
     },
     "Myanmar": {
         "flag": "Myanmar",
-        "city": "Rangoon (Yangon)",
+        "city": "Naypyitaw",
         "continent": "Asia",
         "currency_code": "MMR",
         "location": "Southeast Asia",
@@ -3513,12 +3514,12 @@
     },
     "New Caledonia": {
         "flag": "New_Caledonia",
-        "city": "Noum",
+        "city": "Noumea",
         "continent": "Oceania",
         "currency_code": "XPF",
         "location": "Melanesia",
         "expectancy": "72.8",
-        "currency_name": null,
+        "currency_name": "CFP franc",
         "calling_code": "687",
         "language": [
             "French",
@@ -3709,7 +3710,7 @@
     },
     "Northern Mariana Islands": {
         "flag": "Northern_Mariana_Islands",
-        "city": "Garapan",
+        "city": "Saipan",
         "continent": "Oceania",
         "currency_code": "USD",
         "location": "Micronesia",
@@ -3806,7 +3807,7 @@
     },
     "Palau": {
         "flag": "Palau",
-        "city": "Koror",
+        "city": "Ngerulmud, Melekeok",
         "continent": "Oceania",
         "currency_code": "USD",
         "location": "Micronesia",
@@ -3850,7 +3851,7 @@
     },
     "Panama": {
         "flag": "Panama",
-        "city": "Ciudad de Panam",
+        "city": "Panama City",
         "continent": "North America",
         "currency_code": "PAB",
         "location": "Central America",
@@ -3896,7 +3897,7 @@
     },
     "Paraguay": {
         "flag": "Paraguay",
-        "city": "Asunci",
+        "city": "Asunción",
         "continent": "South America",
         "currency_code": "PYG",
         "location": "South America",
@@ -4012,7 +4013,7 @@
     },
     "Portugal": {
         "flag": "Portugal",
-        "city": "Lisboa",
+        "city": "Lisbon",
         "continent": "Europe",
         "currency_code": "EUR",
         "location": "Southern Europe",
@@ -4072,7 +4073,7 @@
         "landlocked": "",
         "temperature": "27.15"
     },
-    "Reunion": {
+    "Reunion (French Overseas Region)": {
         "flag": "Reunion",
         "city": "Saint-Denis",
         "continent": "Africa",
@@ -4098,7 +4099,7 @@
     },
     "Romania": {
         "flag": "Romania",
-        "city": "Bucuresti",
+        "city": "Bucharest",
         "continent": "Europe",
         "currency_code": "RON",
         "location": "Eastern Europe",
@@ -4665,9 +4666,9 @@
         "landlocked": "",
         "temperature": "13.3"
     },
-    "SriLanka": {
+    "Sri Lanka": {
         "flag": "SriLanka",
-        "city": null,
+        "city": "Colombo, Sri Jayawardenepura Kotte",
         "continent": "Asia",
         "currency_code": "LKR",
         "location": null,
@@ -4679,7 +4680,7 @@
             "Singali",
             "Tamil"
         ],
-        "dish": null,
+        "dish": "Dhal curry",
         "elevation": null,
         "area": 65610,
         "government": null,
@@ -4928,7 +4929,7 @@
     "Timor-Leste": {},
     "Togo": {
         "flag": "Togo",
-        "city": "Lom",
+        "city": "Lome",
         "continent": "Africa",
         "currency_code": "XOF",
         "location": "Western Africa",
@@ -4955,7 +4956,7 @@
     },
     "Tokelau": {
         "flag": "Tokelau",
-        "city": "Fakaofo",
+        "city": "Nukunonu",
         "continent": "Oceania",
         "currency_code": "NZD",
         "location": "Polynesia",
@@ -5297,7 +5298,7 @@
     },
     "Uzbekistan": {
         "flag": "Uzbekistan",
-        "city": "Toskent",
+        "city": "Toshkent",
         "continent": "Asia",
         "currency_code": "UZS",
         "location": "Southern and Central Asia",
@@ -5471,7 +5472,7 @@
     },
     "Western Sahara": {
         "flag": "Western_Sahara",
-        "city": "El-Aai",
+        "city": "Laayoune",
         "continent": "Africa",
         "currency_code": "MAD",
         "location": "Northern Africa",
