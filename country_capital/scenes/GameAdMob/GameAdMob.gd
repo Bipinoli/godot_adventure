@@ -13,6 +13,8 @@ func _ready():
 func _shouldAdBeShown():
 	var timePassed = int(OS.get_ticks_msec()/1000)
 	var sinceAdShown = timePassed - global_configs.lastest_ad_shown_time
+	print("since ad: ", sinceAdShown)
+	print("current time: ", timePassed)
 	return sinceAdShown > global_configs.MIN_TIME_BETWEEN_ADS
 
 
