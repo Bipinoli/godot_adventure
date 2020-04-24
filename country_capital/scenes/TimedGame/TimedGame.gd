@@ -15,6 +15,7 @@ onready var dataPersistence = get_node("/root/DataPersistence")
 onready var game_timer = get_node("GameTimer")
 onready var countDown = get_node("Background/TitleArea/TimeArea/CountDown")
 
+
 func _ready():
 	_applyTheme()
 	_connectSignals()
@@ -22,7 +23,6 @@ func _ready():
 	gameManager._init()
 	_newQuestion()
 	game_timer.start(30)
-	
 	
 
 func _process(delta):
@@ -40,7 +40,6 @@ func _notification(what):
 		MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 			print("go back from Timed Game --------------------------------------------")
 			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
-	
 	
 	
 func _applyTheme():

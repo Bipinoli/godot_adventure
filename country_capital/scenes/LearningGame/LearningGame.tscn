@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://assets/sprites/learn_title_green.png" type="Texture" id=1]
 [ext_resource path="res://scenes/LearningGame/LearningListItem.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://scenes/Common/ScrollContainer.gd" type="Script" id=4]
 [ext_resource path="res://scenes/LearningGame/LearningGame.gd" type="Script" id=5]
 [ext_resource path="res://assets/themes/theme_dropdown.tres" type="Theme" id=6]
+[ext_resource path="res://admob-lib/admob.gd" type="Script" id=7]
 
 [node name="LearningGame" type="Control"]
 anchor_right = 1.0
@@ -92,4 +93,9 @@ margin_top = 104.0
 margin_right = 411.0
 margin_bottom = 204.0
 rect_min_size = Vector2( 0, 100 )
+
+[node name="Admob" type="Node" parent="."]
+script = ExtResource( 7 )
+interstitial_id = "ca-app-pub-3940256099942544/1033173712"
 [connection signal="item_selected" from="ColorRect/OptionButton" to="." method="_on_OptionButton_item_selected"]
+[connection signal="interstitial_closed" from="Admob" to="." method="_on_Admob_interstitial_closed"]

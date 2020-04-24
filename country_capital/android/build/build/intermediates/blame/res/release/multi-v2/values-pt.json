@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "131",
+                        "endColumns": "100",
+                        "endOffsets": "227"
+                    }
+                },
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

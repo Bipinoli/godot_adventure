@@ -14,6 +14,7 @@ var wrongAns = 0
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
 onready var dataPersistence = get_node("/root/DataPersistence")
+onready var admob = get_node("/root/GameAdMob")
 
 
 func _ready():
@@ -22,6 +23,7 @@ func _ready():
 	gameManager = load("res://scenes/Common/GameManager.gd").new()
 	gameManager._init()
 	_newQuestion()
+	
 	
 func _notification(what):
 	match what:
@@ -70,6 +72,12 @@ func _newQuestion():
 	_updateView(question, score)
 	option_selected = false
 	country = question['country']
+	
+	if admob._shouldAdBeShown():
+		admob._showAd()
+	
+
+
 
 func _updateView(question, score):
 	var flag = get_node("Background/VBoxContainer/FlagArea/FlagBorder/Flag")
@@ -152,3 +160,11 @@ func _on_FlagButton_button_down():
 	global_configs.detail_screen_routed_from_casual_game = true
 	_updateHighScore()
 	scene_changer.changeScene("res://scenes/LearningGame/DetailsScreen.tscn")
+
+
+
+
+
+
+
+

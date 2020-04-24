@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "map": [
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "1003",
+                        "endColumns": "100",
+                        "endOffsets": "1099"
+                    }
+                },
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "201",
+                        "endOffsets": "302"
+                    }
+                },
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/1dd18790f6e8fe8281f384626e82b707/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "307",
+                        "endColumns": "75",
+                        "endOffsets": "378"
+                    }
+                },
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/806c5ec1dddd9b802661f891d7cf1f5e/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,272,392,460,526,605,716",
+                        "endColumns": "74,119,67,65,78,110,72",
+                        "endOffsets": "271,391,459,525,604,715,788"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "383,462,586,658,728,811,926",
+                        "endColumns": "78,123,71,69,82,114,76",
+                        "endOffsets": "457,581,653,723,806,921,998"
+                    }
+                }
+            ]
+        }
+    ]
+}

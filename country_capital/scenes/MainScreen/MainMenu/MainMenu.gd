@@ -3,10 +3,12 @@ extends Control
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var dataPersistence = get_node("/root/DataPersistence")
+onready var admob = get_node("/root/GameAdMob")
 onready var casualModeNode = get_node("TextureRect/MarginContainer/VBoxContainer/CasualMode")
 onready var timedModeNode = get_node("TextureRect/MarginContainer/VBoxContainer/TimedMode")
 onready var survivalModeNode = get_node("TextureRect/MarginContainer/VBoxContainer/SurvivalMode")
-onready var dataPersistence = get_node("/root/DataPersistence")
+
 
 func _ready():
 	dataPersistence._setup()
@@ -19,6 +21,8 @@ func _ready():
 	survivalModeNode._setHighScore(str(survivalHighScore))
 	_connectSignals()
 	_update_theme(global_configs.theme)
+	if admob._shouldAdBeShown():
+		admob._showAd()
 	
 
 func _notification(what):

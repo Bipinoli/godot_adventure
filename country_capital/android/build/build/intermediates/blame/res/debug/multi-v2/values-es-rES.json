@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+            "map": [
+                {
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/1dd18790f6e8fe8281f384626e82b707/res/values-es-rES/values-es-rES.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "78",
+                        "endOffsets": "129"
+                    }
+                }
+            ]
+        }
+    ]
+}

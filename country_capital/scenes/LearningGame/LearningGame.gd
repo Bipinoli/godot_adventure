@@ -3,7 +3,9 @@ extends Control
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
+onready var admob = get_node("/root/GameAdMob")
 onready var countryList = get_node("ColorRect/ScrollContainer/VBoxContainer")
+onready var optionButton = get_node("ColorRect/OptionButton")
 
 var gameManager = null
 
@@ -11,10 +13,11 @@ func _ready():
 	_applyTheme()
 	gameManager = load("res://scenes/LearningGame/LearningGameManager.gd").new()
 	gameManager._init()
-	_updateView("Asia")
+	_updateView(global_configs.selected_continent_filter)
 
 
 func _updateView(continent=null):
+	print("--- update view --- learning Game --")
 	var countries = gameManager._retrieveCountries(continent)
 	for c in countryList.get_children():
 		countryList.call_deferred("remove_child", c)
@@ -25,6 +28,11 @@ func _updateView(continent=null):
 		countryList.call_deferred("add_child", listItem)
 		listItem.call_deferred("_setup", c['country'], c['capital'], c['flag'])
 		listItem.call_deferred("connect", "listitem_clicked", self, "_listItemSelected")
+	
+	optionButton.selected = _continent_to_selection_id(continent)
+	global_configs.selected_continent_filter = continent
+	if admob._shouldAdBeShown():
+		admob._showAd()
 	
 	
 func _listItemSelected(country):
@@ -88,3 +96,7 @@ func _on_OptionButton_item_selected(id):
 		5:
 			_updateView('Oceania')
 		
+func _continent_to_selection_id(continent):
+	var continents = ['Asia', 'Europe', 'North America', 'South America', 'Africa', 'Oceania', null]
+	return continents.find(continent)
+		 

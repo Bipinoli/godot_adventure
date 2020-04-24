@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+MERGED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/806c5ec1dddd9b802661f891d7cf1f5e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/ba98d3f199a914b217104cdd2790727f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/cb26c905651d299cef41047221b883dd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/9b80e4b22164d1b0f447ad77e9c603a7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/2c06102482f422550fd41c8bdcacc816/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:loader:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/12441d08a0c238c63ffbf03e1257fed3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/47a358a54efab6041b383a332903ddac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/fa88c199b05ded94c14a21c09e162216/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/d19420fd34dc89243af79a612bab6f31/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/e235418729c0ec86354af668b4e667f0/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/455b2945f21aca7e526fe563c7286d85/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/d873e1913107977db9a76db01048175d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/522ae48e5f86eb1802992a53ac40bd42/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/8679d866641d266374bd11d35c2990c2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/c379b28c7d00e6a5380f8805f4077f46/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:4:5-29
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:6:5-30
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:5:5-28
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:7:5-35
+supports-screens
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:12:5-16:40
+	android:largeScreens
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:15:9-36
+	android:smallScreens
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:16:9-37
+uses-feature#0x00020000
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:19:5-21:35
+	android:glEsVersion
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:20:9-41
+	android:required
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:21:9-32
+application
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:5-67:19
+MERGED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:17:5-19:19
+MERGED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:17:5-19:19
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/cb26c905651d299cef41047221b883dd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/cb26c905651d299cef41047221b883dd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/9b80e4b22164d1b0f447ad77e9c603a7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/9b80e4b22164d1b0f447ad77e9c603a7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/2c06102482f422550fd41c8bdcacc816/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/2c06102482f422550fd41c8bdcacc816/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/e235418729c0ec86354af668b4e667f0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/e235418729c0ec86354af668b4e667f0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:18-67
+	tools:ignore
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:96-135
+	android:icon
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:136-163
+	android:allowBackup
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:68-95
+meta-data#xr_mode_metadata_name
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:36:9-38:54
+	android:value
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:38:13-51
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:37:13-49
+activity#com.godot.game.GodotApp
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:40:9-54:20
+	android:screenOrientation
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:45:13-50
+	android:label
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:42:13-62
+	android:launchMode
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:44:13-44
+	android:resizeableActivity
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:47:13-47
+	tools:ignore
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:48:13-43
+	android:configChanges
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:46:13-141
+	android:theme
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:41:13-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:50:13-53:29
+action#android.intent.action.MAIN
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:52:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:58:2-59:114
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:59:3-112
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:58:12-64
+meta-data#com.google.android.gms.version
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:60:2-61:59
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:61:3-56
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:60:13-58
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:62:2-64:35
+	android:value
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:64:13-33
+	android:name
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:63:13-69
+uses-sdk
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+MERGED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:7:5-9:41
+MERGED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/806c5ec1dddd9b802661f891d7cf1f5e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/806c5ec1dddd9b802661f891d7cf1f5e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/ba98d3f199a914b217104cdd2790727f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/ba98d3f199a914b217104cdd2790727f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/cb26c905651d299cef41047221b883dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/cb26c905651d299cef41047221b883dd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/9b80e4b22164d1b0f447ad77e9c603a7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/9b80e4b22164d1b0f447ad77e9c603a7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/2c06102482f422550fd41c8bdcacc816/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/2c06102482f422550fd41c8bdcacc816/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/85c0cdd624d679340c4053e89af64280/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/12441d08a0c238c63ffbf03e1257fed3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/12441d08a0c238c63ffbf03e1257fed3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5cdb378dd7858586b497b722b768e192/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/47a358a54efab6041b383a332903ddac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/47a358a54efab6041b383a332903ddac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/fa88c199b05ded94c14a21c09e162216/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/fa88c199b05ded94c14a21c09e162216/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/d19420fd34dc89243af79a612bab6f31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/d19420fd34dc89243af79a612bab6f31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/e235418729c0ec86354af668b4e667f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/e235418729c0ec86354af668b4e667f0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/455b2945f21aca7e526fe563c7286d85/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/455b2945f21aca7e526fe563c7286d85/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/d873e1913107977db9a76db01048175d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/d873e1913107977db9a76db01048175d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/522ae48e5f86eb1802992a53ac40bd42/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/522ae48e5f86eb1802992a53ac40bd42/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/8679d866641d266374bd11d35c2990c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/8679d866641d266374bd11d35c2990c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/c379b28c7d00e6a5380f8805f4077f46/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/c379b28c7d00e6a5380f8805f4077f46/AndroidManifest.xml:20:5-44
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/806c5ec1dddd9b802661f891d7cf1f5e/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+		INJECTED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml
+instrumentation
+ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:11:5-15:57
+	android:label
+		ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:14:9-58
+	android:icon
+		ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:13:9-36
+	android:targetPackage
+		ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:15:9-54
+	android:name
+		ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:12:9-45
+service#org.godotengine.godot.GodotDownloaderService
+ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:18:9-80
+	android:name
+		ADDED from [godot-lib.release.aar] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/AndroidManifest.xml:18:18-77
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/5c50b2ee9a88229bf8072b29c999f502/AndroidManifest.xml:24:22-76

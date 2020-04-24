@@ -28,7 +28,6 @@ func _notification(what):
 			scene_changer.changeScene("res://scenes/MainScreen/MainMenu/MainMenu.tscn")
 	
 	
-	
 func _applyTheme():
 	var optionsTexture = get_node("Background/VBoxContainer/OptionsArea")
 	var titleTexture = get_node("Background/TitleArea")
