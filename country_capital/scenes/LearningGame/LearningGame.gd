@@ -3,7 +3,7 @@ extends Control
 
 onready var global_configs = get_node("/root/GlobalConfigurations")
 onready var scene_changer = get_node("/root/SceneChanger")
-onready var admob = get_node("/root/GameAdMob")
+onready var facebook_ad = get_node("/root/FacebookAd")
 onready var countryList = get_node("ColorRect/ScrollContainer/VBoxContainer")
 onready var optionButton = get_node("ColorRect/OptionButton")
 
@@ -31,8 +31,8 @@ func _updateView(continent=null):
 	
 	optionButton.selected = _continent_to_selection_id(continent)
 	global_configs.selected_continent_filter = continent
-	if admob._shouldAdBeShown():
-		admob._showAd()
+	if facebook_ad._shouldAdBeShown():
+		facebook_ad._showAd()
 	
 	
 func _listItemSelected(country):

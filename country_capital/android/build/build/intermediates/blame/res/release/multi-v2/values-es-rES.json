@@ -4,7 +4,7 @@
             "outputFile": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/f0d3edc657366ad82ca93225504b7e4b/res/values-es-rES/values-es-rES.xml",
+                    "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/166c4b6712b91f5d1703a21146230b0c/godot-lib.release/res/values-es-rES/values-es-rES.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

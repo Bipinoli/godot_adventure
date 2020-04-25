@@ -173,18 +173,19 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 2 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 1 error and 2 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Fri Apr 24 15:44:44 NPT 2020      </nav>
+Check performed at Sat Apr 25 15:32:32 NPT 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Issue Types</span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
+      <a class="mdl-navigation__link" href="#GradleCompatible"><i class="material-icons error-icon">error</i>Incompatible Gradle Versions (1)</a>
       <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (1)</a>
-      <a class="mdl-navigation__link" href="#HardwareIds"><i class="material-icons warning-icon">warning</i>Hardware Id Usage (1)</a>
+      <a class="mdl-navigation__link" href="#GradleDynamicVersion"><i class="material-icons warning-icon">warning</i>Gradle Dynamic Version (1)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -200,14 +201,15 @@ Check performed at Fri Apr 24 15:44:44 NPT 2020      </nav>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
 </td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
-<tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
-</td></tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons error-icon">error</i>
+<a href="#GradleCompatible">GradleCompatible</a>: Incompatible Gradle Versions</td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#HardwareIds">HardwareIds</a>: Hardware Id Usage</td></tr>
-<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (34)</a>
+<a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<a href="#GradleDynamicVersion">GradleDynamicVersion</a>: Gradle Dynamic Version</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (35)</a>
 </td></tr></table>
 <br/>              </div>
               <div class="mdl-card__actions mdl-card--border">
@@ -216,7 +218,53 @@ Dismiss</button>            </div>
             </div>
           </section>
 <a name="Correctness"></a>
-<a name="GradleDependency"></a>
+<a name="GradleCompatible"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleCompatibleCard" style="display: block;">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Incompatible Gradle Versions</h2>
+  </div>
+              <div class="mdl-card__supporting-text">
+<div class="issue">
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:64</span>: <span class="message">All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 28.0.0, 27.1.1. Examples include <code>com.android.support:asynclayoutinflater:28.0.0</code> and <code>com.android.support:recyclerview-v7:27.1.1</code></span><br /><pre class="errorlines">
+<span class="lineno">  61 </span>    }
+<span class="lineno">  62 </span>
+<span class="lineno">  63 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
+<span class="caretline"><span class="lineno">  64 </span>api (<span class="string">'</span><span class="error"><span class="string">com.android.support:recyclerview-v7:27.1.1</span></span><span class="string">'</span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  65 </span>api (<span class="string">'com.facebook.android:audience-network-sdk:5.+'</span>)
+<span class="lineno">  66 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
+<span class="lineno">  67 </span>}
+</pre>
+
+</div>
+<div class="metadata"><div class="explanation" id="explanationGradleCompatible" style="display: none;">
+There are some combinations of libraries, or tools and libraries, that are incompatible, or can lead to bugs. One such incompatibility is compiling with a version of the Android support libraries that is not the latest version (or in particular, a version lower than your <code>targetSdkVersion</code>).<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GradleCompatible" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="chips">
+<span class="mdl-chip">
+    <span class="mdl-chip__text">GradleCompatible</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Correctness</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Fatal</span>
+</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Priority 8/10</span>
+</span>
+</div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleCompatibleLink" onclick="reveal('explanationGradleCompatible');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleCompatibleCardLink" onclick="hideid('GradleCompatibleCard');">
+Dismiss</button>            </div>
+            </div>
+          </section><a name="GradleDependency"></a>
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDependencyCard" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
@@ -225,13 +273,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:47</span>: <span class="message">A newer version of com.google.android.gms:play-services-ads than 16.0.0 is available: 19.1.0</span><br /><pre class="errorlines">
-<span class="lineno">  44 </span>        releaseImplementation fileTree(dir: <span class="string">'libs/release'</span>, include: [<span class="string">'*.jar'</span>, <span class="string">'*.aar'</span>])
-<span class="lineno">  45 </span>    }
-<span class="lineno">  46 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
-<span class="caretline"><span class="lineno">  47 </span><span class="warning">api (<span class="string">'com.google.android.gms:play-services-ads:16.0.0'</span>) { exclude group: <span class="string">'com.android.support'</span> }</span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  48 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
-<span class="lineno">  49 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:64</span>: <span class="message">A newer version of com.android.support:recyclerview-v7 than 27.1.1 is available: 28.0.0</span><br /><pre class="errorlines">
+<span class="lineno">  61 </span>    }
+<span class="lineno">  62 </span>
+<span class="lineno">  63 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
+<span class="caretline"><span class="lineno">  64 </span><span class="warning">api (<span class="string">'com.android.support:recyclerview-v7:27.1.1'</span>)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  65 </span>api (<span class="string">'com.facebook.android:audience-network-sdk:5.+'</span>)
+<span class="lineno">  66 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
+<span class="lineno">  67 </span>}
 </pre>
 
 </div>
@@ -261,52 +310,49 @@ To suppress this error, use the issue id "GradleDependency" as explained in the 
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDependencyCardLink" onclick="hideid('GradleDependencyCard');">
 Dismiss</button>            </div>
             </div>
-          </section>
-<a name="Security"></a>
-<a name="HardwareIds"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="HardwareIdsCard" style="display: block;">
+          </section><a name="GradleDynamicVersion"></a>
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDynamicVersionCard" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Hardware Id Usage</h2>
+    <h2 class="mdl-card__title-text">Gradle Dynamic Version</h2>
   </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../../admob-plugin/src/GodotAdMob.java">../../../admob-plugin/src/GodotAdMob.java</a>:500</span>: <span class="message">Using <code>getString</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
-<span class="lineno"> 497 </span><span class="javadoc"> */</span>
-<span class="lineno"> 498 </span>    <span class="keyword">private</span> String getAdmobDeviceId()
-<span class="lineno"> 499 </span>    {
-<span class="caretline"><span class="lineno"> 500 </span>        String android_id = <span class="warning">Settings.Secure.getString(activity.getContentResolver(), Settings.Secure.ANDROID_ID)</span>;</span>
-<span class="lineno"> 501 </span>        String deviceId = md5(android_id).toUpperCase(Locale.US);
-<span class="lineno"> 502 </span>        <span class="keyword">return</span> deviceId;
-<span class="lineno"> 503 </span>    }
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:65</span>: <span class="message">Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.facebook.android:audience-network-sdk:5.+)</span><br /><pre class="errorlines">
+<span class="lineno">  62 </span>
+<span class="lineno">  63 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
+<span class="lineno">  64 </span>api (<span class="string">'com.android.support:recyclerview-v7:27.1.1'</span>)
+<span class="caretline"><span class="lineno">  65 </span><span class="warning">api (<span class="string">'com.facebook.android:audience-network-sdk:5.+'</span>)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno">  66 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
+<span class="lineno">  67 </span>}
 </pre>
 
 </div>
-<div class="metadata"><div class="explanation" id="explanationHardwareIds" style="display: none;">
-Using these device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use <code>AdvertisingIdClient$Info#getId</code> and for analytics, use <code>InstanceId#getId</code>.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/articles/user-data-ids.html">https://developer.android.com/training/articles/user-data-ids.html</a>
-</div>To suppress this error, use the issue id "HardwareIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<div class="metadata"><div class="explanation" id="explanationGradleDynamicVersion" style="display: none;">
+Using <code>+</code> in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
+To suppress this error, use the issue id "GradleDynamicVersion" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
 </div>
 <div class="chips">
 <span class="mdl-chip">
-    <span class="mdl-chip__text">HardwareIds</span>
+    <span class="mdl-chip__text">GradleDynamicVersion</span>
 </span>
 <span class="mdl-chip">
-    <span class="mdl-chip__text">Security</span>
+    <span class="mdl-chip__text">Correctness</span>
 </span>
 <span class="mdl-chip">
     <span class="mdl-chip__text">Warning</span>
 </span>
 <span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 6/10</span>
+    <span class="mdl-chip__text">Priority 4/10</span>
 </span>
 </div>
               </div>
               <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationHardwareIdsLink" onclick="reveal('explanationHardwareIds');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="HardwareIdsCardLink" onclick="hideid('HardwareIdsCard');">
+<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDynamicVersionLink" onclick="reveal('explanationGradleDynamicVersion');">
+Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDynamicVersionCardLink" onclick="hideid('GradleDynamicVersionCard');">
 Dismiss</button>            </div>
             </div>
           </section>
@@ -703,6 +749,15 @@ The unused resource check can ignore tests. If you want to include resources tha
 <br/>
 You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests=true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests=true.<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
 To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">ValidActionsXml<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+Ensures that an actions XML file is properly formed<br/>To suppress this error, use the issue id "ValidActionsXml" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
 <br/></div>
 </div>
 </div>

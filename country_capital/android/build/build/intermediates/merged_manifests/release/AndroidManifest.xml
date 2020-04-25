@@ -7,7 +7,7 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
     <!-- Adding custom text to the manifest is fine, but do it outside the custom USER and APPLICATION BEGIN/END comments, -->
     <!-- as that gets rewritten. -->
@@ -27,7 +27,8 @@
         android:name=".GodotInstrumentation"
         android:icon="@mipmap/icon"
         android:label="@string/godot_project_name_string"
-        android:targetPackage="org.godotengine.godot" /> <!-- Include required permissions for Google Mobile Ads to run -->
+        android:targetPackage="org.godotengine.godot" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Custom user permissions XML added by add-ons. It's recommended to add them from the export preset, though. -->
     <!-- CHUNK_USER_PERMISSIONS_BEGIN -->
@@ -50,6 +51,11 @@
             android:name="xr_mode_metadata_name"
             android:value="xr_mode_metadata_value" />
 
+        <!-- Metadata populated at export time and used by Godot to figure out which plugins must be enabled. -->
+        <meta-data
+            android:name="custom_template_plugins"
+            android:value="custom_template_plugins_value" />
+
         <activity
             android:name="com.godot.game.GodotApp"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
@@ -67,21 +73,28 @@
 
         <!-- Custom application XML added by add-ons. -->
         <!-- CHUNK_APPLICATION_BEGIN -->
+        <!-- CHUNK_APPLICATION_END -->
+
+        <meta-data
+            android:name="org.godotengine.plugin.v1.GodotPayment"
+            android:value="org.godotengine.godot.plugin.payment.GodotPayment" />
+
+        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+
         <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+            android:authorities="org.godotengine.countrycapital.AudienceNetworkContentProvider"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true" />
-        <!-- CHUNK_APPLICATION_END -->
-
-        <service android:name="org.godotengine.godot.GodotDownloaderService" />
     </application>
 
 </manifest>

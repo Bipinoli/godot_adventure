@@ -10,17 +10,17 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Node",
-"class": "Admob",
+"class": "GodotFacebookAd",
 "language": "GDScript",
-"path": "res://admob-lib/admob.gd"
+"path": "res://facebookAd-lib/facebookAd.gd"
 } ]
 _global_script_class_icons={
-"Admob": "res://admob-lib/icon.png"
+"GodotFacebookAd": "res://facebookAd-lib/facebookAudienceNetwork.jpeg"
 }
 
 [android]
 
-modules="org/godotengine/godot/GodotAdMob"
+modules="org/godotengine/godot/GodotFacebookAd"
 
 [application]
 
@@ -37,7 +37,7 @@ config/quit_on_go_back=false
 GlobalConfigurations="*res://GlobalConfigurations.gd"
 SceneChanger="*res://scenes/SceneChanger/SceneChanger.tscn"
 DataPersistence="*res://DataPersistence.gd"
-GameAdMob="*res://scenes/GameAdMob/GameAdMob.tscn"
+FacebookAd="*res://scenes/FacebookAd/FacebookAd.tscn"
 
 [display]
 
