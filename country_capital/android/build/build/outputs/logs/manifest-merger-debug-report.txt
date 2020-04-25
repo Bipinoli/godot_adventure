@@ -88,13 +88,13 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/bipinoli/.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/bipinoli/.gradle/caches/transforms-2/files-2.1/424a3676c3ad900d07066be7694fd21c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:18-67
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:18-49
 	tools:ignore
-		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:96-135
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:78-117
 	android:icon
-		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:136-163
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:118-152
 	android:allowBackup
-		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:68-95
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:30:50-77
 meta-data#xr_mode_metadata_name
 ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:36:9-38:54
 	android:value
@@ -112,7 +112,7 @@ ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/
 	android:screenOrientation
 		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:50:13-50
 	android:label
-		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:47:13-62
+		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:47:13-44
 	android:launchMode
 		ADDED from /home/bipinoli/development/godot/games/country_capital/android/build/AndroidManifest.xml:49:13-44
 	android:resizeableActivity

@@ -173,6 +173,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout status_bar_ongoing_event_progress_bar
+mipmap ic_launcher
 mipmap icon
 mipmap icon_background
 mipmap icon_foreground

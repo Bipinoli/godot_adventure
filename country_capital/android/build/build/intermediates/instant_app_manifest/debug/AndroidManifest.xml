@@ -41,8 +41,8 @@
         android:allowBackup="false"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/icon"
-        android:label="@string/godot_project_name_string" >
+        android:icon="@mipmap/ic_launcher"
+        android:label="Country Capital" >
 
         <!-- The following metadata values are replaced when Godot exports, modifying them here has no effect. -->
         <!-- Do these changes in the export preset. Adding new ones is fine. -->
@@ -61,7 +61,7 @@
         <activity
             android:name="com.godot.game.GodotApp"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
-            android:label="@string/godot_project_name_string"
+            android:label="Country Capital"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
             android:screenOrientation="landscape"

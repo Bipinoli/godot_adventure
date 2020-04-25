@@ -32,6 +32,10 @@
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/4e8afa2ef36cb190a4be7d6da871f28a/godot-lib.debug/res/mipmap-hdpi-v4/icon_background.png"
     },
     {
+        "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/bipinoli/development/godot/games/country_capital/android/build/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap_icon_foreground.png.flat",
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/4e8afa2ef36cb190a4be7d6da871f28a/godot-lib.debug/res/mipmap/icon_foreground.png"
     },
@@ -96,6 +100,10 @@
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/4e8afa2ef36cb190a4be7d6da871f28a/godot-lib.debug/res/mipmap-xhdpi-v4/icon_background.png"
     },
     {
+        "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/bipinoli/development/godot/games/country_capital/android/build/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/a133f8f83f9dbf82d6f93cf9cb792444/support-media-compat-28.0.0/res/layout/notification_media_cancel_action.xml"
     },
@@ -142,6 +150,10 @@
     {
         "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap_icon.png.flat",
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/4e8afa2ef36cb190a4be7d6da871f28a/godot-lib.debug/res/mipmap/icon.png"
+    },
+    {
+        "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/bipinoli/development/godot/games/country_capital/android/build/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap-mdpi-v4_icon_background.png.flat",
@@ -212,6 +224,10 @@
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/424a3676c3ad900d07066be7694fd21c/support-compat-28.0.0/res/layout/notification_template_part_time.xml"
     },
     {
+        "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/bipinoli/development/godot/games/country_capital/android/build/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/424a3676c3ad900d07066be7694fd21c/support-compat-28.0.0/res/layout/notification_template_icon_group.xml"
     },
@@ -238,5 +254,9 @@
     {
         "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
         "source": "/home/bipinoli/.gradle/caches/transforms-2/files-2.1/a133f8f83f9dbf82d6f93cf9cb792444/support-media-compat-28.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/bipinoli/development/godot/games/country_capital/android/build/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/bipinoli/development/godot/games/country_capital/android/build/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]
