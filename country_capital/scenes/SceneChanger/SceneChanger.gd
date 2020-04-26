@@ -6,7 +6,12 @@ signal scene_changed
 onready var animationPlayer = $AnimationPlayer
 
 
+func _ready():
+	print("SceneChanger ready!")
+
+
 func changeScene(path, delay=0):
+	print("change Scene called with path: ", path)
 	get_parent().call_deferred("move_child", self, get_parent().get_child_count()-1)
 #	get_parent().move_child(self, get_parent().get_child_count()-1)
 #	yield(get_tree().create_timer(delay), "timeout")

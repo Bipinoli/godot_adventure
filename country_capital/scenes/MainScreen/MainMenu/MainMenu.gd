@@ -11,6 +11,7 @@ onready var survivalModeNode = get_node("TextureRect/MarginContainer/VBoxContain
 
 
 func _ready():
+	print("MainMenu ready!")
 	dataPersistence._setup()
 	global_configs.theme = dataPersistence.getTheme()
 	var casualHighScore = dataPersistence.getCasualHighScore()
@@ -44,12 +45,16 @@ func _menuSelected(name):
 	print(name + " menu selected")
 	match name:
 		"CasualMode":
+			print("changing scene to Casual Game")
 			scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
 		'TimedMode':
+			print("changing scene to Timed Game")
 			scene_changer.changeScene("res://scenes/TimedGame/TimedGame.tscn")
 		'SurvivalMode':
+			print("changing scene to Survival Game")
 			scene_changer.changeScene("res://scenes/SurvivalGame/SurvivalGame.tscn")
 		"LearningMode":
+			print("changing scene to Study Mode")
 			scene_changer.changeScene("res://scenes/LearningGame/LearningGame.tscn")
 		_:
 			scene_changer.changeScene("res://scenes/CasualGame/CasualGame.tscn")
